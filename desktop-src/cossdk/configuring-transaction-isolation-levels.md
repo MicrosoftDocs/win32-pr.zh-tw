@@ -4,12 +4,12 @@ ms.assetid: a59e262c-41f2-4c80-a04c-50a39af8b009
 title: 設定交易隔離等級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d789b9eaed6dfdd2f2419c7eae391d628e75b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e91583df010669b9dfce092e5bb38490652b4bc407a4ec7b73c83da2078cf14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638108"
 ---
 # <a name="configuring-transaction-isolation-levels"></a>設定交易隔離等級
 

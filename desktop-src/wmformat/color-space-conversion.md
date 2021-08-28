@@ -3,18 +3,18 @@ title: 色彩空間轉換
 description: 色彩空間轉換
 ms.assetid: f5f1ec99-b3b9-4420-bf64-3872d9bbe650
 keywords:
-- Windows Media Format SDK，色彩空間轉換
+- Windows媒體格式 SDK，色彩空間轉換
 - Advanced Systems Format (ASF) 、色彩空間轉換
 - ASF (Advanced Systems Format) ，色彩空間轉換
 - 色彩空間轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbc284995cbc72aee148e12977dad9f4476b29c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 23b596b7ae8ed32e64cc3ebe8a23f1bc52dafb5304308104aba083675afe6370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447938"
 ---
 # <a name="color-space-conversion"></a>色彩空間轉換
 
@@ -37,9 +37,9 @@ ms.locfileid: "104183495"
 [**使用輸出**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

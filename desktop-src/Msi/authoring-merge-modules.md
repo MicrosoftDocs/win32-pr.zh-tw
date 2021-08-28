@@ -4,12 +4,12 @@ ms.assetid: 4b3871c0-f452-4935-9ee3-78b0ac847e67
 title: 撰寫合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ece67151872a8d065d321c6adaae660be643ad8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 078956c0e3586e12105fc5ea33b1d7e8908c19461aaa4533c7b3cccc32c014ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328418"
 ---
 # <a name="authoring-merge-modules"></a>撰寫合併模組
 
@@ -22,7 +22,7 @@ ms.locfileid: "104192455"
 3.  產生合併模組的 [GUID](guid.md) 。 在合併模組中撰寫資料庫資料表的主鍵時，您必須使用此 GUID。
 4.  將記錄加入至合併所傳遞之每個元件的 [元件資料表](component-table.md) 中。 每個合併模組都需要元件資料表。 請注意，合併模組會操作元件，而不是功能。 不過，在某些情況下，資料庫資料表專案可能需要參考功能。 如需詳細資訊，請參閱 [合併模組中的參考功能](referencing-features-in-merge-modules.md)。
 5.  將 [目錄資料表](directory-table.md) 加入至合併模組，以指定合併模組新增至目標資料庫的目錄配置。 每個合併模組都需要目錄資料表。
-6.  將空白的 [FeatureComponents 資料表](featurecomponents-table.md) 匯入到合併模組資料庫中。 如果 .msi 檔案未包含它自己的 FeatureComponents 資料表，這個空白資料表就會提供合併工具的指導方針。
+6.  將空白的 [FeatureComponents 資料表](featurecomponents-table.md) 匯入到合併模組資料庫中。 如果 .msi 檔案未包含它自己的 FeatureComponents 資料表，則此空白資料表會提供合併工具的指導方針。
 7.  收集由此合併模組提供的所有檔案，並建立 [MergeModule.CABinet](mergemodule-cabinet.md) 封包檔。 將封包加入至合併模組，作為 .msm 檔案內的資料流程。
 8.  針對儲存在 MergeModule.CABinet 中的每個檔案，將記錄新增至檔案資料表。
 9.  在 [ModuleSignature 資料表](modulesignature-table.md)中，加入識別合併模組所需的資訊。 每個合併模組都需要 ModuleSignature 資料表。

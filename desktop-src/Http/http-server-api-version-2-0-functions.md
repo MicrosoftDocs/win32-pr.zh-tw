@@ -7,12 +7,12 @@ keywords:
 - 函數 HTTP，HTTP 伺服器 API 版本2。0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92e4d5c09c001caa58d43c1e61d800f66b39706b
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 1b832a3f8fb1a97c48c49809d3e2f1975965becdc4c7bbf3942601d577d4702d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981358"
 ---
 # <a name="http-server-api-version-20-functions"></a>HTTP 伺服器 API 版本2.0 函式
 

@@ -10,12 +10,12 @@ keywords:
 - Active Directory、使用、系結、使用 objectGUID 系結至物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 045c6194cf27b1697cc478b547105fb10335c219
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 72c310ad1041c072dc126a761fab5fa104fa00c4f98e4fa01d45ca7bc24c11b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024486"
 ---
 # <a name="using-objectguid-to-bind-to-an-object"></a>使用 objectGUID 系結至物件
 
@@ -35,7 +35,7 @@ LDAP://servername/<GUID=XXXXX>
 使用物件 GUID 進行系結時，不支援某些 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 和 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 方法和屬性。 使用物件 GUID 的系結所取得的物件不支援下列 **IADs** 屬性：
 
 -   [**ADsPath**](/windows/desktop/ADSI/iads-property-methods)
--   [**Name**](/windows/desktop/ADSI/iads-property-methods)
+-   [**名稱**](/windows/desktop/ADSI/iads-property-methods)
 -   [**父代**](/windows/desktop/ADSI/iads-property-methods)
 
 使用物件 GUID 的系結所取得的物件不支援下列 **IADsContainer** 方法：
@@ -54,6 +54,6 @@ LDAP://servername/<GUID=XXXXX>
 -   使用物件 GUID 系結至物件很容易。
 -   如果物件已重新命名或移動， **objectGUID** 屬性會提供單一識別碼，可用來快速尋找和識別物件，而不需要撰寫具有可識別該物件之所有屬性條件的查詢。
 
- 
+ 
 
- 
+ 

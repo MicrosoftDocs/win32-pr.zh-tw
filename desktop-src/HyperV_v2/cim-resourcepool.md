@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 11a073f817da27dbbd45be26a008486a776470cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d87a78d5a8ea43cc8a1a59bbabf5b8091948d153420dbdf91ba7e14fc1616b7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980958"
 ---
 # <a name="cim_resourcepool-class"></a>CIM \_ ResourcePool 類別
 
@@ -483,7 +483,7 @@ class CIM_ResourcePool : CIM_LogicalElement
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**存放磁片區** (32) 
+**儲存體 Volume** (32) 
 
 
 </dt> <dd></dd> <dt>

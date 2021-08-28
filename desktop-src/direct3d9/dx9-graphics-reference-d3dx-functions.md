@@ -4,12 +4,12 @@ ms.assetid: 1b641211-94c6-4bc5-9f69-d4ae59d96cb7
 title: 'D3DX 函式 (Direct3D 9 圖形) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74989232a533f2c307a2432b64c8903bfe34636a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 404e3ba96a1f1396adfe0c3db9c4b04b4f0a12eed9281172ace35ab0aed19e63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952108"
 ---
 # <a name="d3dx-functions-direct3d-9-graphics"></a>D3DX 函式 (Direct3D 9 圖形) 
 

@@ -4,12 +4,12 @@ ms.assetid: e35b27ca-be24-4aca-b12f-ca10ab153409
 title: 任意整數類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f55f7b7cd1c66d75a6f3aeeef1741168fad6675
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b965b623d2a0a213335086e9139a621fc093fc18bea2d1873faf68e4f24f2961
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821828"
 ---
 # <a name="arbitrary-integer-type"></a>任意整數類型
 

@@ -4,19 +4,19 @@ description: Microsoft RPC NDR 目前支援下列功能和結構
 ms.assetid: 2EBB2DD6-60DD-4C9F-9F79-231383B28517
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a802720c584d08112c733135c3bb5640e7679c9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b5f1d7aa19cff36da67e807a671ec176c0d303610f5c0f6629940d5e132f47ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073348"
 ---
 # <a name="rpc-ndr-interface-reference"></a>RPC NDR 介面參考
 
 Microsoft RPC NDR 目前支援下列功能和結構：
 
 -   [**CStdStubBuffer \_ AddRef**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_addref)
--   [**CStdStubBuffer \_ 連接**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect)
+-   [**CStdStubBuffer \_ 連線**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect)
 -   [**CStdStubBuffer \_ CountRefs**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs)
 -   [**CStdStubBuffer \_ DebugServerQueryInterface**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface)
 -   [**CStdStubBuffer \_ DebugServerRelease**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease)
@@ -75,6 +75,6 @@ Microsoft RPC NDR 目前支援下列功能和結構：
 -   [**ProxyFileInfo**](/windows/win32/api/rpcproxy/ns-rpcproxy-proxyfileinfo)
 -   [**RPC \_ 訊息**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message)
 
- 
+ 
 
- 
+ 

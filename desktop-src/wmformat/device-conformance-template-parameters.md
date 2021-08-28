@@ -3,19 +3,19 @@ title: 裝置一致性範本參數
 description: 裝置一致性範本參數
 ms.assetid: 570a897c-c2a2-44bf-b315-2acc892d4bfa
 keywords:
-- Windows Media Format SDK，裝置一致性範本
+- Windows媒體格式 SDK，裝置一致性範本
 - Advanced Systems Format (ASF) 、裝置一致性範本
 - ASF (Advanced Systems Format) 、裝置一致性範本
 - 裝置一致性範本，參數
 - 編解碼器、裝置一致性範本參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a201760723c087e9c77b63d344707fb924a616
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd557b2e6b7a00d3d34731910551d637f36b945a5857bfc72b190acf3fdfa911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931379"
 ---
 # <a name="device-conformance-template-parameters"></a>裝置一致性範本參數
 
@@ -37,9 +37,9 @@ ms.locfileid: "104020911"
 [**裝置一致性範本**](device-conformance-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

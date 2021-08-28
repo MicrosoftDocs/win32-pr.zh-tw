@@ -4,12 +4,12 @@ ms.assetid: e57274cf-42d3-445b-97f1-dd574010290f
 title: 範例 C 程式：複製工作階段金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b38934d399a6a38f14e551e79d4e1f877dbadf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4116a021b358864da27b2eb94d66a0f74f1462232f58441e7af5c2c7b91e114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007786"
 ---
 # <a name="example-c-program-duplicating-a-session-key"></a>範例 C 程式：複製工作階段金鑰
 

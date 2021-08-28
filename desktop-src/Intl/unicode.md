@@ -4,12 +4,12 @@ ms.assetid: ca5bcdee-ea13-4745-a565-5426c462892d
 title: Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88facae63fbb365fd6f38cb09464de735e0759b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c99a7af4d4fbb6b7783f97ceba37b1bf6b0bf54811beaf9c7c2348ec0125c73b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764768"
 ---
 # <a name="unicode"></a>Unicode
 
@@ -26,17 +26,17 @@ Unicode 是全球字元編碼標準。 系統會專門針對字元和字串操�
 
 Unicode 支援許多語言所使用的腳本，以及用於發佈的許多技術符號和特殊字元。 支援的腳本包括（但不限於）拉丁文、希臘文、斯拉夫文、希伯來文、阿拉伯文、梵文、泰文、漢字、韓文、平假名和片假名。 支援的語言包括（但不限於）德文、法文、英文、希臘文、俄文、希伯來文、阿拉伯文、印度文、泰文、繁體中文、韓文及日文。 Unicode 目前可代表現代電腦在世界各地使用的大部分字元，並持續更新以使其更完整。
 
-[函數原型的慣例](conventions-for-function-prototypes.md)中描述了啟用 Unicode 的函式。 這些函式使用 UTF-16 (寬字元) 編碼，這是最常見的 Unicode 編碼方式，也是在 Windows 作業系統上用於原生 Unicode 編碼的編碼方式。 每個程式碼值都是16位寬，相較于較舊的 [字碼頁](code-pages.md) 方法和字元和字串資料，其使用8位的程式碼值。 使用16位可允許65536個字元的直接編碼。 事實上，用來轉譯人類語言的符號 universe 甚至更大，而範圍 U + D800 到 U + DFFF 的 UTF-16 程式碼點則是用來形成代理程式配對，其中構成了32位的補充字元編碼。 如需進一步討論，請參閱 [代理程式和補充字元](surrogates-and-supplementary-characters.md) 。
+[函數原型的慣例](conventions-for-function-prototypes.md)中描述了啟用 Unicode 的函式。 這些函式使用 utf-16 (寬字元) 編碼，這是 Unicode 的最常見編碼方式，以及用於 Windows 作業系統上的原生 Unicode 編碼的編碼方式。 每個程式碼值都是16位寬，相較于較舊的 [字碼頁](code-pages.md) 方法和字元和字串資料，其使用8位的程式碼值。 使用16位可允許65536個字元的直接編碼。 事實上，用來轉譯人類語言的符號 universe 甚至更大，而範圍 U + D800 到 U + DFFF 的 UTF-16 程式碼點則是用來形成代理程式配對，其中構成了32位的補充字元編碼。 如需進一步討論，請參閱 [代理程式和補充字元](surrogates-and-supplementary-characters.md) 。
 
 Unicode 字元集包含許多合併字元，例如 U + 0308 ( "$" ) ，結合分字元或變音符號。 Unicode 通常可以在「組成」或「已分解的」表單中代表相同的圖像：例如，「Ä」組成的形式是單一 Unicode 代碼點 "Ä" (U + 00C4) ，而其分解形式為 "A" + "？" (U + 0041 U + 0308) 。 Unicode 不會為每個圖像定義組成的表單。 例如，以標點符號和波狀符號 ( "ỗ" ) 的越南小寫 "o" 是由 U + 006f U + 0302 U + 0303 (o + 揚揚號 + 波狀符號) 來表示。 如需合併字元和相關問題的進一步討論，請參閱 [使用 Unicode 正規化來代表字串](using-unicode-normalization-to-represent-strings.md)。
 
-為了與8位和7位環境相容，Unicode 也可以分別編碼為 UTF-8 和 UTF-7。 當 Windows 中啟用 Unicode 功能的函式使用 UTF-16 時，也可以使用以 UTF-8 或 UTF-7 編碼的資料，這些資料在 Windows 中是多位元組字元集 [字碼頁](code-pages.md)所支援的。
+為了與8位和7位環境相容，Unicode 也可以分別編碼為 UTF-8 和 UTF-7。 雖然 Windows 中支援 Unicode 的函式會使用 utf-16，但是也可以使用以 utf-8 或 utf-7 編碼的資料，這些資料在 Windows 中支援為多位元組字元集[字碼頁](code-pages.md)。
 
-新的 Windows 應用程式應該使用 UTF-16 作為其內部資料表示。 Windows 也提供對字碼頁的廣泛支援，而且可以在相同的應用程式中使用混合用途。 即使是新的 Unicode 應用程式，有時還是必須使用字碼頁。 這種情況的原因將在 [字碼頁](code-pages.md)中討論。
+新的 Windows 應用程式應該使用 utf-16 作為其內部資料表示。 Windows 也提供對字碼頁的廣泛支援，而且可以在相同的應用程式中使用混合用途。 即使是新的 Unicode 應用程式，有時還是必須使用字碼頁。 這種情況的原因將在 [字碼頁](code-pages.md)中討論。
 
 應用程式可以使用 [**MultiByteToWideChar**](/windows/win32/api/Stringapiset/nf-stringapiset-multibytetowidechar) 和 [**WideCharToMultiByte**](/windows/win32/api/Stringapiset/nf-stringapiset-widechartomultibyte) 函式，根據字碼頁和 Unicode 字串在字串之間進行轉換。 雖然它們的名稱是指「多位元組」，但這些函式同樣適用于 [單一位元組字元集](single-byte-character-sets.md) (SBCS) 、 [雙位元組字元集](double-byte-character-sets.md) (DBCS) 和多位元組字元集 (MBCS) 字碼頁。
 
-一般來說，Windows 應用程式應該在內部使用 UTF-16，只在必須使用其他格式的介面上，轉換成「精簡層」的一部分。 這項技術會防範資料遺失和損毀。 每個字碼頁都支援不同的字元，但不支援 Unicode 提供的完整字元範圍。 大部分的字碼頁支援不同的子集，以不同方式編碼。 UTF-8 和 UTF-7 的字碼頁是例外狀況，因為它們支援完整的 Unicode 字元集，而且這些編碼和 UTF-16 之間的轉換不會失真。
+一般來說，Windows 應用程式應該在內部使用 utf-16，只在必須使用其他格式的介面上，轉換成「精簡層」的一部分。 這項技術會防範資料遺失和損毀。 每個字碼頁都支援不同的字元，但不支援 Unicode 提供的完整字元範圍。 大部分的字碼頁支援不同的子集，以不同方式編碼。 UTF-8 和 UTF-7 的字碼頁是例外狀況，因為它們支援完整的 Unicode 字元集，而且這些編碼和 UTF-16 之間的轉換不會失真。
 
 直接從某個字碼頁使用的編碼轉換成另一個字碼頁所使用的編碼的資料會受到損毀，因為不同字碼頁上的相同資料值可以編碼不同的字元。 即使您的應用程式盡可能地轉換為靠近介面，您也應該仔細考慮要處理的資料範圍。
 

@@ -4,16 +4,16 @@ description: IAgentBalloonEx SetNumLines
 ms.assetid: 350fd273-a941-4454-a309-045d19ed8f59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d45c012d0193a0bd21ba203418920b87b2fac81b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d3951cd4a8593d5e043e1571cdf24e14fdd9d93aef690c057860c2889022aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848718"
 ---
 # <a name="iagentballoonexsetnumlines"></a>IAgentBalloonEx::SetNumLines
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetNumLines(
@@ -46,9 +46,9 @@ HRESULT SetNumLines(
 [**IAgentBalloon：： GetNumLines**](iagentballoon--getnumlines.md)、 [**IAgentBalloonEx：： GetStyle**](iagentballoonex--getstyle.md)、 [**IAgentBalloonEx：： >setstyle**](iagentballoonex--setstyle.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

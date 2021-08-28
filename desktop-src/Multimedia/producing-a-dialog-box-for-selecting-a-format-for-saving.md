@@ -14,12 +14,12 @@ keywords:
 - 選取儲存格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55df4cd89a04bf1d3dd34512c4014928b6d5d4fb
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 65288e4a15712ec86bcf48a8f8088da9f6d5944f298119b21766be238168bf3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104374676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805774"
 ---
 # <a name="producing-a-dialog-box-for-selecting-a-format-for-saving"></a>產生對話方塊來選取儲存格式
 
@@ -27,9 +27,9 @@ ms.locfileid: "104374676"
 
 同樣地，若要列出指定格式的有效目的地格式，請使用 [未執行] \_ FORMATENUMF \_ 轉換旗標，而不是 [執行 \_ FORMATENUMF \_ 建議] 旗標。
 
- 
+ 
 
- 
+ 
 
 
 

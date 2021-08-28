@@ -4,12 +4,12 @@ ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: PrintCapabilities 檔不是什麼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bcd5dbedf6ee3a7e2713bd3591b182c606cfb0c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 180c303a21dbed39908d87831a1e01e2965b09a68e1e23a6e1f8793e247556f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718538"
 ---
 # <a name="what-a-printcapabilities-document-is-not"></a>PrintCapabilities 檔不是什麼
 

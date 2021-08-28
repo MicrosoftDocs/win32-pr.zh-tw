@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2795e76c686e8f2bb4079aee376dae397b36f510
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55177e5482e2e0c9b3a98ee02caea369b75571935d17c44de34e425ecfc4dd35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923748"
 ---
 # <a name="cim_filesystem-class"></a>CIM \_ FileSystem 類別
 
@@ -228,7 +228,7 @@ class CIM_FileSystem : CIM_LogicalElement
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**擴充的 UNIX 程式碼** (6) 
+**擴充 UNIX 程式碼** (6) 
 
 
 </dt> <dd></dd> <dt>
@@ -430,7 +430,7 @@ class CIM_FileSystem : CIM_LogicalElement
 
 </dd> <dt>
 
-**根**
+**Root**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

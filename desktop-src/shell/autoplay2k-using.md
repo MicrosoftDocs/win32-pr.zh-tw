@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 35de48ee77cde7c598088b3f3877083efc2151f5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 3048afafa9713dc7b50e4da257c8ede8f791a53702a39067c91dea828e7e35f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593608"
 ---
 # <a name="using-and-configuring-autoplay"></a>使用和設定自動播放
 
@@ -105,13 +105,43 @@ ms.locfileid: "122481484"
 
 
 
-
-| 媒體類型 | 應用程式 | 
-|------------|--------------|
-| 圖片 | <ul><li>投影片放映 (預設) </li><li>相機和掃描器的 Wizard</li><li>列印嚮導</li><li>開啟資料夾</li></ul> | 
-| 音樂 | <ul><li>Windows Media Player (預設) </li><li>開啟資料夾</li></ul> | 
-| 影片 | <ul><li>Windows Media Player (預設) </li><li>開啟資料夾</li></ul> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>媒體類型</th>
+<th>應用程式</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>圖片</td>
+<td><ul>
+<li>投影片放映 (預設) </li>
+<li>相機和掃描器的 Wizard</li>
+<li>列印嚮導</li>
+<li>開啟資料夾</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>音樂</td>
+<td><ul>
+<li>Windows Media Player (預設) </li>
+<li>開啟資料夾</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>影片</td>
+<td><ul>
+<li>Windows Media Player (預設) </li>
+<li>開啟資料夾</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 

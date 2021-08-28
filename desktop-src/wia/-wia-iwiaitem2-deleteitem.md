@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: ef6a4204b591f06811f0941ca0ceed72b76151db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 791d596ee48c4d3e2efd67259ec2e37249c930c6da32f704d332df1da6930503
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592998"
 ---
 # <a name="iwiaitem2deleteitem-method"></a>IWiaItem2：:D eleteItem 方法
 
@@ -56,7 +56,7 @@ HRESULT DeleteItem(
 
 ## <a name="remarks"></a>備註
 
-Windows 映像取得 (WIA) 2.0 執行時間系統會將連接到使用者電腦的每個 WIA 2.0 硬體裝置，表示為 [**IWiaItem2**](-wia-iwiaitem2.md) 物件的階層式樹狀結構。 指定的 WIA 2.0 裝置不一定會允許應用程式從其樹狀結構中刪除 **IWiaItem2** 物件。 無法刪除具有子系的專案。 [**IEnumWIA \_ DEV \_ cap**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps)介面必須用來查詢裝置以取得專案刪除功能。
+Windows 的影像取得 (WIA) 2.0 執行時間系統會將連接到使用者電腦的每個 WIA 2.0 硬體裝置，表示為 [**IWiaItem2**](-wia-iwiaitem2.md)物件的階層式樹狀結構。 指定的 WIA 2.0 裝置不一定會允許應用程式從其樹狀結構中刪除 **IWiaItem2** 物件。 無法刪除具有子系的專案。 [**IEnumWIA \_ DEV \_ cap**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps)介面必須用來查詢裝置以取得專案刪除功能。
 
 如果裝置支援在其 [**IWiaItem2**](-wia-iwiaitem2.md) 樹狀目錄中刪除專案，請呼叫 **IWiaItem2：:D eleteitem** 方法以移除 **IWiaItem2** 物件。 請注意，這個方法只會在對物件的所有參考都已釋放之後刪除物件。 如果專案的刪除失敗， \_ 則會傳回 E DELETEITEM。 尚未定義此錯誤的數值。
 
@@ -66,10 +66,10 @@ Windows 映像取得 (WIA) 2.0 執行時間系統會將連接到使用者電腦�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

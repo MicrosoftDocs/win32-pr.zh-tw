@@ -4,12 +4,12 @@ ms.assetid: b522f16d-8d61-4db3-9194-d965b6d859ec
 title: 提供事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc53daa602662dfabd163560e8e9d69a888be610
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad1e809c4774190ad4e4e8c9045f28bd43e63faf04ad8d25aef4510b30c70e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069858"
 ---
 # <a name="providing-events"></a>提供事件
 

@@ -10,12 +10,12 @@ keywords:
 - 影片 DSP 外掛程式，格式協商
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c287a38fbfcf11f1b9d74087a91c5825b22f1243
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 90154f3fe7824fb9af563cb662fdcb2847339bc6061d79b3e92cab9c6e36e44d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761818"
 ---
 # <a name="video-format-negotiation-in-the-sample-video-dsp-plug-in"></a>範例影片 DSP 外掛程式中的影片格式協調
 
@@ -23,11 +23,11 @@ ms.locfileid: "104301003"
 
 ## <a name="providing-the-supported-input-and-output-types"></a>提供支援的輸入和輸出類型
 
-如果 DSP 外掛程式作為 DirectX 媒體物件 (的) ，播放程式會對 **IMediaObject：： GetInputType** 和 **IMediaObject：： GetOutputType** 進行一連串的呼叫，以查詢外掛程式的支援格式。
+如果 DSP 外掛程式作為 DirectX 媒體物件 (DMO) ，播放程式會對 **IMediaObject：： GetInputType** 和 **IMediaObject：： GetOutputType** 進行一連串的呼叫，藉以查詢外掛程式的支援格式。
 
 如果 DSP 外掛程式做為媒體基礎轉換 (MFT) ，則播放程式會對 **IMFTransform：： GetInputAvailableType** 和 **IMFTransform：： GetOutputAvailableType** 進行一連串的呼叫，藉以查詢外掛程式的支援格式。
 
-Windows Media Player 外掛程式 Wizard 產生的範例影片外掛程式，會將支援的影片格式清單儲存為 Guid 陣列。 下列程式碼來自主要 .cpp 檔案：
+Windows Media Player 外掛程式 Wizard 產生的範例影片外掛程式，會將支援的影片格式清單儲存為 guid 陣列。 下列程式碼來自主要 .cpp 檔案：
 
 
 ```C++
@@ -68,7 +68,7 @@ else // Otherwise use default for this plug-in.
 
 ## <a name="setting-the-input-and-output-types"></a>設定輸入和輸出類型
 
-如果 DSP 外掛程式是做為，Windows Media Player 藉由呼叫 **IMediaObject：： SetInputType** 和 **IMediaObject：： SetOutputType** 來設定媒體類型，並將代表所要求媒體 **類型的物件 \_ \_** 指標傳遞給每個函式。
+如果 DSP 外掛程式做為 DMO，Windows Media Player 會藉由呼叫 **IMediaObject：： SetInputType** 和 **IMediaObject：： SetOutputType** 來設定媒體類型，並將指標指向 **DMO \_ 媒體 \_ 類型** 結構的指標，該結構代表所要求的媒體類型。
 
 如果 DSP 外掛程式做為 MFT，Windows Media Player 藉由呼叫 **IMFTransform：： SetInputType** 和 **IMFTransform：： SetOutputType** 來設定媒體類型，並將指向代表所要求媒體類型的 **IMFMediaType** 介面指標傳遞至每個函式。
 
@@ -107,9 +107,9 @@ else
 [**執行 Video DSP 外掛程式**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

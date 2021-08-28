@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_POTSModem 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd9e98db53596d82e858af03645334c518efb00
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8654d5e56206e218230e4e8ac0a1c1837a02af166ebc17abfa46b02e6862d2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921278"
 ---
 # <a name="cim_potsmodem-methods"></a>CIM \_ POTSModem 方法
 

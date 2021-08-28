@@ -4,12 +4,12 @@ ms.assetid: 933C8DCF-061D-41CB-9A21-CDDCDFE64307
 title: 遠端桌面類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20dd926dfecd43a78eb0116daa9d1161466a6633
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a416891c1c3f16949cddd9774881109e789f4178dc74dc1847128c23c4ea7ac3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980108"
 ---
 # <a name="remote-desktop-classes"></a>遠端桌面類別
 
@@ -23,7 +23,7 @@ ms.locfileid: "106971608"
 |------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Msvm \_ InteractiveSessionACE**](msvm-interactivesessionace.md)<br/>                                     | 表示 *存取控制專案* (ACE) ，可判斷虛擬機器的互動式會話存取。<br/>                                |
 | [**Msvm \_ Physical3dGraphicsProcessor**](msvm-physical3dgraphicsprocessor.md)<br/>                         | 描述 (GPU) 的實體3-d 圖形處理器單位。<br/>                                                                                        |
-| [**Msvm \_ PhysicalGPUInfo**](msvm-physicalgpuinfo.md)<br/>                                                 | 包含 RemoteFX 實體圖形處理器 (GPU) 的相關資訊。<br/>                                                                    |
+| [**Msvm \_ PhysicalGPUInfo**](msvm-physicalgpuinfo.md)<br/>                                                 | 包含 RemoteFX 實體圖形處理單位 (GPU) 的相關資訊。<br/>                                                                    |
 | [**Msvm \_ RdvComponent**](msvm-rdvcomponent.md)<br/>                                                       | 代表 RDV 元件的狀態，該元件負責將父系的傳輸提供給來賓以供設定之用。<br/> |
 | [**Msvm \_ RdvComponentSettingData**](msvm-rdvcomponentsettingdata.md)<br/>                                 | 代表遠端桌面虛擬化 (RDV) 元件的設定狀態。 預設狀態為 [已啟用]。<br/>                               |
 | [**Msvm \_ Synth3dVideoPool**](msvm-synth3dvideopool.md)<br/>                                               | 包含主機系統上的綜合 3-d video 圖形處理器 (Gpu) 可用的相關資訊。<br/>                                 |

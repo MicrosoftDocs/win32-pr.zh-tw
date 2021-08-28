@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 效能程式庫和 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4dedc9b98f492b3ab57e22cd1507f9e3651980a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 877623bcf27dffe71146df4f9c117da83941bd1d8e2ed46436a04c1d7ace95df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996408"
 ---
 # <a name="performance-libraries-and-wmi"></a>效能程式庫和 WMI
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1cf8b571ee5d017acd056e00a06af54cd90b943a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 304ec081ce7087d822ce3382bf4784c05cbc8782fadb3cdfee887f6bd8f0acfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502638"
 ---
 # <a name="cbasestreamcontrolsetfiltergraph-method"></a>CBaseStreamControl. SetFilterGraph 方法
 
@@ -45,7 +45,7 @@ void SetFilterGraph(
 *pSink* 
 </dt> <dd>
 
-篩選圖形管理員 [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) 介面的指標，或在篩選離開篩選圖形時 **為 Null** 。
+篩選 Graph 管理員 [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink)介面的指標，或當篩選離開篩選圖形時，則 **為 Null** 。
 
 </dd> </dl>
 

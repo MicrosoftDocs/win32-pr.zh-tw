@@ -4,12 +4,12 @@ ms.assetid: 24fc2d7c-f8d6-49ca-9bb5-0179bef68e78
 title: 寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ca409e8dc6153a6b3e2b747dc23cc391055471
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abf748d0c6c4533c81c0f8a8d0c0c5aa9125c92334a1c09d4ab40fad299067b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863788"
 ---
 # <a name="writers"></a>寫入器
 

@@ -4,12 +4,12 @@ ms.assetid: 293e63f9-9567-4ea7-b7e5-e5046c8a704b
 title: 'SPFILENOTIFY_QUEUESCAN_EX 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e18cf1cdb1cd007dcf46793d2d018dedd80037
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95d151a5172918e7a7dcb13e8c480aae82da0a3ec1ffb38d26db29d63143cbc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992588"
 ---
 # <a name="spfilenotify_queuescan_ex-message"></a>SPFILENOTIFY \_ QUEUESCAN \_ EX 訊息
 
@@ -52,8 +52,8 @@ SPFILENOTIFY_QUEUESCAN_EX
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

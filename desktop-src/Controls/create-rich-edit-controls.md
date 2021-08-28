@@ -4,12 +4,12 @@ description: 若要建立 rich edit 控制項，請呼叫 CreateWindowEx 函數�
 ms.assetid: E0F3E458-7907-42BD-841A-CB3D12628AA8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6585e606cc77b307bf41aa938ed49e8baecb1349
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7972282f02bb5ba6edc202ce1f2888dee48d7f8ae488a324cd7298a8e70ba0d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826387"
 ---
 # <a name="how-to-create-rich-edit-controls"></a>如何建立 Rich Edit 控制項
 
@@ -21,12 +21,12 @@ Rich edit 控制項支援大部分與編輯控制項搭配使用的視窗樣式�
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -70,6 +70,6 @@ HWND CreateRichEdit(HWND hwndOwner,        // Dialog box handle.
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

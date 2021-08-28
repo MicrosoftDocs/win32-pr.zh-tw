@@ -4,12 +4,12 @@ ms.assetid: 7f337f37-1528-4b7e-a628-f9d235510a6f
 title: 建議的 InstallExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c25f2db56ef3ad7296bddf4088ad32191f57df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb116df3ff2a9958801034de3224c7ad52bb85a9614e4d291dd6274ce0eca11b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039618"
 ---
 # <a name="suggested-installexecutesequence"></a>建議的 InstallExecuteSequence
 

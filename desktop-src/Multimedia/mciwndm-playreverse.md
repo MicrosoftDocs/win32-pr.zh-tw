@@ -3,7 +3,7 @@ title: 'MCIWNDM_PLAYREVERSE 訊息 (Vfw .h) '
 description: MCIWNDM \_ PLAYREVERSE 訊息會以反向方向播放目前的內容，從目前位置開始，結束于內容的開頭，或直到另一個命令停止播放為止。
 ms.assetid: 93a22454-eca6-453f-abbe-6cf20198dbad
 keywords:
-- MCIWNDM_PLAYREVERSE message Windows 多媒體
+- MCIWNDM_PLAYREVERSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b0a2e230e3c57e8314e455be5dfbc5cea2c013
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5664ea53f73745648e668a78a6dc5f6da28a9cb27d54b96fced09523f655ed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037968"
 ---
 # <a name="mciwndm_playreverse-message"></a>MCIWNDM \_ PLAYREVERSE 訊息
 

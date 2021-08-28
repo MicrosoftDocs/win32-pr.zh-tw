@@ -4,16 +4,16 @@ description: IAgentNotifySink VisibleState
 ms.assetid: b0346296-74e9-448f-aa6d-a9fb1e645f05
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3525c079ecd1b566ac2230f06e3effa1ceb7a694
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b4ba168fa538cf176de57a8638d7603fd5bc6e990a1b83837ba603b3a62c4236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961508"
 ---
 # <a name="iagentnotifysinkvisiblestate"></a>IAgentNotifySink::VisibleState
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT VisibleState(

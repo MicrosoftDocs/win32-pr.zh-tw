@@ -1,6 +1,6 @@
 ---
 title: Win32_SessionBrokerFarmAccount 類別
-description: Win32 \_ SessionBrokerFarmAccount 類別無法再供 Windows Server 2012 使用。 |Win32_SessionBrokerFarmAccount 類別
+description: '\_Windows Server 2012 不能再使用 Win32 SessionBrokerFarmAccount 類別。 |Win32_SessionBrokerFarmAccount 類別'
 ms.assetid: a76ade0f-cd94-438c-bc07-30dc4b4ee6c8
 ms.tgt_platform: multiple
 keywords:
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a31f076ddc6f9361be12a57dc60ada24ed75e4bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b8b7d55f973dc19c03182a4199b64f91f9de5a0774cc8c8f9d77d67eeb715c24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422488"
 ---
 # <a name="win32_sessionbrokerfarmaccount-class"></a>Win32 \_ SessionBrokerFarmAccount 類別
 
-\[**Win32 \_ SessionBrokerFarmAccount** 類別無法再供 Windows Server 2012 使用。\]
+\[Windows Server 2012 不能再使用 **Win32 \_ SessionBrokerFarmAccount** 類別。\]
 
 定義 session broker 伺服器陣列帳戶。
 

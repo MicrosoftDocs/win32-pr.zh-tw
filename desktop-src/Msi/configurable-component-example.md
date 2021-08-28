@@ -4,12 +4,12 @@ ms.assetid: f0500856-18d0-45e5-992a-57e01fb2cca5
 title: 可設定的元件範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971b2a7c442acb96d7ba00a444c8c3a038c339f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ff3e1567a19afd50a0ae2035893c027398816b535d5edfb233e89021ea9e59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500738"
 ---
 # <a name="configurable-component-example"></a>可設定的元件範例
 
@@ -32,7 +32,7 @@ ms.locfileid: "106983333"
 
 
 
-| Name       | 格式   | 類型 | CoNtextData                              | DefaultValue | 屬性 | DisplayName | Description |
+| 名稱       | 格式   | 類型 | CoNtextData                              | DefaultValue | 屬性 | DisplayName | 描述 |
 |------------|----------|------|------------------------------------------|--------------|------------|-------------|-------------|
 | 密碼   | 字元 |      | 2097152;True = 2097152;False = 0             | 0            | 0          |             |             |
 | 總和檢查碼   | 字元 |      | 1024;Checksum = 1024;無總和檢查碼 = 0         | 0            | 0          |             |             |

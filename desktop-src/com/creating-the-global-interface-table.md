@@ -4,12 +4,12 @@ description: 建立全域介面資料表
 ms.assetid: e8e46642-ef41-4322-97d0-8dd5b7c72992
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f792f9664da554f6522086796f94a00ccdf0dc07
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 836cc5507ac9b8e7cccd6e9dc8fd8c2d71e1a23419945ecc01d35b3978940124
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104383006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793768"
 ---
 # <a name="creating-the-global-interface-table"></a>建立全域介面資料表
 
@@ -30,7 +30,7 @@ if (hr != S_OK) {
 > [!Note]  
 > 使用上述呼叫來建立全域介面資料表物件時，必須連結至程式庫 uuid。 這將解析外部符號 CLSID \_ StdGlobalInterfaceTable 和 IID \_ IGlobalInterfaceTable。
 
- 
+ 
 
 每個進程都有一個全域介面表的單一實例，因此在處理常式中對這個函式的所有呼叫都會傳回相同的實例。
 
@@ -51,6 +51,6 @@ COM 提供 [**IGlobalInterfaceTable**](/windows/desktop/api/ObjIdl/nn-objidl-igl
 [使用全域介面資料表的時機](when-to-use-the-global-interface-table.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

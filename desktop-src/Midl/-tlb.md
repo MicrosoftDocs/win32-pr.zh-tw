@@ -34,7 +34,7 @@ midl /tlb filename
 *filename* 
 </dt> <dd>
 
-指定 (TLB) 檔的輸出類型程式庫名稱。 根據預設，如果未使用 **/tlb** 參數，則 tlb 檔案的名稱會與 IDL 檔案相同，副檔名為。Tlb。
+指定 (TLB) 檔的輸出類型程式庫名稱。 根據預設，如果未使用 **/tlb** 參數，則 tlb 檔案的名稱會與 IDL 檔案相同，副檔名為。TLB。
 
 </dd> </dl>
 

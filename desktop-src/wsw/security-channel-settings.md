@@ -3,17 +3,17 @@ title: 安全性通道設定
 description: 安全性通道設定可控制在通道上套用和驗證安全性的方式。
 ms.assetid: ad964874-0bc7-4f03-8ceb-33627ff99f08
 keywords:
-- 適用于 Windows 的安全性通道設定 Web 服務
+- Windows 的安全性通道設定 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6fcd0b42b2d5581a5b7c489e9ada70f32abfefa
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: af3d6cef77da7a908598e2150ebf09de13a0899a6910a562335c4a5b91d6cf8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104093531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927008"
 ---
 # <a name="security-channel-settings"></a>安全性通道設定
 

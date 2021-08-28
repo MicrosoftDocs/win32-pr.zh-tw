@@ -11,12 +11,12 @@ keywords:
 - 節奏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3927d2f04e1b073b25c262437620325dc5cd040
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5db1c703272a477b36399335b68a81ce1e8711618acf205e702045704b24974
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805718"
 ---
 # <a name="querying-and-setting-the-tempo"></a>查詢及設定節奏
 
@@ -26,9 +26,9 @@ ms.locfileid: "103675919"
 
 節奏的呈現方式視順序的除法類型而定。 如果除法類型是 PPQN，則節奏會以每分鐘的節拍表示。 如果除法類型是其中一個 SMPTE 除法類型，則節奏會以每秒的畫面格表示。 如需決定序列之除法類型的詳細資訊，請參閱抓取 [序列除法類型](retrieving-the-sequence-division-type.md)。
 
- 
+ 
 
- 
+ 
 
 
 

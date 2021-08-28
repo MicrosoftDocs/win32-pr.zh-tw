@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器 API，總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e00fcfe6527b77be32a849f00f62222396f42b5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 55883fa75b366a2f5c5ef434f1eef3a95651440738735b025cfe5ef1b0534106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015006"
 ---
 # <a name="about-http-server-api"></a>關於 HTTP 伺服器 API
 
@@ -21,9 +21,9 @@ HTTP 伺服器 API 可讓多個應用程式並存于系統上，並共用相同�
 
 HTTP 伺服器 API 需要知道 C 程式設計語言，並熟悉 Windows API 程式設計。 不需要低層級 HTTP 存取的應用程式應該使用 IIS ISAPI 或適用于 HTTP 解決方案的 .NET Framework 類別。
 
- 
+ 
 
- 
+ 
 
 
 

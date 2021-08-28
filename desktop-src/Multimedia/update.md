@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cb0fc96d404efd8e2f657985ffa5a8861d3b4f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1a5f4f185c16e0ba499e75ed9f445aaf87b9e346dbde9a7929035613f4744ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804698"
 ---
 # <a name="update-command"></a>update 命令
 
@@ -113,7 +113,7 @@ update movie hdc 203
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

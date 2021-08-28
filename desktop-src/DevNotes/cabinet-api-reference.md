@@ -4,12 +4,12 @@ ms.assetid: c6e7de1e-6006-41e9-aa25-4cb8faf6f0d1
 title: 封包 API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9cc9a0c8a4cebca0ce92d824e51f2bf7aea456
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 00fa1a11f1bb480cfd1c30d56d4a62fd1c66ece25268c29c7b4e6f0f88c6efe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503388"
 ---
 # <a name="cabinet-api-reference"></a>封包 API 參考
 

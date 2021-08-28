@@ -4,12 +4,12 @@ ms.assetid: af211fa1-79f8-49ac-a1d8-b62981f50519
 title: 'LINE_ADDRESSSTATE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d85b42f6957487ff24706485bd09d1d47880fe9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fdfc158bd41b635142252546fbc289ed868851a3ac79d80bddba2df6118715bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959878"
 ---
 # <a name="line_addressstate-message"></a>行 \_ ADDRESSSTATE 訊息
 

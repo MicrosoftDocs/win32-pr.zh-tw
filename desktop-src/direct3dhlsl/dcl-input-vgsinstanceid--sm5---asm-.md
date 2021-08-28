@@ -4,12 +4,12 @@ description: 啟用幾何著色器實例。
 ms.assetid: 47B9BAD5-0FFF-4DB7-B34A-7811B8A4F792
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3134a9d372f1fde5457f26235fe9a6a5439c58c1
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 81d0ec89be2d75b591315bd4b38ff495426d98e5ce941b2eb6bc9028ba647620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950628"
 ---
 # <a name="dcl_input-vgsinstanceid-sm5---asm"></a>dcl \_ 輸入 vGSInstanceID (sm5-asm) 
 
@@ -59,7 +59,7 @@ ms.locfileid: "104313761"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | X        |       |         |
 
@@ -76,11 +76,11 @@ ms.locfileid: "104313761"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

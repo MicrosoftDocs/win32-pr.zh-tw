@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 92fc492fddb6ad024a4507829e81dab4886af590
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e3a6f9283d8714d513dad63c6057f9c30c24dcc5ace601ddbc764a1f8b207a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981648"
 ---
 # <a name="load2uintuint-function"></a>Load2 (uint，uint) 函數
 
@@ -29,8 +29,8 @@ ms.locfileid: "104092739"
 
 ``` syntax
 uint2 Load2(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -70,13 +70,13 @@ uint2 Load2(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -85,6 +85,6 @@ uint2 Load2(
 [Load2 方法](rwbyteaddressbuffer-load2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

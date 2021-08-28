@@ -5,12 +5,12 @@ ms.assetid: fca0505c-c4a9-4230-aeaa-ff3dfa62f581
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd7ffccda8b1da7dfc3920b0a47a12e97840e0a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f8f9ba01db57de6dc030e6c47b09c4173156ef8f85e3969716ae6e10dfc069f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423578"
 ---
 # <a name="virtual-channel-client-dll"></a>虛擬通道用戶端 DLL
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: c33f67a4def3312564ed943e2a3a917fe2843980
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58e146812bb36a9ff8e692aa424f328abc6eb62e47b98abb1deef2b4e919af40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821918"
 ---
 # <a name="iidentitychangenotifyidentityinformationchanged-method"></a>IIdentityChangeNotify：： IdentityInformationChanged 方法
 
@@ -115,7 +115,7 @@ HRESULT IdentityInformationChanged(
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msoe.dll</dt> </dl>    |
 
 

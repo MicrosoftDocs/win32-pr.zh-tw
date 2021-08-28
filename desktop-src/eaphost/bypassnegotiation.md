@@ -4,12 +4,12 @@ description: BypassNegotiation 登錄機碼會判斷伺服器和用戶端之間�
 ms.assetid: 51e21e9c-d6cb-454b-9584-3f48d76a649a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9fdf883249fc5af7a37be83bb153a670295ba1d
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 00ba914b9c1ec1d5e3caef6b86ddbda49d021268e456c877ff4f67db86efd2cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104374027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978248"
 ---
 # <a name="bypassnegotiation"></a>BypassNegotiation
 
@@ -19,7 +19,7 @@ BypassNegotiation 登錄機碼會判斷伺服器和用戶端之間是否有功�
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   BypassNegotiation = value
+   BypassNegotiation = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -35,7 +35,7 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 
 
- 
+ 
 
 如果此登錄值不存在，伺服器和用戶端會協商 EAP 功能。
 
@@ -43,12 +43,12 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 <dl> <dt>
 
-[EAPHost 登錄設定](eaphost-registry-settings.md)
+[EAPHost Registry 設定](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

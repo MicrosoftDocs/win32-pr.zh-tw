@@ -4,12 +4,12 @@ ms.assetid: 9fbdde0e-5312-48ec-9273-ded6703b99a9
 title: 文字辨識器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8372af61d45bb1cc8bcd8377202149073c3decc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f2a579681fbd06c6b5dd27e5388f2c797e6be50433e11490fb5fe204d1c65d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842818"
 ---
 # <a name="text-recognizers"></a>文字辨識器
 
@@ -21,7 +21,7 @@ ms.locfileid: "103694983"
 
 
 
-| 語言                                   | Windows XP Tablet PC Edition | Windows XP Tablet PC Edition 2005 | Windows Vista | Windows 7 |
+| 語言                                   | Windows XP Tablet PC Edition | WindowsXP Tablet PC Edition 2005 | Windows Vista | Windows 7 |
 |--------------------------------------------|------------------------------|-----------------------------------|---------------|-----------|
 | 中文 (簡體及繁體)       | X                            |                                   |               |           |
 | 英文 (US、UK、加拿大和澳大利亞)     | X                            |                                   |               |           |

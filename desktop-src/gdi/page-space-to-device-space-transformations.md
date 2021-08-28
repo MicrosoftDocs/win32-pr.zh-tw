@@ -4,12 +4,12 @@ ms.assetid: 5505cf7a-7b9c-4728-934d-7faa4bdfde30
 title: Page-Space Device-Space 轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7641a020504e5cf8731a6216d0d04bdef76f8f4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 512e5a2a08181033dbd09fb0332177744cc6cd0611784a55edba71a41f42c381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831558"
 ---
 # <a name="page-space-to-device-space-transformations"></a>Page-Space Device-Space 轉換
 

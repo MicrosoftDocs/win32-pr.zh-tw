@@ -3,12 +3,12 @@ description: ExFat 檔案系統的規格。
 title: exFAT 檔案系統規格
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 94b5bcdc69201573bc92290c148a7d3ce8304868
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 62c51daff1aba3c9416cd5368e1b92570a377c208256b57ef5154d5e24433e4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050988"
 ---
 # <a name="exfat-file-system-specification"></a>exFAT 檔案系統規格
 
@@ -65,7 +65,7 @@ ExFAT 檔案系統有三個集中設計目標 (請參閱以下) 的清單。
 <td>此字詞描述的欄位或結構，是由實作為此規格所描述的進行修改，並應加以解讀。</td>
 </tr>
 <tr class="odd">
-<td>選用</td>
+<td>選擇性</td>
 <td>此詞彙描述可能或可能不支援的欄位或結構。 如果實作為支援指定的選擇性欄位或結構，則它應該修改，而且應該在此規格中解讀此欄位或結構。</td>
 </tr>
 <tr class="even">
@@ -3030,7 +3030,7 @@ LastAccessedTimestamp 欄位應描述上次存取指定的資料流程延伸目�
 <td>此為必要欄位，而且 <a href="#7484-day-field">區段 7.4.8.4</a> 會定義其內容。</td>
 </tr>
 <tr class="odd">
-<td>月</td>
+<td>Month</td>
 <td>21</td>
 <td>4</td>
 <td>此為必要欄位，而且 <a href="#7485-month-field">區段 7.4.8.5</a> 會定義其內容。</td>

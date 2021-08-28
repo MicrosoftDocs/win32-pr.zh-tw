@@ -7,12 +7,12 @@ keywords:
 - 混合模式序列化 MIDL
 ms.topic: article
 ms.date: 02/05/2021
-ms.openlocfilehash: 90af58bce974b2987500fdf28bc7a87a2e683715
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 1aa5162e898fa8832b0eec3f742384be74f2c725730123ab6871d9f53802451d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104195661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146341"
 ---
 # <a name="reserved-keywords"></a>保留關鍵字
 本主題列出 MIDL 中的保留關鍵字。 您不能在執行時間類別和成員的名稱中使用這些關鍵字。
@@ -164,7 +164,7 @@ FLOAT
 
 handle_t
 
-超
+Hyper
 
 import
 

@@ -3,7 +3,7 @@ title: 'TCM_GETEXTENDEDSTYLE 訊息 (Commctrl .h) '
 description: 抓取目前用於索引標籤控制項的延伸樣式。 您可以使用 TabCtrl GetExtendedStyle 宏明確地傳送此訊息 \_ 。
 ms.assetid: 983ffcbe-0d8d-4686-83de-fc564744390f
 keywords:
-- TCM_GETEXTENDEDSTYLE message Windows 控制項
+- TCM_GETEXTENDEDSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8280b7043591dd4fdd0b453c5baea5fe014bd3d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be5c4618fe039fcd05a73e409f0e8ddd7042694d526f902d432d2513bbef96e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876568"
 ---
 # <a name="tcm_getextendedstyle-message"></a>TCM \_ GETEXTENDEDSTYLE 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103934947"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

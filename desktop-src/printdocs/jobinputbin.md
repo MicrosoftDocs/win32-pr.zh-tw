@@ -4,12 +4,12 @@ ms.assetid: 9192ceb1-90c4-480e-9247-68d457976f42
 title: JobInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929df4cb4871e5a8d2ebacfe533b5da3ad9babf3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: cf0226979ed714380a85bb803cfcfba6703e2ba74770dc4ac725aae4408ed208
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112458"
 ---
 # <a name="jobinputbin"></a>JobInputBin
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408891"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |
@@ -89,20 +89,20 @@ ms.locfileid: "112408891"
 
 
 
-| Name                                   | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                             |
+| 名稱                                   | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                             |
 |----------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>              | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                  |
-| \_IdentityOptionValue\_<br/>     | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>        |
-| \_EnvelopeOptionValue\_<br/>     | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>        |
-| \_BinTypeValue\_<br/>            | string<br/>  | n/a<br/>        | ContinuousFeed, SheetFeed.<br/>                                                                                                                                                 | 指定 bin 的類型。<br/>                                           |
-| \_FeedTypeValue\_<br/>           | string<br/>  | n/a<br/>        | 自動、手動。<br/>                                                                                                                                                         | 指定 bin 的摘要機制。<br/>                                 |
-| \_MediaCapacityValue\_<br/>      | string<br/>  | n/a<br/>        | 高、標準。<br/>                                                                                                                                                            | 指定 bin 是否為高容量 bin (定性) 。<br/>          |
-| \_MediaSizeAutoSenseValue\_<br/> | string<br/>  | n/a<br/>        | 支援、無。<br/>                                                                                                                                                           | 指定裝置的媒體大小自動感知功能。<br/>                |
-| \_MediaTypeAutoSenseValue\_<br/> | string<br/>  | n/a<br/>        | 支援、無。<br/>                                                                                                                                                           | 指定裝置的媒體類型自動感知功能。<br/>                |
+| \_選項名稱\_<br/>              | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                  |
+| \_IdentityOptionValue\_<br/>     | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>        |
+| \_EnvelopeOptionValue\_<br/>     | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>        |
+| \_BinTypeValue\_<br/>            | 字串<br/>  | n/a<br/>        | ContinuousFeed, SheetFeed.<br/>                                                                                                                                                 | 指定 bin 的類型。<br/>                                           |
+| \_FeedTypeValue\_<br/>           | 字串<br/>  | n/a<br/>        | 自動、手動。<br/>                                                                                                                                                         | 指定 bin 的摘要機制。<br/>                                 |
+| \_MediaCapacityValue\_<br/>      | 字串<br/>  | n/a<br/>        | 高、標準。<br/>                                                                                                                                                            | 指定 bin 是否為高容量 bin (定性) 。<br/>          |
+| \_MediaSizeAutoSenseValue\_<br/> | 字串<br/>  | n/a<br/>        | 支援、無。<br/>                                                                                                                                                           | 指定裝置的媒體大小自動感知功能。<br/>                |
+| \_MediaTypeAutoSenseValue\_<br/> | 字串<br/>  | n/a<br/>        | 支援、無。<br/>                                                                                                                                                           | 指定裝置的媒體類型自動感知功能。<br/>                |
 | \_MediaSheetCapacityValue\_<br/> | 整數<br/> | 床單<br/>     | 裝置允許的最大整數條件約束。<br/>                                                                                                                              | 以 (完整層級) 的頁面數目指定媒體容量。<br/> |
-| \_MediaPathValue\_<br/>          | string<br/>  | n/a<br/>        | 直接、Serpentine。<br/>                                                                                                                                                      | 指定媒體路徑的特性。<br/>                         |
-| \_FeedFaceValue\_<br/>           | string<br/>  | n/a<br/>        | FaceUp, FaceDown<br/>                                                                                                                                                           | 指定是否要將媒體列印面朝上或朝下。<br/>           |
-| \_FeedDirectionValue\_<br/>      | string<br/>  | n/a<br/>        | LongEdgeFirst, ShortEdgeFirst<br/>                                                                                                                                              | 指定是否要先將媒體送入較長的第一或短邊緣。<br/>      |
+| \_MediaPathValue\_<br/>          | 字串<br/>  | n/a<br/>        | 直接、Serpentine。<br/>                                                                                                                                                      | 指定媒體路徑的特性。<br/>                         |
+| \_FeedFaceValue\_<br/>           | 字串<br/>  | n/a<br/>        | FaceUp, FaceDown<br/>                                                                                                                                                           | 指定是否要將媒體列印面朝上或朝下。<br/>           |
+| \_FeedDirectionValue\_<br/>      | 字串<br/>  | n/a<br/>        | LongEdgeFirst, ShortEdgeFirst<br/>                                                                                                                                              | 指定是否要先將媒體送入較長的第一或短邊緣。<br/>      |
 
 
 

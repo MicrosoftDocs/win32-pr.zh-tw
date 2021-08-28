@@ -6,12 +6,12 @@ keywords:
 - AppID 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b283a9cc47907cf418c2d7d6d613d151c7e5c5e6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: da7eb6e15c858a2bf0ecbb1b71589a8d7c471f317ac5deca792f2d07b680bcf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104383002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859708"
 ---
 # <a name="appid-key"></a>AppID 金鑰
 
@@ -23,7 +23,7 @@ ms.locfileid: "104383002"
 
 
 
-| 登錄值                                           | Description                                                                                                                                                                                                     |
+| 登錄值                                           | 描述                                                                                                                                                                                                     |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AccessPermission**](accesspermission.md)             | 描述可存取此類別實例之主體 (ACL) 的存取控制清單。 只有未呼叫 [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity)的應用程式才會使用此 ACL。 |
 | [**ActivateAtStorage**](activateatstorage.md)           | 將用戶端設定為將相同電腦上的物件具現化，其為它們正在使用或從中初始化的持續性狀態。                                                                    |
@@ -45,7 +45,7 @@ ms.locfileid: "104383002"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -60,12 +60,12 @@ Appid 會使用兩種不同的機制對應到可執行檔和類別：
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {MyGuid}
-      AuthenticationLevel = 00000001
-   MyClient.exe
-      AppID = {MyGUID}
+   {MyGuid}
+      AuthenticationLevel = 00000001
+   MyClient.exe
+      AppID = {MyGUID}
 ```
 
- 
+ 
 
- 
+ 

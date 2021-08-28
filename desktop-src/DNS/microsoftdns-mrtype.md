@@ -18,12 +18,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 732f0e6f51963f5ae810e4730406a94264fdde47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 041b6a24a58e0d0c7ba8facd08369b37f76e7d3aab4e4e3730b326c306c43bbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874788"
 ---
 # <a name="microsoftdns_mrtype-class"></a>MicrosoftDNS \_ MRType 類別
 
@@ -56,7 +56,7 @@ class MicrosoftDNS_MRType : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                                                       |
 |:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 這個方法會根據方法的輸入參數中的資料來具現化 RR 的 ' MR ' 類型：記錄的 DNS 伺服器名稱、信箱的擁有者名稱、類別 (預設 = IN) 、存留時間值和信箱重新命名。 它會將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/> |
-| **修改**                         | 這個方法會將 TTL 和 MR 信箱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>                 |
+| **Modify**                         | 這個方法會將 TTL 和 MR 信箱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>                 |
 
 
 

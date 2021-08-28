@@ -4,12 +4,12 @@ ms.assetid: 35fea8f9-307e-4429-b4ec-ffb5c62c2610
 title: TAPI 版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 853cf9d5f3744e11936f121986edc4e6e027d251
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 3f940cead427f843bb7cf3a3a89e1747344a8ffa2ddb8fff5a2b30db0b5a7f2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872888"
 ---
 # <a name="tapi-versioning"></a>TAPI 版本控制
 
@@ -44,11 +44,11 @@ TAPI 有許多版本。 雖然這些版本大多涉及變更 TAPI 和電話語�
 | TAPI 版本        | 散發                                                   |
 |---------------------|----------------------------------------------------------------|
 | 1.0 –1。2           | 不應再使用的 Beta 版。              |
-| [1.4](tapi-1-4.md) | 包含在 Windows 95 中。                                        |
+| [1.4](tapi-1-4.md) | 隨附于 Windows 95。                                        |
 | [1.5](tapi-1-5.md) | 隨附于 Windows CE 1.0。                                    |
 | [2.0](tapi-2-0.md) | 隨附于 Windows NT 4.0 SP3。                           |
-| [2.1](tapi-2-1.md) | 隨附于 Windows NT 4.0 與 SP4 和 Windows 98。            |
-| [2.2](tapi-2-2.md) | 包含在 Windows Server 2003、Windows XP 及 Windows 2000 中。 |
+| [2.1](tapi-2-1.md) | 隨附于 Windows NT 4.0 加裝 SP4 和 Windows 98。            |
+| [2.2](tapi-2-2.md) | 包含在 Windows Server 2003、Windows XP 和 Windows 2000 中。 |
 
 
 

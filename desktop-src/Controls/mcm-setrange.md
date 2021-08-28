@@ -3,7 +3,7 @@ title: 'MCM_SETRANGE 訊息 (Commctrl .h) '
 description: 設定月曆控制項的最小和最大允許日期。 您可以使用 MonthCal SetRange 宏明確地傳送此訊息 \_ 。
 ms.assetid: dab9ebb0-f397-4e71-b060-ef8d7d89a6bc
 keywords:
-- MCM_SETRANGE message Windows 控制項
+- MCM_SETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 380e599da8cd4a054c02135bc64f57f29d2c81d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c66e9cca17aabd93bfba896d361da6b90eab0c5c21fc4d50ec3c81a9eba5ccd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319248"
 ---
 # <a name="mcm_setrange-message"></a>MCM \_ SETRANGE 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "106966336"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

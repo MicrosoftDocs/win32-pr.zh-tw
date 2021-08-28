@@ -4,12 +4,12 @@ description: 當多播群組管理員收到介面上群組有新的接收者存�
 ms.assetid: b625f8ec-f59b-4151-aa38-48cf8f004966
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00dc70160b99c3cfc0e41078a3bd5882d930f31
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0da66e405441804cbca4452cedd7a6599067138bee95a33eaee7a2f10c34c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074118"
 ---
 # <a name="join-alert-callbacks"></a>加入警示回呼
 
@@ -27,9 +27,9 @@ ms.locfileid: "104021664"
 
 當收到群組 (s、g) 的來源特定聯結時，多播群組管理員只會針對擁有來源 s 連入介面的用戶端叫用 [**PMGM \_ 聯結 \_ 警示 \_ 回呼**](/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback) 回呼。
 
- 
+ 
 
- 
+ 
 
 
 

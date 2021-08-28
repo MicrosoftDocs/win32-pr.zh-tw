@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102705
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cf6207fdb677fc3dd1df1c4d67c390f5ad3ad213
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5c25613f5400b789d236c784fcdda08561ec3e57d913952a6f122db711eda78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039986"
 ---
 # <a name="esentsessioncontextalreadysetexception-methods"></a>EsentSessionContextAlreadySetException 方法
 

@@ -8,12 +8,12 @@ keywords:
 - 提供者 ADSI、執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c362b04244580e448e7bb7bd78889e66db12fe
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 848744673fff9dc98622f17ff89b1a8a552076d57451a771cfc0af66151213ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821348"
 ---
 # <a name="implementation-issues-for-adsi-providers"></a>ADSI 提供者的執行問題
 
@@ -89,6 +89,6 @@ ADSI 會將屬性工作表示為 ADSI 架構容器內的屬性物件。 這需�
 
 當提供者無法識別應以主要介面傳回的介面時，應傳回 **IID \_ IADs** 。 這會透過 [**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) 提供物件之所有屬性的名稱系結存取，以及 [**IADs：： Get**](/windows/desktop/api/Iads/nf-iads-iads-get)、 [**IADs：： GetEx**](/windows/desktop/api/Iads/nf-iads-iads-getex)、 [**IADs：:P**](/windows/desktop/api/Iads/nf-iads-iads-put)，以及 [**IADs：:P utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) 方法。
 
- 
+ 
 
- 
+ 

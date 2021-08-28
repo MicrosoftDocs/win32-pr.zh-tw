@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 3d97249a7485ec024ee3611809c87c5b6ed41143
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 43758b4f129b6f689e857755001324e76d8d735d3e78f2a5ce7444e604e3d920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104108356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400618"
 ---
 # <a name="imsrdpcameraredirconfigcollection-interface"></a>IMsRdpCameraRedirConfigCollection 介面
 
@@ -46,7 +46,7 @@ ms.locfileid: "104108356"
 
 **IMsRdpCameraRedirConfigCollection** 介面具有這些屬性。
 
-| 屬性         | 存取類型           | Description            |
+| 屬性         | 存取類型           | 描述            |
 |:-----------------|:----------------------|:-----------------------|
 | [**ByIndex**](imsrdpcameraredirconfigcollection-byindex.md)      | 唯讀 |  依物件在集合中的索引傳回 [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) 物件。   |
 | [**ByInstanceId**](imsrdpcameraredirconfigcollection-byinstanceid.md)                       | 唯讀 |    從集合中傳回對應至指定實例識別碼的 [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) 物件。    |

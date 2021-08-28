@@ -4,12 +4,12 @@ ms.assetid: 53b7bcbd-571a-44da-a6db-10d4c3e5d30a
 title: '媒體服務提供者介面 (MSPI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b1ce09e626ede14515c0abbbd5c3a35921026d6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 83b99f78d62c0784e38ede7a4019eef40cf8a48cf9480a4326c5d7b7129ca971
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106991394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073008"
 ---
 # <a name="media-service-provider-interface-mspi"></a>媒體服務提供者介面 (MSPI) 
 

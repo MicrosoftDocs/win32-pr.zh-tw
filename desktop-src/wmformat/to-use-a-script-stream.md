@@ -3,18 +3,18 @@ title: 使用腳本資料流程
 description: 使用腳本資料流程
 ms.assetid: 502b1f66-213d-41d8-992a-9bef4f6209f9
 keywords:
-- Windows Media Format SDK，腳本資料流程
+- Windows媒體格式 SDK，腳本資料流程
 - Advanced Systems Format (ASF) 、腳本資料流程
 - ASF (Advanced 系統格式) 、腳本資料流程
 - 腳本資料流程，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09782855bd3000d711f134c5889733e49e020c44
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a4d8df991ae97cc6d9eb330f11cb8798f5f2eb2787b5947e1d997b3d276d15f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929208"
 ---
 # <a name="to-use-a-script-stream"></a>使用腳本資料流程
 

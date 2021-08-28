@@ -4,17 +4,17 @@ ms.assetid: 27fe3fee-4ae3-43f1-a1f2-91c935e9851b
 title: '系統錯誤碼 (9000-11999)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 01eb071962d8d0f5beb801067ce1d72adc796bad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aea735601b2c19bfc54a0841bb0150426b5c292e61dddb53473dfe41575e4337
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984478"
 ---
 # <a name="system-error-codes-9000-11999"></a>系統錯誤碼 (9000-11999) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述 (錯誤9000到 11999) 的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -1733,7 +1733,7 @@ DNS 區域傳輸失敗。
 
 
 
-因為無法連線到網網域命名主機 FSMO 角色，所以操作失敗。 持有網網域命名主機 FSMO 角色的網域控制站已關閉，或無法服務要求或未執行 Windows Server 2003 或更新版本。
+因為無法連線到網網域命名主機 FSMO 角色，所以操作失敗。 持有網網域命名主機 FSMO 角色的網域控制站已關閉或無法服務要求，或 Windows Server 2003 或更新版本中無法執行。
 
 
 </dt> </dl> </dd> <dt>
@@ -2318,7 +2318,7 @@ WSAStartup 目前無法運作，因為它用來提供網路服務的基礎系統
 
 
 
-不支援所要求的 Windows 通訊端版本。
+不支援要求的 Windows 通訊端版本。
 
 
 </dt> </dl> </dd> <dt>
@@ -2928,8 +2928,8 @@ QOS 結構中指定了不正確數目的流程描述項。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 427f0dca-f945-4c89-a87a-a7c86291b1c5
 title: 'MF_PD_ASF_FILEPROPERTIES_FLAGS 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee294642188a0f2e22143feeca6791fea591cbb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ebc42bac8ae6efd8c28fe93a4114b7e0b2e85f4daaba708a35e06231e62de9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449048"
 ---
 # <a name="mf_pd_asf_fileproperties_flags-attribute"></a>MF \_ PD \_ ASF \_ FILEPROPERTIES \_ 旗標屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "106977075"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

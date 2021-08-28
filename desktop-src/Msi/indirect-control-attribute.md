@@ -4,12 +4,12 @@ ms.assetid: dc9c0dd6-7e19-44ec-b1a5-3d51a1855adf
 title: 間接控制屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6d0c183f586c197b14810e7176bce607ac3adaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c679938a818fb8393958c35694f3c2b7f782c91fc2dfcf1ac04777553ec629c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996685"
 ---
 # <a name="indirect-control-attribute"></a>間接控制屬性
 

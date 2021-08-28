@@ -1,21 +1,21 @@
 ---
-description: 建立 DirectShow 篩選器
+description: 建立 DirectShow 篩選
 ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
-title: 建立 DirectShow 篩選器
+title: 建立 DirectShow 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7090eed702b1abe8ee863d5fa3ac9c1fd413690e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d87d1983d3bfd42d1a1582ef696b6793acdd0856dde2bd2d589e809acc614314
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794319"
 ---
-# <a name="building-directshow-filters"></a>建立 DirectShow 篩選器
+# <a name="building-directshow-filters"></a>建立 DirectShow 篩選
 
-建議使用 DirectShow 基類來實行 DirectShow 篩選。 若要使用基類建立，請執行下列步驟，以及 [設定組建環境](setting-up-the-build-environment.md)所列的步驟：
+建議使用 DirectShow 基類來執行 DirectShow 篩選。 若要使用基類建立，請執行下列步驟，以及 [設定組建環境](setting-up-the-build-environment.md)所列的步驟：
 
--   在 \\ \\ \\ SDK 根目錄下，建立位於目錄範例多媒體 DirectShow BaseClasses 中的基類庫。 程式庫有兩個版本：零售版 (Strmbase) 和 (Strmbasd .lib) 的 debug 版本。
+-   在 SDK 根目錄下的目錄範例 \\ 多媒體 \\ DirectShow BaseClasses 中，建立基類庫 \\ 。 程式庫有兩個版本：零售版 (Strmbase) 和 (Strmbasd .lib) 的 debug 版本。
 -   包含標頭檔資料流程 .h。
 -   使用 \_ \_ stdcall 呼叫慣例。
 -   使用多執行緒 C 執行時間程式庫 (debug 或 retail，如適當的) 。
@@ -67,10 +67,10 @@ DirectShow 9.0 和更新版本中可用的基類庫版本不需要執行此步�
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

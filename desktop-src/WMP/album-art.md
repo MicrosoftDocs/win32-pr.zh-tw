@@ -3,19 +3,19 @@ title: 專輯封面
 description: 專輯封面
 ms.assetid: a5996232-e1ee-41ae-a6ca-f841321644fe
 keywords:
-- Windows Media Player 行動裝置外觀、專輯封面
+- Windows Media Player行動外觀、專輯封面
 - 外觀，專輯封面
 - 外觀、專輯封面的參考
 - 面板的美工圖案，專輯封面
 - 外觀中的專輯封面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0974f8683da98469e75a4472d086dcb1a244c75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8183c7de25c891c59ef68f5938de532a66700400d916c3fc7610a761b2024d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865118"
 ---
 # <a name="album-art"></a>專輯封面
 
@@ -52,9 +52,9 @@ ms.locfileid: "106967613"
 [**外觀參考**](skin-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

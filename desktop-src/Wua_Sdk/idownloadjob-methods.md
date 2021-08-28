@@ -4,12 +4,12 @@ ms.assetid: b9a6b722-2e32-4177-bcef-514412e132ec
 title: IDownloadJob 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f68acd6d7fef37c4ce9309c559a1de1b4d516dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03a153120f2d558dcc905d4e8b4de8a0993d842eaec895b7fd881ed2b8504f8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756808"
 ---
 # <a name="idownloadjob-methods"></a>IDownloadJob 方法
 

@@ -4,12 +4,12 @@ description: WpdServiceApiSample 應用程式會示範應用程式如何取得�
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e57258993d0a81f68042195db2caf338c97c53
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b56b164980249911ce267050143611dc599520fc841e33157bd6ac84718c1728
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806688"
 ---
 # <a name="retrieving-wpd-object-properties"></a>正在抓取 WPD 物件屬性
 
@@ -49,7 +49,7 @@ WpdServiceApiSample 應用程式所包含的程式碼會示範應用程式如何
  
 
 -   父識別碼
--   Name
+-   名稱
 -   PersistentUID
 -   格式
 

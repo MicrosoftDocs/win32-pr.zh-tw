@@ -7,12 +7,12 @@ keywords:
 - IPX 服務資料表管理 RRAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5877c6cce0331dacc9968a8f870b177366529b68
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b11d4cb267f4b9c72e8277599b5102a6d931e632d7c9d01b61190c20f29fa740
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074108"
 ---
 # <a name="ipx-service-table-management"></a>IPX 服務資料表管理
 
@@ -23,9 +23,9 @@ ms.locfileid: "103840392"
 
 如需路由通訊協定如何註冊服務處理的詳細資訊，請參閱 [**RegisterProtocol**](/windows/desktop/api/Routprot/nc-routprot-pregister_protocol) 函數。
 
- 
+ 
 
- 
+ 
 
 
 

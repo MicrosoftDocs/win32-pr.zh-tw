@@ -4,12 +4,12 @@ ms.assetid: 83ec3e86-c425-45f4-9178-3d9e5deaa8f8
 title: 使用 Unicode 和字元集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf556a15b691c32e38331986673cf6a7e02bd093
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42fe171e305cbf5b1121302e3e2195367a6b5a41b7876054d0d5bf2bf809e0e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086498"
 ---
 # <a name="using-unicode-and-character-sets"></a>使用 Unicode 和字元集
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7d8c9809b3a062654eaf0fb7a73b75b0188f7284
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39fe0f5a794875c25cf844c39df2217fae04d1b791a5a5174358fa0ea70150ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014526"
 ---
 # <a name="msvm_gpupartitionsettingdata-class"></a>Msvm \_ GpuPartitionSettingData 類別
 

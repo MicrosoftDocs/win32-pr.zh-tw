@@ -4,16 +4,16 @@ description: 語音引擎選取專案
 ms.assetid: f5afedc6-093f-4247-a5c8-277d6b2d646c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a548f0201ba37c8acb867091cc690a913277ff06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3998817e5eba041b1fb20eb9df64ee26217da974ff4d91869af05fbf15cc4f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960958"
 ---
 # <a name="speech-engine-selection"></a>語音引擎選取專案
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 字元的語言識別項設定會決定其預設的語音輸入語言;Microsoft Agent 會針對符合該語言的已安裝引擎要求 SAPI。 如果用戶端應用程式未指定語言喜好設定，Microsoft 代理程式將會嘗試使用主要語言識別項來尋找符合使用者預設語言識別項 (的語音辨識引擎，然後) 次要語言識別項。 如果沒有符合此語言的引擎可使用，則會停用該字元的語音。
 
@@ -21,9 +21,9 @@ ms.locfileid: "103839863"
 
 當使用者按下接聽熱鍵或輸入主動用戶端呼叫 [**接聽**](listen-method.md) 方法時，Microsoft 代理程式會自動載入語音辨識引擎。 不過，您也可以在設定或查詢其模式識別碼、設定或查詢 [語音命令] 視窗的屬性、查詢 [**SRStatus**](srstatus-property.md)，或是啟用語音時，以及使用者顯示 [Advanced Character] 選項的 [語音輸入] 頁面時載入引擎。 不過，Microsoft 代理程式只會持續載入用戶端所使用的語音引擎。
 
- 
+ 
 
- 
+ 
 
 
 

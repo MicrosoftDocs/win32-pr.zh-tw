@@ -4,12 +4,12 @@ description: 與唯一指標不同，完整指標支援別名。
 ms.assetid: 38023942-a4c2-4de7-b7d5-10d508cf083b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18687b496ddd28dca9e70afca8deafb18774500a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2bdbdc223125889eeb1849e60d162e5690b5c307b18b6667d43c578a46282400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021251"
 ---
 # <a name="full-pointers"></a>完整指標
 
@@ -45,6 +45,6 @@ interface FullPtrInterface
 
 \[**ptr** \]提供別名支援時是必要的。 不過，因為它需要大部分的 RPC 中可用指標的處理，所以不建議用於大部分的應用程式。
 
- 
+ 
 
- 
+ 

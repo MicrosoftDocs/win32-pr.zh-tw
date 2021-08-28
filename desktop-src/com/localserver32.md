@@ -6,12 +6,12 @@ keywords:
 - LocalServer32 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd068f51f33b6c283384198c0206bc9c3b6357f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 105cb352ffa3833c59e5ee8d042689e82e77b29dbcea7e49608d0047876bdd37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859398"
 ---
 # <a name="localserver32"></a>LocalServer32
 
@@ -21,15 +21,15 @@ ms.locfileid: "104508167"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      LocalServer32
-         (Default) = path
-         ServerExecutable = path
+   {CLSID}
+      LocalServer32
+         (Default) = path
+         ServerExecutable = path
 ```
 
 ## <a name="remarks"></a>備註
 
-從 Windows Server 2003 開始， **ServerExecutable** 值的類型是 **REG \_ SZ** 且支援的值，可搭配 **LocalServer32** 子機碼使用，以避免在使用 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 函數時出現任何混淆。 **LocalServer32** 指定要啟動的 COM 伺服器應用程式的位置，這項資訊會以 **CreateProcess** 的第一個參數 *lpApplicationName* 來傳遞。 根據 **CreateProcess** 的執行，這項資訊可能不明確。 基於這個理由，如果指定 **ServerExecutable** ，COM 會將 **ServerExecutable** 的命名值傳遞給 **CreateProcess** 的 *lpApplicationName* 參數。 如果未指定 **ServerExecutable** ，COM 會傳遞 **Null** 做為 **CreateProcess** 第一個參數的值。
+從 Windows Server 2003 開始支援的 **ServerExecutable** 值是 **REG \_ SZ** 型別，可搭配 **LocalServer32** 子機碼使用，以避免在使用 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa)函數時出現任何混淆。 **LocalServer32** 指定要啟動的 COM 伺服器應用程式的位置，這項資訊會以 **CreateProcess** 的第一個參數 *lpApplicationName* 來傳遞。 根據 **CreateProcess** 的執行，這項資訊可能不明確。 基於這個理由，如果指定 **ServerExecutable** ，COM 會將 **ServerExecutable** 的命名值傳遞給 **CreateProcess** 的 *lpApplicationName* 參數。 如果未指定 **ServerExecutable** ，COM 會傳遞 **Null** 做為 **CreateProcess** 第一個參數的值。
 
 若要協助提供系統安全性，請在路徑中使用加上引號的字串，以指出可執行檔尾和引數的開始位置。 例如，不要將下列路徑指定為 **LocalServer32** 專案：
 
@@ -59,6 +59,6 @@ COM 會將 "-內嵌" 旗標附加至字串，因此使用旗標的應用程式�
 [**LocalService**](localservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

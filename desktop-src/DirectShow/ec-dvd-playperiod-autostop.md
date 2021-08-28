@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c2081c8a5b7e5b6bd2165781af9552722ed9ddee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a44495f40608580268cdc162e26dc47b45ffa452a8017a5faff4d672b388704
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928428"
 ---
 # <a name="ec_dvd_playperiod_autostop"></a>EC \_ DVD \_ PLAYPERIOD \_ AUTOSTOP
 

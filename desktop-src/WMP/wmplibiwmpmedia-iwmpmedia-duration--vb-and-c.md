@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f796cab042713082ce2066659f62736855e62787
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 38703c37e73ba6312970b8e5b929441c3c5c9ccd1f034ab244dc97c36c2d2162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506018"
 ---
 # <a name="iwmpmediaduration-property"></a>IWMPMedia：:d uration 屬性
 
@@ -135,7 +135,7 @@ End Sub
 [**AxWindowsMediaPlayer. openState (VB 和 c # )**](axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer OpenStateChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-openstatechange.md)
+[**AxWindowsMediaPlayer. OpenStateChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-openstatechange.md)
 </dt> <dt>
 
 [**IWMPMedia 介面 (VB 和 c # )**](iwmpmedia--vb-and-c.md)

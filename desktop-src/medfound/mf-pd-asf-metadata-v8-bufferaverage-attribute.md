@@ -4,12 +4,12 @@ ms.assetid: 508d8670-5f5f-422b-9fa1-150115e2dbb8
 title: 'MF_PD_ASF_METADATA_V8_BUFFERAVERAGE 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3f1efcb464ee62a1f3838c1a684e3c87dc58227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ac9328d0b176df23b103c49890ffa7646ae8c02e7205df95fecc5a64e5eebc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955408"
 ---
 # <a name="mf_pd_asf_metadata_v8_bufferaverage-attribute"></a>MF \_ PD \_ ASF \_ 中繼資料 \_ V8 \_ BUFFERAVERAGE 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106972473"
 [**IMFASFContentInfo：： GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor)方法會產生這個屬性，此屬性會套用至 ASF 內容的表示描述項。
 
 > [!Note]  
-> 這個屬性只適用于 Windows Media Format SDK 第8版所建立的檔案。 它會對應至 Windows Media 格式 SDK 中的 **BufferAverage** 屬性。
+> 這個屬性只適用于 Windows 媒體格式 SDK 第8版所建立的檔案。 它會對應至 Windows 媒體格式 SDK 中的 **BufferAverage** 屬性。
 
  
 
@@ -36,8 +36,8 @@ ms.locfileid: "106972473"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

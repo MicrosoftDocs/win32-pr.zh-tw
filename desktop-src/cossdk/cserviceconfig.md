@@ -11,12 +11,12 @@ api_name:
 - CServiceConfig
 api_type:
 - COM
-ms.openlocfilehash: e0b48b05be4afa1d42dbc8a16c4b596a08aba859
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a72a7c05317973813b5f19a9e486f3effe8f052547caa54314aad92079ffa0a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954208"
 ---
 # <a name="cserviceconfig-class"></a>CServiceConfig 類別
 
@@ -58,8 +58,8 @@ ms.locfileid: "106991798"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>ComSvcs。h</dt> </dl> |
 
 

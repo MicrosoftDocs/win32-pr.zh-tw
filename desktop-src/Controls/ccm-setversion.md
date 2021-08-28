@@ -3,7 +3,7 @@ title: 'CCM_SETVERSION 訊息 (Commctrl .h) '
 description: 此訊息是用來通知控制項您預期會有與特定版本相關聯的行為。
 ms.assetid: f87b20bc-0139-4d0a-b38c-32c75743d6f6
 keywords:
-- CCM_SETVERSION message Windows 控制項
+- CCM_SETVERSION 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 349935173c41cd9c90a016ef3d2f3c77df8f159c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9453b99ff9cd23675b3b5d79593071e4ebb3fbb65d06a78d0fe8094154b2486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320098"
 ---
 # <a name="ccm_setversion-message"></a>CCM \_ SETVERSION 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104025258"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL，屬性，效能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afbfa518b400d237c9fd3789f61b7e74a0c38276
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f784bc534fd1dd7f160eaccb87a2853d491237db915245d4f36823e1ceb559ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869458"
 ---
 # <a name="performance-attributes"></a>效能屬性
 
@@ -27,7 +27,7 @@ ms.locfileid: "104022087"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -39,9 +39,9 @@ ms.locfileid: "104022087"
 [存根優化 ACF 屬性](stub-optimization-acf-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ description: IAgentBalloon SetFontCharSet
 ms.assetid: ce1b152d-c8af-47ec-9e6b-5768dbcf3566
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cc462895ff9f19f7e722660608a268af13446f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 178e2f6e2e086962456b6717dcb6866db9d607dd16136f839a127857d85cd58e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751050"
 ---
 # <a name="iagentballoonsetfontcharset"></a>IAgentBalloon::SetFontCharSet
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetFontCharSet(
@@ -39,10 +39,10 @@ HRESULT SetFontCharSet(
 | 0   | 標準 Windows 字元 (ANSI) 。                                                    |
 | 1   | 預設字元集。                                                                 |
 | 2   | 符號字元集。                                                              |
-| 128 | 在日文版的 Windows 中，雙位元組字元集 (DBCS) 是唯一的。            |
+| 128 | Windows 的日文版 (DBCS) 獨特的雙位元組字元集。            |
 | 129 | 雙位元組字集 (DBCS) Windows 的韓文版本是唯一的。              |
-| 134 | 雙位元組字集 (DBCS) Windows 的簡體中文版本獨有。  |
-| 136 | 雙位元組字集 (DBCS) Windows 的唯一版本。 |
+| 134 | 雙位元組字集 (DBCS) Windows 的簡體中文版本中是唯一的。  |
+| 136 | 雙位元組字集 (DBCS) 繁體中文 Windows 的獨特版本。 |
 | 255 | MS-DOS 應用程式通常會顯示的擴充字元。                          |
 
 

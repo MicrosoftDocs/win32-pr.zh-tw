@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d0b9faf5bdd4c57f7320749aef2010f457dd682e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7cfe9f3e8e857806895ec8be249d51f63ffe4818f24bbbf12d842754a885e855
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847300"
 ---
 # <a name="id3dxrendertoenvmapgetdesc-method"></a>ID3DXRenderToEnvMap：： GetDesc 方法
 

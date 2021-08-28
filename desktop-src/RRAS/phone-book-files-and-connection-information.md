@@ -4,12 +4,12 @@ description: RasDial 呼叫必須指定遠端存取連線管理員建立連接�
 ms.assetid: bc3885a4-3c1e-47bc-b622-072b33ac3b51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11d352772eec057edd6ab8c9f53640c50ea0fc73
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77a4bc7831673fb51a4c48177692674d6d2560ccec327dd3260dacb49e8ecfa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029118"
 ---
 # <a name="phone-book-files-and-connection-information"></a>Phone-Book 檔案和連接資訊
 
@@ -21,6 +21,6 @@ RAS 用戶端會使用 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) �
 
 若要在不使用電話簿專案的情況下建立連接， [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)呼叫可以為 [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85))結構的 **szEntryName** 成員指定空字串。 **RASDIALPARAMS. szPhoneNumber** 成員必須包含要呼叫的數位。 在此情況下，遠端存取連線管理員會使用第一個可用的數據機埠，以及所有其他設定的預設值。
 
- 
+ 
 
- 
+ 

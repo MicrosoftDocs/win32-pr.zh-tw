@@ -4,12 +4,12 @@ ms.assetid: fc6efe89-013c-47af-870e-8705fa60c99c
 title: 串流路由
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b21cd15a4467cb9b08747119aab999882ae3b5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c2e76944954c969ce458175585076d23ce015ea573a86e3f89dbbcd296aff444
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018226"
 ---
 # <a name="stream-routing"></a>串流路由
 
@@ -26,7 +26,7 @@ ms.locfileid: "104468317"
 
 在 Windows Vista 中，為了支援此案例，媒體應用程式必須提供資料流程路由的執行。 應用程式負責終止現有的資料流程，並在新的裝置上重新開機串流。 如果使用者變更預設裝置或其混合格式變更，則會關閉所有相關聯的會話，而且應用程式必須處理復原。
 
-在 Windows 7 中，應用程式可以順暢地將現有預設裝置的串流傳送到新的預設音訊端點。 高階音訊 API 集（例如媒體基礎、DirectSound 和 WAVE Api）會執行串流路由功能。 使用這些 API 集合來播放或從預設裝置捕獲串流的媒體應用程式會使用預設的執行，而不需要修改應用程式。 但是，如果您的媒體應用程式直接使用 MMDeviceAPI 或 WASAPI，應用程式就必須提供資料流程路由執行。
+在 Windows 7 中，應用程式可以順暢地將串流從現有的預設裝置傳送到新的預設音訊端點。 高階音訊 API 集（例如媒體基礎、DirectSound 和 WAVE Api）會執行串流路由功能。 使用這些 API 集合來播放或從預設裝置捕獲串流的媒體應用程式會使用預設的執行，而不需要修改應用程式。 但是，如果您的媒體應用程式直接使用 MMDeviceAPI 或 WASAPI，應用程式就必須提供資料流程路由執行。
 
 > [!Note]  
 > MMDeviceAPI 和 WASAPI 是核心音訊 API 元件，可供應用程式用來在裝置上轉譯或捕獲串流。 MMDeviceAPI 會探索新的音訊端點裝置，而 WASAPI 會管理媒體應用程式和音訊端點裝置之間的音訊資料流程程。

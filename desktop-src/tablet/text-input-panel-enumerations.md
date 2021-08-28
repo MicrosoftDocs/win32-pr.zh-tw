@@ -4,12 +4,12 @@ ms.assetid: 4c4442b2-b2da-4b0e-9bfd-b1ad9613a095
 title: 文字輸入面板列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcc6acf24ddb61ba75d6b97fb37a46d99b34c1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94f0e29b1ba92d88de537c277e80e4ef1f431add89a2d0f5c41e75dbe5bb137e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819918"
 ---
 # <a name="text-input-panel-enumerations"></a>文字輸入面板列舉
 

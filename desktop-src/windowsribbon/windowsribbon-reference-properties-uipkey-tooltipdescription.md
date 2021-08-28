@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ TooltipDescription 屬性。
 ms.assetid: 658e798a-f41e-4538-94ac-38a9cb20dd74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 900610c1302d3cc904dcde2d7c86801982fd4d10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d2962370c18e1c9b7d072d47d92292182097f9e31f17b45096907b7e6c7f92e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932527"
 ---
 # <a name="ui_pkey_tooltipdescription"></a>UI \_ PKEY \_ TooltipDescription
 
@@ -17,12 +17,12 @@ ms.locfileid: "106968867"
 
 ```
 propertyDescription
-   name = UI_PKEY_TooltipDescription
-   shellPKey = UI_PKEY_TooltipDescription
-   formatID = 00000005-7363-696e-8441798acf5aebb7
-   propID = 5
-   typeInfo
-      type = VT_LPWSTR
+   name = UI_PKEY_TooltipDescription
+   shellPKey = UI_PKEY_TooltipDescription
+   formatID = 00000005-7363-696e-8441798acf5aebb7
+   propID = 5
+   typeInfo
+      type = VT_LPWSTR
 ```
 
 ## <a name="remarks"></a>備註
@@ -34,7 +34,7 @@ propertyDescription
 > [!Note]  
 > 使用通用字元集 (UCS) XML 字元參考 `&#xA;` 來指定分行符號。
 
- 
+ 
 
 UI PKEY TooltipDescription 的最大長度未系結 \_ \_ 。
 
@@ -53,9 +53,9 @@ UI PKEY TooltipDescription 的最大長度未系結 \_ \_ 。
 [UI \_ PKEY \_ TooltipTitle](windowsribbon-reference-properties-uipkey-tooltiptitle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: be2bc4593c19555dd5a851de89a1dc2e5db00596
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 673b53d8cea23cd044175129af85c367f6f20c8dc92240c8bdf52f34708d96f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996078"
 ---
 # <a name="qualifiers-specific-to-the-wdm-provider"></a>WDM 提供者專用的限定詞
 

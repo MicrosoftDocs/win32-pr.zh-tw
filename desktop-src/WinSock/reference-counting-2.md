@@ -4,12 +4,12 @@ ms.assetid: dff1e932-5e87-4ec5-995d-686d20ba6236
 title: 參考計數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72d9ef7b3e5e31cc7941d30c47f107fc068489ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c8cd281363636cc2022725b4921d3b2d2b300e7262173e157a2be1610f6af0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996658"
 ---
 # <a name="reference-counting"></a>參考計數
 

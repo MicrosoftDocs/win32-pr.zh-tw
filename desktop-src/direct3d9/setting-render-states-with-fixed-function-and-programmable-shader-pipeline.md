@@ -4,12 +4,12 @@ description: 本節提供使用固定函式和可程式化著色器管線來設�
 ms.assetid: FF0F2A97-F75A-4AF0-8F5A-EA687523E753
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2d5c0e0ba9e1ac890468654d348b0f8b316f64
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90d0ddc6b6a58e7bee3e141d84e79328a911f152a3536aa1696c73a503db4db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092255"
 ---
 # <a name="set-device-state-on-fixed-function-shader-pipelines"></a>設定固定函式、著色器管線上的裝置狀態
 

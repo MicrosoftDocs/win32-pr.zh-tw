@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9e1f356020df681e00f43c7a47ac16048764c0ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: db283c735e87fb88b489c3ad8367b37ab867c9627fffa7b6052706e0d260b54e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075942"
 ---
 # <a name="session-structure"></a>會話結構
 
@@ -131,7 +131,7 @@ typedef enum {
 **cbSelfExtractSize**
 </dt> <dd>
 
-可執行檔 ( .exe 的長度) 部分的自動解壓縮封包。
+可執行檔 (.exe 的長度) 部分的自動解壓縮封包。
 
 </dd> <dt>
 
@@ -221,7 +221,7 @@ typedef enum {
 **achSelf**
 </dt> <dd>
 
-可執行檔 ( .exe) 檔案的名稱。
+可執行檔 (.exe) 檔的名稱。
 
 `#define cbFILE_NAME_MAX     256`
 
@@ -363,7 +363,7 @@ typedef CABINET *PCABINET;
 [**DeleteExtractedFiles**](deleteextractedfiles.md)
 </dt> <dt>
 
-[**提取**](extract.md)
+[**擷取**](extract.md)
 </dt> </dl>
 
  

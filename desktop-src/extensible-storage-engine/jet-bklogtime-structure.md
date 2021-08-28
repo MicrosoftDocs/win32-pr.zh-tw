@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2d6f8e3f77d905eb601441ad8ab3ca88bb08f59d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 0b54ba5bb6b4f5ed3f08b5d4cc950f77d199c525
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988241"
 ---
 # <a name="jet_bklogtime-structure"></a>JET_BKLOGTIME 結構
 
@@ -123,7 +123,11 @@ _**適用于：** Windows |Windows伺服器_
 ### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

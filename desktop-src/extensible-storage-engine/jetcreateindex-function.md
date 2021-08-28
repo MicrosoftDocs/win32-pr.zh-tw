@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 698f9a050415568c06c8e10819cfed12a4a17181
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 4e2a5132ae950384a748af27d1d1f8de48952cf3
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986041"
 ---
 # <a name="jetcreateindex-function"></a>JetCreateIndex 函式
 
@@ -114,7 +114,14 @@ Null 分隔標記的雙 null 結束字串指標。
 #### <a name="requirements"></a>規格需求
 
 
-| | | <p>用戶端</p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p>伺服器</p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p>標頭</p> | <p>宣告于 Esent. h 中。</p> | | <p>程式庫</p> | <p>使用 ESENT。</p> | | <p>DLL</p> | <p>需要 ESENT.dll。</p> | | <p>Unicode</p> | <p>會實作為 <strong>JetCreateIndexW</strong> (Unicode) 和 <strong>JetCreateIndexA</strong> (ANSI) 。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>用戶端</p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p>伺服器</p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p>標頭</p> | <p>宣告于 Esent. h 中。</p> | 
+| <p>程式庫</p> | <p>使用 ESENT。</p> | 
+| <p>DLL</p> | <p>需要 ESENT.dll。</p> | 
+| <p>Unicode</p> | <p>會實作為 <strong>JetCreateIndexW</strong> (Unicode) 和 <strong>JetCreateIndexA</strong> (ANSI) 。</p> | 
 
 
 

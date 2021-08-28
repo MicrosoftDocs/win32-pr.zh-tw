@@ -4,12 +4,12 @@ ms.assetid: ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5
 title: 錯誤處理函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa4cea391f05638310e17b9ef283e138204bc2cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60fdc25327bed4966336571c20580b0bfdc22b38858d3edad560359eaf0710e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912758"
 ---
 # <a name="error-handling-functions"></a>錯誤處理函數
 

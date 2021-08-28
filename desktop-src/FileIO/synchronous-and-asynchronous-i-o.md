@@ -5,12 +5,12 @@ title: 同步和非同步 i/o
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 071dd2943537dcb6aff67a95cb5e2c3d514f4c1a
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 99ab06fac66c0ff3033407326c190ce0d08e643ca30b24ff17b7420e61782222
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106985730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981820"
 ---
 # <a name="synchronous-and-asynchronous-io"></a>同步和非同步 i/o
 

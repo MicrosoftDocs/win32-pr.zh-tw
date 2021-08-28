@@ -6,12 +6,12 @@ keywords:
 - MicrosoftDNS_StatisticCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c44f9c65714fb3b1db58b5a6439ade5531792501
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 42fda276433290ab2b151b4b6a34abae7a0113ee3db75054f6c66c0536009dfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109088"
 ---
 # <a name="microsoftdns_statisticcollection"></a>MicrosoftDNS \_ StatisticCollection
 
@@ -67,9 +67,9 @@ class MicrosoftDNS_StatisticCollection : CIM_LogicalElement
 [**MicrosoftDNS \_ 統計資料**](microsoftdns-statistic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

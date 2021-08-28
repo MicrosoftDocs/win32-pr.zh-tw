@@ -6,12 +6,12 @@ keywords:
 - Microsoft 介面定義語言 MIDL，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9f07dba18a80527e75c945893b5cbc39932fb24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cce7a4ec5d0e8fdd461f6585af55b753f6286da1f3e8bbe6cb641a7188886c21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913508"
 ---
 # <a name="about-this-guide"></a>關於本指南
 
@@ -27,9 +27,9 @@ ms.locfileid: "103840752"
 
 [Midl 編譯器錯誤和警告](midl-compiler-errors-and-warnings.md)區段會列出 MIDL 編譯器可以產生的錯誤和警告訊息。
 
- 
+ 
 
- 
+ 
 
 
 

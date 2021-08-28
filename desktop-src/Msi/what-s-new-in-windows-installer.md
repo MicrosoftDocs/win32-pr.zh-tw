@@ -4,12 +4,12 @@ ms.assetid: 6e1bdfb5-1a6a-414f-a93c-cf87b18b6663
 title: Windows Installer 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6854eb67056003abbb6f790972f77a053f8f278f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5053ca1066eda7de7cf1e252519ec58f510c2797962794c2ded8f3f943daf05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498748"
 ---
 # <a name="whats-new-in-windows-installer"></a>Windows Installer 的新功能
 

@@ -66,12 +66,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 000723612a2f7f9f5575fc767924d4d6c697468a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcb8450b85eaa6c49b66a3a86789c126cc04b9a661a7e4c5074784f8cba6bf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993838"
 ---
 # <a name="client-error-codes"></a>用戶端錯誤碼
 
@@ -79,7 +79,7 @@ ms.locfileid: "104025400"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                         | Description                                                                                                       |
+| 常數/值                                                                                                                                                                                                                                                                                         | 描述                                                                                                       |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
 | <span id="WINBIO_E_UNSUPPORTED_FACTOR"></span><span id="winbio_e_unsupported_factor"></span><dl> <dt>**WINBIO \_E \_ 不支援的 \_ 因素**</dt> <dt>0x80098001</dt> </dl>                              | 不支援指定的生物特徵辨識因素。<br/>                                                       |
 | <span id="WINBIO_E_INVALID_UNIT"></span><span id="winbio_e_invalid_unit"></span><dl> <dt>**WINBIO \_電子 \_ 不正確 \_ 單位**</dt> <dt>0x80098002</dt> </dl>                                                | 單位識別碼號碼未對應到有效的生物識別單元。<br/>                                    |
@@ -128,7 +128,7 @@ ms.locfileid: "104025400"
 | <span id="WINBIO_E_SENSOR_UNAVAILABLE"></span><span id="winbio_e_sensor_unavailable"></span><dl> <dt>**WINBIO \_E \_ 感應器 \_ 無法使用**</dt> <dt>0x80098034</dt> </dl>                              | 因為有一或多個生物特徵辨識單位無法使用，所以無法建立私人集區。<br/>                |
 | <span id="WINBIO_E_SAS_ENABLED"></span><span id="winbio_e_sas_enabled"></span><dl> <dt>**WINBIO \_E \_ \_ 啟用 SAS**</dt>的 <dt>0x80098035</dt> </dl>                                                   |  (CTRL-ALT-刪除) 是登入所需的安全注意順序。<br/>                                   |
 | <span id="WINBIO_E_DEVICE_FAILURE"></span><span id="winbio_e_device_failure"></span><dl> <dt>**WINBIO \_E \_ 裝置 \_ 失敗**</dt> <dt>0x80098036</dt> </dl>                                          | 生物識別感應器失敗。<br/>                                                                         |
-| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**WINBIO \_E \_ FAST \_ USER \_ SWITCH \_ DISABLED**</dt> <dt>0x80098037</dt> </dl>       | 已停用 [快速切換使用者] >。<br/>                                                                   |
+| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**WINBIO \_E \_ FAST \_ 使用者 \_ 交換器 \_ 已停用**</dt> <dt>0x80098037</dt> </dl>       | 已停用 [快速切換使用者] >。<br/>                                                                   |
 | <span id="WINBIO_E_NOT_ACTIVE_CONSOLE"></span><span id="winbio_e_not_active_console"></span><dl> <dt>**WINBIO \_E \_ NOT \_ ACTIVE \_ CONSOLE**</dt> <dt>0x80098038</dt> </dl>                             | 無法從終端機伺服器用戶端會話開啟系統感應器集區。<br/>                          |
 | <span id="WINBIO_E_EVENT_MONITOR_ACTIVE"></span><span id="winbio_e_event_monitor_active"></span><dl> <dt>**WINBIO \_E \_ 事件 \_ 監視器 \_ 主動**</dt> <dt>0x80098039</dt> </dl>                      | 已經有與指定會話相關聯的作用中事件監視器。<br/>                        |
 | <span id="WINBIO_E_INVALID_PROPERTY_TYPE"></span><span id="winbio_e_invalid_property_type"></span><dl> <dt>**WINBIO \_E \_ 不正確 \_ 屬性 \_ 類型**</dt> <dt>0x8009803A</dt> </dl>                    | 指定的值不是有效的屬性類型。<br/>                                                      |
@@ -145,8 +145,8 @@ ms.locfileid: "104025400"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ err。h</dt> </dl> |
 
 

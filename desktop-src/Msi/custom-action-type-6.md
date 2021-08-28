@@ -4,12 +4,12 @@ ms.assetid: d63449e1-231a-4601-b39e-1b69857ccb86
 title: 自訂動作類型6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007cd224caff801592bdde7389cfe3e77820f650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bd672fc9d66b5b36f31d80da06400cf27fb7f43c2f384e88bc20a7614732d87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926978"
 ---
 # <a name="custom-action-type-6"></a>自訂動作類型6
 
@@ -35,7 +35,7 @@ ms.locfileid: "106994375"
 
  
 
-Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
+Windows安裝程式可能會在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
 
 
 
@@ -65,7 +65,7 @@ Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳
 
 ## <a name="return-values"></a>傳回值
 
-以腳本撰寫的選擇性函式必須傳回 [JScript 和 VBScript 自訂動作](return-values-of-jscript-and-vbscript-custom-actions.md)的傳回值中所述的其中一個值。
+以腳本撰寫的選擇性函式必須傳回[JScript 和 VBScript 自訂動作](return-values-of-jscript-and-vbscript-custom-actions.md)的傳回值中所述的其中一個值。
 
 ## <a name="remarks"></a>備註
 

@@ -3,7 +3,7 @@ title: 'DTM_GETMCCOLOR 訊息 (Commctrl .h) '
 description: 取得日期和時間選擇器中的月曆指定部分的色彩， (DTP) 控制項。 您可以明確地傳送此訊息，或使用 DateTime \_ GetMonthCalColor 宏。
 ms.assetid: 892e8c23-f0d0-4fd6-98ed-39592c4d316f
 keywords:
-- DTM_GETMCCOLOR message Windows 控制項
+- DTM_GETMCCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 690c461c5bccbd050fb3d698d1a41c6d1e513944
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a99a67f6ca7056f0157d131d185cb5cb68a85e06b8cbb124a16b3c2129c21963
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878148"
 ---
 # <a name="dtm_getmccolor-message"></a>DTM \_ GETMCCOLOR 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "104467126"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

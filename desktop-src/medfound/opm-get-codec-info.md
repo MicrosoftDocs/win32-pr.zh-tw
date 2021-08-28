@@ -4,12 +4,12 @@ ms.assetid: 51987a79-78bf-41b2-8349-8c2725dd89d6
 title: 'OPM_GET_CODEC_INFO (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf310ae3dafee7823119b2d5d5bd2c6b61fe822
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 988ffa9a962d9ed04b6a978da1534a6da4fa506e873d89d238bcbb2aa00fd865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847978"
 ---
 # <a name="opm_get_codec_info"></a>OPM \_ 取得 \_ 編解碼器 \_ 資訊
 
@@ -39,8 +39,8 @@ ms.locfileid: "104191772"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

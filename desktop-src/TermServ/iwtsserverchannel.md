@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 30d9e02ce52438bca8a81de7d7f9ebe92c8306d5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1fa557d1d796ca9027e265dcf0f04440b37b02418c8b03e90a9c5ed7c12b9c8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866388"
 ---
 # <a name="iwtsserverchannel-interface"></a>IWTSServerChannel 介面
 

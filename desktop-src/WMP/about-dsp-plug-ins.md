@@ -11,12 +11,12 @@ keywords:
 - DSP 外掛程式，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1def789e7725c50f977268af9a741a2f4c13fc0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6f10b9804baf23de40a70bf75cab5e2b9c9f4f8132e4770a7522adef69770173
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956878"
 ---
 # <a name="about-dsp-plug-ins"></a>關於 DSP 外掛程式
 
@@ -35,18 +35,18 @@ Microsoft Windows Media Player 提供用來連接附加元件軟體的架構，�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 的 DSP 外掛程式**](windows-media-player-dsp-plug-ins.md)
+[**Windows Media PlayerDSP 外掛程式**](windows-media-player-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

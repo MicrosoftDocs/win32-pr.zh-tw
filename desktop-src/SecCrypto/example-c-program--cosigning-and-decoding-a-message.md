@@ -4,12 +4,12 @@ ms.assetid: b400436f-a71f-426a-ac8a-7fdcfa6d7575
 title: 範例 C 程式： Cosigning 和解碼訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 786bf0e44c0d781070d8cde0e1f08b8235b27234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32f45525354ec1d85853a93677a72d96ea8555a0f7d1adf892ba27e5f0bf55fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874048"
 ---
 # <a name="example-c-program-cosigning-and-decoding-a-message"></a>範例 C 程式： Cosigning 和解碼訊息
 

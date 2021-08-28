@@ -4,12 +4,12 @@ ms.assetid: 6ba7dbb6-6598-4569-97e1-d703e4b896c7
 title: functionDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 508cbac6d220c0ebdee0c6306d5f8a8ab5f26770
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 449bc6706a83c0c7eec9af7a4b8d05c60089705dce38e4ed1d87a2b2dc1d542d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954848"
 ---
 # <a name="functiondeclarations-element"></a>functionDeclarations 元素
 

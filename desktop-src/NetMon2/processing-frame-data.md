@@ -4,12 +4,12 @@ ms.assetid: 0945bceb-b5fe-4f07-866b-4e0468227610
 title: 處理框架資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e41c49de62d630033aa7d3ed3e8e115fd1a02f7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a103dd2fea564eb6eb93ffcb32d5c21acbe991d515b7e75f287786dbce976c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995428"
 ---
 # <a name="processing-frame-data"></a>處理框架資料
 

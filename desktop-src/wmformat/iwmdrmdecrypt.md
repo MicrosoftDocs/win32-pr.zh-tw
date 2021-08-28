@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0d6b36872e3b066a29640b45b2fac255b94a8af5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 73c8c3d77104cf3203ff4e4a63671c11c9e08045095decd92c14f6290034bd01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110358"
 ---
 # <a name="iwmdrmdecrypt-interface"></a>IWMDRMDecrypt 介面
 

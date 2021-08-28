@@ -4,12 +4,12 @@ description: 調試記憶體配置
 ms.assetid: 522adb1f-0e3e-4dfb-8836-f539a79a3d9e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beb6a7dbe313cfe571fa6b4d244df35407fa331e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ae81b3376b2ffee17ce747197eb57fecbdae18e086d5252dd5f4721975181885
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993448"
 ---
 # <a name="debugging-memory-allocations"></a>調試記憶體配置
 
@@ -24,6 +24,6 @@ COM 提供 [**IMallocSpy**](/windows/desktop/api/ObjIdl/nn-objidl-imallocspy) �
 [管理記憶體配置](managing-memory-allocation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

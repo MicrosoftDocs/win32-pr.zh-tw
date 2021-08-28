@@ -4,12 +4,12 @@ ms.assetid: 1ea2c7f7-f920-4c72-bc62-4eb5e8d70790
 title: Exception-Handler 語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11eff9e6ca5d16a71b416f79a09f46795592a696
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fcd24b3ffc84a3469c7c8d97ce505a0292ee538ea8f0b9c1d604bf34f65203ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912738"
 ---
 # <a name="exception-handler-syntax"></a>Exception-Handler 語法
 

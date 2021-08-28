@@ -4,12 +4,12 @@ description: 路由表中的目的地是以網路位址和網路遮罩表示的�
 ms.assetid: 115d86e3-f933-4601-af10-abaab287b509
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c0c758720824284147c2f35be004622157edb3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88195bb0bffab46495693f79a5e4329ec0e83c801c8ee4cf50d8d8bbe39b9ac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961128"
 ---
 # <a name="destinations"></a>目的地
 
@@ -27,9 +27,9 @@ ms.locfileid: "103840163"
     -   與此視圖中最佳路由相關聯的旗標。
     -   此視圖中處於按住狀態的任何路由的控制碼。
 
- 
+ 
 
- 
+ 
 
 
 

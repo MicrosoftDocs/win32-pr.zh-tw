@@ -3,17 +3,17 @@ title: 端點識別
 description: 此區段中定義的類型是用來定義端點位址的安全性識別。
 ms.assetid: 39639b9a-32e2-44d2-9bda-a2ad23850de8
 keywords:
-- 適用于 Windows 的端點身分識別 Web 服務
+- Windows 的端點身分識別 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a7a3f7b95d5fc1b926d8bafb49b06f96c7d68fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 819fd2b33f1c74f88ef9032a49bd9aa4f04e34f1dcd4e599120951afabb6e167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927588"
 ---
 # <a name="endpoint-identity"></a>端點識別
 
@@ -29,11 +29,11 @@ ms.locfileid: "104371883"
 
 
 
- 
+ 
 
 
 
-| 結構                                                               | Description                                                                                  |
+| 結構                                                               | 描述                                                                                  |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**WS \_ CERT \_ 端點身分 \_ 識別**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_endpoint_identity)       | 憑證端點身分識別的類型。                                                 |
 | [**WS \_ DNS \_ 端點身分 \_ 識別**](/windows/desktop/api/WebServices/ns-webservices-ws_dns_endpoint_identity)         | 用來指定 DNS 名稱所代表之端點身分識別的型別。                      |
@@ -45,11 +45,11 @@ ms.locfileid: "104371883"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

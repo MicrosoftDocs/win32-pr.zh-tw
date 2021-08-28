@@ -4,12 +4,12 @@ ms.assetid: 60a386e7-b53f-490e-9a4b-2a4507d16a91
 title: 文字筆墨參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7713a34b4960ecdc560a1a5a3d7d4b7e5b8128c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ef3204b8bf5ffa2a22fd9a1080f67e052c3fd971289454e96a2730ab6bc6537
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842786"
 ---
 # <a name="text-ink-reference"></a>文字筆墨參考
 

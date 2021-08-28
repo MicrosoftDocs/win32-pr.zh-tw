@@ -1,6 +1,6 @@
 ---
 title: Volatile 元素
-description: 指出每次 Windows 啟動時是否自動停用工作。
+description: 指出每次 Windows 開始時，是否自動停用工作。
 ms.assetid: E0298876-2A96-401D-B857-69758AF980E5
 keywords:
 - Volatile 元素工作排程器
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca697bd0dff3a1fffd0b92a29d2fc88f1d4ed433
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 496e95fe98ecb2890d19bde0b99e171ab20b045a47bf69840dd78f501bfbc309
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872098"
 ---
 # <a name="volatile-element"></a>Volatile 元素
 
-指出每次 Windows 啟動時是否自動停用工作。
+指出每次 Windows 開始時，是否自動停用工作。
 
 ``` syntax
 <xs:element name="Volatile"
@@ -39,7 +39,7 @@ ms.locfileid: "103686361"
 
 
 
-| 元素                                                           | 衍生自 | Description                                                                        |
+| 元素                                                           | 衍生自 | 描述                                                                        |
 |-------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------|
 | [**設定**](taskschedulerschema-settings-tasktype-element.md) |              | 包含工作排程器用來執行工作的設定。<br/> |
 
@@ -55,8 +55,8 @@ ms.locfileid: "103686361"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/> |
 
 
 

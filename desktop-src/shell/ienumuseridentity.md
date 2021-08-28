@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 48abf182942f90ecd477a241be3bf45323bdbdf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e5acab235abf16afd5659c091caa59190b05ab7d1b565d093a8902f0ede39026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821928"
 ---
 # <a name="ienumuseridentity-interface"></a>IEnumUserIdentity 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "104973124"
 
 | 方法                                         | 描述                                                                                                                  |
 |:-----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| [**克隆**](ienumuseridentity-clone.md)       | 已取代。 取得目前列舉的複本。<br/>                                                               |
+| [**複製**](ienumuseridentity-clone.md)       | 已取代。 取得目前列舉的複本。<br/>                                                               |
 | [**GetCount**](ienumuseridentity-getcount.md) | 已取代。 取得目前在系統上的使用者身分識別計數。<br/>                                            |
 | [**下一步**](ienumuseridentity-next.md)         | 已取代。 從列舉中抓取使用者識別介面的陣列。<br/>                                  |
 | [**重設**](ienumuseridentity-reset.md)       | 已取代。 重設列舉中已抓取介面的內部計數。<br/>                                 |
@@ -60,12 +60,12 @@ ms.locfileid: "104973124"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

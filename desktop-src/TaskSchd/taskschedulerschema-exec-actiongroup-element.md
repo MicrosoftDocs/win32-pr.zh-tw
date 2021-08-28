@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b29ba66be8f2d3aefaec4f437359f2af5275d2f0
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 709cded1238654fffcf8ce75e5cba85c6139eb6264592e99684462e0a9cb2661
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072488"
 ---
 # <a name="exec-actiongroup-element"></a>Exec (actionGroup) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "106975603"
 
 
 
-| 元素                                                         | 衍生自                                                       | Description                                            |
+| 元素                                                         | 衍生自                                                       | 描述                                            |
 |-----------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
 | [**行動**](taskschedulerschema-actions-tasktype-element.md) | [**actionsType**](taskschedulerschema-actionstype-complextype.md) | 包含工作所執行的動作。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "106975603"
 
 
 
-| 元素                                                                           | 類型       | Description                                                                                                  |
+| 元素                                                                           | 類型       | 描述                                                                                                  |
 |-----------------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
 | [**引數**](taskschedulerschema-arguments-exectype-element.md)               | **string** | 指定與命令列操作相關聯的引數。<br/>                               |
 | [**命令**](taskschedulerschema-command-exectype-element.md)                   | **string** | 指定要執行的可執行檔或檔。<br/>                                              |
@@ -84,8 +84,8 @@ ms.locfileid: "106975603"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

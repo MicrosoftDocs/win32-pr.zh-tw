@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 895bdfecf994f6673c2ed7e7367bc3a7b5bd70c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e327d929b77108c1b675e6f42a311e4cad6dd9a056e5ac38b6d7e7f4558788c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927539"
 ---
 # <a name="extended-protection"></a>開始就支援
 
@@ -55,7 +55,7 @@ ms.locfileid: "106966197"
 
 ## <a name="interoperability"></a>互通性
 
-預設設定的伺服器可以與 SOAP 用戶端通訊，而不論它們是否使用擴充保護。 其中一個例外狀況是 Windows XP 和 Windows Server 2003 WWSAPI 用戶端，這些用戶端已更新為支援擴充保護，並且使用 [**ws \_ KERBEROS \_ APREQ \_ 訊息 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) 系結和 [**ws \_ SSL \_ 傳輸 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)系結。 若要支援這類用戶端，您永遠都不能指定伺服器所指定的 [**WS \_ 延伸 \_ 保護 \_ 原則 \_**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) 。 使用 **WS \_ 延伸 \_ 保護 \_ 原則 \_** 設定的伺服器一律會拒絕不使用擴充保護的用戶端進行通訊。 在用戶端上， **ws \_ KERBEROS \_ APREQ \_ 訊息 \_ 安全性 \_** 系結與 **ws \_ SSL \_ 傳輸 \_ 安全性 \_** 系結結合之後，將會使用 Vista 和更新版本上的 HTTP 區塊傳輸編碼來傳送訊息。 這可能會造成不支援區區塊轉送的伺服器發生互通性問題。
+預設設定的伺服器可以與 SOAP 用戶端通訊，而不論它們是否使用擴充保護。 其中一個例外狀況是 Windows XP 和 Windows Server 2003 WWSAPI 用戶端，這些用戶端已更新為支援擴充保護，並且使用 [**ws \_ KERBEROS \_ APREQ \_ 訊息 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding)系結和 [**ws \_ SSL \_ 傳輸 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)系結。 若要支援這類用戶端，您永遠都不能指定伺服器所指定的 [**WS \_ 延伸 \_ 保護 \_ 原則 \_**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) 。 使用 **WS \_ 延伸 \_ 保護 \_ 原則 \_** 設定的伺服器一律會拒絕不使用擴充保護的用戶端進行通訊。 在用戶端上， **ws \_ KERBEROS \_ APREQ \_ 訊息 \_ 安全性 \_** 系結與 **ws \_ SSL \_ 傳輸 \_ 安全性 \_** 系結結合之後，將會使用 Vista 和更新版本上的 HTTP 區塊傳輸編碼來傳送訊息。 這可能會造成不支援區區塊轉送的伺服器發生互通性問題。
 
 下列列舉/常數屬於擴充保護的一部分：
 
@@ -66,9 +66,9 @@ ms.locfileid: "106966197"
 
 -   [**WS \_ 服務 \_ 安全性身分識別 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_service_security_identities)
 
- 
+ 
 
- 
+ 
 
 
 

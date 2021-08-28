@@ -1,17 +1,17 @@
 ---
 description: 在 TSPI 所定義的電話裝置抽象中，TAPI 和服務提供者必須先進行基本初始化。
 ms.assetid: cd8bb328-fbd0-409c-8471-34ad4c2c8d93
-title: Phone SPI 初始化
+title: 電話SPI 初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d0c54e313c2be3846aeb604217f5324ec0d8a8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88465e31857ee9ecc3a54f98f98bf6d1d3b50b837d845dbf36af08be0ec78a7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072888"
 ---
-# <a name="phone-spi-initialization"></a>Phone SPI 初始化
+# <a name="phone-spi-initialization"></a>電話SPI 初始化
 
 在 TSPI 所定義的電話裝置抽象中，TAPI 和服務提供者必須先進行基本初始化。 這兩個基本初始化是針對介面的線條和電話部分，以相同的一組步驟來完成。 這些步驟的第一個步驟是介面版本協商。 TAPI 藉由呼叫 [**TSPI \_ lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) 函式來執行這項工作。 此函式通常用來代表個別線路裝置進行協商;相同服務提供者內的不同線路裝置可能會根據不同的介面版本運作。 TAPI 會傳遞特殊的保留裝置識別碼值（ [**初始化 \_ 協調**](initialize-negotiation.md)），表示它正在協商影響整個服務提供者的初始化函式的整體介面版本，這兩者都適用于線路和行動電話。
 

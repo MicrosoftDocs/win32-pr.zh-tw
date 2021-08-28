@@ -3,8 +3,8 @@ title: 從用戶端啟用快速快取串流
 description: 從用戶端啟用快速快取串流
 ms.assetid: 2a850d6f-8e1d-4aeb-9791-c51c3debf118
 keywords:
-- Windows Media Format SDK，啟用快取記憶體串流
-- Windows Media Format SDK，快速快取串流
+- Windows媒體格式 SDK，啟用快取記憶體串流
+- Windows媒體格式 SDK，快速快取串流
 - Advanced Systems Format (ASF) ，啟用快速快取串流
 - ASF (Advanced Systems Format) ，啟用快速快取串流
 - Advanced Systems Format (ASF) 、Fast Cache 串流
@@ -13,12 +13,12 @@ keywords:
 - 快取記憶體串流，啟用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3f8423a6f71b86ea91a05ed74b931eaa28a64be
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5b0f02a571d5fac456d4dbc743e5fb936f98342a0ed8e8739d653b659ab7c6f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447618"
 ---
 # <a name="enabling-fast-cache-streaming-from-the-client"></a>從用戶端啟用快速快取串流
 
@@ -34,7 +34,7 @@ ms.locfileid: "104374431"
 
 
 
-| 修飾詞         | Description                                                                                                                                                                                                                                                                                                                                      |
+| 修飾詞         | 描述                                                                                                                                                                                                                                                                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WMCache          | 如果有此修飾詞，值 ' 0 ' 會明確停用快取，而值 ' 1 ' 則會明確啟用快取。                                                                                                                                                                                                                            |
 | WMBitrate        | 此修飾詞會指定伺服器的最大位元速率。 此修飾詞可用來限制快速快取為特定的頻寬限制。 如果已透過呼叫 [**IWMReaderNetworkConfig：： SetConnectionBandwidth**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth)來設定明確的連接頻寬，則會忽略此修飾詞。 |
@@ -42,7 +42,7 @@ ms.locfileid: "104374431"
 
 
 
- 
+ 
 
 無論網路頻寬或內容的位元速率，WMCache = 1 都會強制讀取器使用快速快取串流，而不考慮任何先前對 **SetEnableFastCache** 的呼叫。 但是，它不會覆寫讀取器上的 **SetEnableContentCaching** 設定;也不會覆寫伺服器設定。
 
@@ -58,9 +58,9 @@ mms://MyServer/MyVideo.wmv 嗎？WMCache = 1
 
 mms://MyServer/MyVideo.wmv 嗎？WMCache = 1&WMContentBitrate = 56000
 
- 
+ 
 
- 
+ 
 
 
 

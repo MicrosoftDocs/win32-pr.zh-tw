@@ -4,12 +4,12 @@ ms.assetid: efbea036-de9c-4f92-865a-494161da375e
 title: 浮點例外狀況
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a4db92a13a0215bb372db12d30bb11a749a0fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f2990929b712c65a09dcdae1e88d0a84b03d0f6d6cb3b6070fb3096ca998a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691808"
 ---
 # <a name="floating-point-exceptions"></a>浮點例外狀況
 

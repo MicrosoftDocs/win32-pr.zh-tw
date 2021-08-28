@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5e9a49832ffa1e38fbe6ee0f71e1f6a39c1b0ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25315805a4cabc901fab9b7f28cca6c023fc18389b6d94f8f459c91fd785b361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463733"
 ---
 # <a name="swbemqualifier-object"></a>SWbemQualifier 物件
 
@@ -38,12 +38,12 @@ ms.locfileid: "104192056"
 
 
 
-| 屬性                                                                       | 存取類型           | Description                                                                                           |
+| 屬性                                                                       | 存取類型           | 描述                                                                                           |
 |:-------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------|
 | [**IsAmended**](swbemqualifier-isamended.md)<br/>                       | 唯讀<br/>  | 布林值，指出是否已使用合併作業來當地語系化此限定詞。<br/> |
 | [**IsLocal**](swbemqualifier-islocal.md)<br/>                           | 唯讀<br/>  | 指出此限定詞是否為本機的布林值。<br/>                                   |
 | [**IsOverridable**](swbemqualifier-isoverridable.md)<br/>               | 讀取/寫入<br/> | 指出是否可以在傳播時覆寫此限定詞的布林值。<br/>          |
-| [**Name**](swbemqualifier-name.md)<br/>                                 | 唯讀<br/>  | 此辨識符號的名稱。<br/>                                                                    |
+| [**名稱**](swbemqualifier-name.md)<br/>                                 | 唯讀<br/>  | 此辨識符號的名稱。<br/>                                                                    |
 | [**PropagatesToInstance**](swbemqualifier-propagatestoinstance.md)<br/> | 讀取/寫入<br/> | 布林值，指出此限定詞是否可以傳播至實例。<br/>           |
 | [**PropagatesToSubClass**](swbemqualifier-propagatestosubclass.md)<br/> | 唯讀<br/>  | 指出是否可以將此限定詞傳播至子類別的布林值。<br/>            |
 | [**值**](swbemqualifier-value.md)<br/>                               | 讀取/寫入<br/> | 此辨識符號的變異值。 這是此物件的預設屬性。<br/>              |
@@ -60,8 +60,8 @@ ms.locfileid: "104192056"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemQualifier<br/>                                                        |
 | IID<br/>                      | IID \_ ISWbemQualifier<br/>                                                         |

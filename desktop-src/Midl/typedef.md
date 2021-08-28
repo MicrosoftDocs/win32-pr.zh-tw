@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfce98e5a83f8d2a5e2499a5ceceba755e68f2c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 999f0154de90f589f776a84bf030677c64a68f2471ebdd7a0d9838aa3074fa44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822038"
 ---
 # <a name="typedef-attribute"></a>typedef 屬性
 
@@ -139,6 +139,6 @@ ACF **typedef** 語句會顯示為 ACF 主體的一部分。 請注意，ACF **t
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

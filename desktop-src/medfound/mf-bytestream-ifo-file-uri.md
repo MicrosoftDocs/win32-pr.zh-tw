@@ -4,12 +4,12 @@ ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: 'MF_BYTESTREAM_IFO_FILE_URI 屬性 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c80e015b68272b073c442b4064c80a6787b811
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab4349f3319a875f428921b0a99aefa61e49340c240a87260c1132abcc7c45f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723468"
 ---
 # <a name="mf_bytestream_ifo_file_uri-attribute"></a>MF \_ BYTESTREAM \_ IFO \_ FILE \_ URI 屬性
 
@@ -42,7 +42,7 @@ HTTP 位元組資料流程會在 HTTP 標頭中搜尋 "ifoFileURI.dlna.org" 字�
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                           |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

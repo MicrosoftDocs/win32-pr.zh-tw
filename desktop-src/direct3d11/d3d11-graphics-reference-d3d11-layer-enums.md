@@ -6,12 +6,12 @@ keywords:
 - 列舉，Direct3D 11 層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e1cca3fa500a529930c8d0c39005697045d18b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1af59a6ac6fae73cafdbee3f0d93d019d7a8ee0b472cd979e2ddcaeade387ef4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104971832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460889"
 ---
 # <a name="layer-enumerations"></a>圖層列舉
 

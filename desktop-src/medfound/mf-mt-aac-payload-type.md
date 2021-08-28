@@ -4,12 +4,12 @@ ms.assetid: a032fcf4-2584-4047-adbd-d94d4fc4e841
 title: 'MF_MT_AAC_PAYLOAD_TYPE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3edba98bdac54b12fb6e3e44fb67373f7fce6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c4c7852e5719f2293e21f7f37c761c39a14dca132113c6b9224038c640e3d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940678"
 ---
 # <a name="mf_mt_aac_payload_type-attribute"></a>MF \_ MT \_ AAC \_ 裝載 \_ 類型屬性
 

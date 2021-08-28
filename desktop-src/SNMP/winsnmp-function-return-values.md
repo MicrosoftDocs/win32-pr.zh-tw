@@ -4,16 +4,16 @@ description: 來自 WinSNMP 函式呼叫的傳回值可以是 Microsoft WinSNMP 
 ms.assetid: f0723cc7-fa3b-4a72-93a0-49d40a1fedd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a8e42e7d27b1079398efb2970b385bfc4e732c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b0aee75d85bf2e9b48f0b3172332f4340b21271ec37a9bc1027d63750927710f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142811"
 ---
 # <a name="winsnmp-function-return-values"></a>WinSNMP 函數傳回值
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 來自 WinSNMP 函式呼叫的傳回值可以是 Microsoft WinSNMP 執行為 WinSNMP 應用程式佈建之資源的控制碼。
 
@@ -21,7 +21,7 @@ ms.locfileid: "104023970"
 
 
 
-| 控制碼類型    | Description                       |
+| 控制碼類型    | 描述                       |
 |----------------|-----------------------------------|
 | HSNMP \_ 會話 | 對 WinSNMP 會話的處理       |
 | HSNMP \_ 實體  | SNMP 實體的控制碼          |
@@ -31,7 +31,7 @@ ms.locfileid: "104023970"
 
 
 
- 
+ 
 
 如需詳細資訊，請參閱 [資源控制碼物件](resource-handle-objects.md)。
 
@@ -48,8 +48,8 @@ ms.locfileid: "104023970"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

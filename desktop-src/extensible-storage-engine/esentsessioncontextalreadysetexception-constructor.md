@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7d5d8ff073e6f13027131ca506d3dd513055e0ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96ac016258950d98630413729fb14cac19dd3c7452f9012495c1c969d2f9c717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981618"
 ---
 # <a name="esentsessioncontextalreadysetexception-constructor"></a>EsentSessionCoNtextAlreadySetException 函式
 

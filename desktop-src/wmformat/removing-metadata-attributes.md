@@ -3,18 +3,18 @@ title: 移除中繼資料屬性
 description: 移除中繼資料屬性
 ms.assetid: 44546091-406f-4ae6-914a-942d1b89e0e4
 keywords:
-- Windows Media Format SDK，移除中繼資料屬性
+- Windows媒體格式 SDK，移除中繼資料屬性
 - Advanced Systems Format (ASF) ，移除中繼資料屬性
 - ASF (Advanced Systems Format) ，移除中繼資料屬性
 - 中繼資料，移除屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b10176452dcc78cc3eca898b61c350a157e568
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0e09e00fbba8ca5464ccec570a03bbd4e30935238bc531d36ce220a60150839e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110208"
 ---
 # <a name="removing-metadata-attributes"></a>移除中繼資料屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "104374789"
 > [!Note]  
 > 使用 [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) 方法取得的索引值與使用 [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)方法取得的索引值不相容。 如果您使用某個介面的方法來變更檔案中的屬性，您應該假設先前從其他介面取出的任何索引值都不再有效，而且必須再次取得。 如果可能的話，您應該避免使用 **IWMHeaderInfo** 方法。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -34,9 +34,9 @@ ms.locfileid: "104374789"
 [**使用中繼資料**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

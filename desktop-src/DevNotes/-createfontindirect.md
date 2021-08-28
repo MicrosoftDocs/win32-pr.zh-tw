@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 9859146b994cb7a00220531dc2863b042afa9c65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca45f837fda2652a3262fceef9f11a0ddf273d4891f6ea6c3c9e559d0c8a2929
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758770"
 ---
 # <a name="_createfontindirect-function"></a>\_CreateFontIndirect 函式
 

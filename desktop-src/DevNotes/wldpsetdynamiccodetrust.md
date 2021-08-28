@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: a266563b40d255fe9e904f02e4e4593d4c4d3f33
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5a7277f13596ff3d397c97c8e8260e57e0e444e6943ba68f073f90c90cf3583d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075638"
 ---
 # <a name="wldpsetdynamiccodetrust-function"></a>WldpSetDynamicCodeTrust 函式
 
@@ -57,7 +57,7 @@ HRESULT WINAPI WldpSetDynamicCodeTrust(
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wldp。h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 

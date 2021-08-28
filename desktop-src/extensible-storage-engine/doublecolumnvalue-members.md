@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.doub
 ms:contentKeyID: 55100991
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3bfb5ad97bc46b0fd98f3b49dcb04bf62d2b54fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8751f252f45ba9019b815827eeff0c6f2f9229ef8b5135197c77d2aaf51b7063
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623628"
 ---
 # <a name="doublecolumnvalue-members"></a>DoubleColumnValue 成員
 

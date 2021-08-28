@@ -4,12 +4,12 @@ ms.assetid: ee5faaf6-e230-4084-9829-e8cae8759587
 title: " (Windows 通訊端 2) 的網路術語"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b04e84621cdaec2638762d54f67e5aca7e3d55ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3d0c5fc67932b5c756ae52b9a7ffefef0f18c2728f2b2773de3741d0e5b7d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794768"
 ---
 # <a name="network-terminology-windows-sockets-2"></a> (Windows 通訊端 2) 的網路術語
 

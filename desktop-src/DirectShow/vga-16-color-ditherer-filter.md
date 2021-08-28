@@ -4,12 +4,12 @@ ms.assetid: 0a5f4e92-e703-4487-91b0-15265744004e
 title: VGA 16 色 Ditherer 濾波器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11d343843b002eb205e1d0718b282546bdc19907
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 36aed289a800a992bc061dc9822209bf4c2b5133647d995dfb675c7d5523bd76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071942"
 ---
 # <a name="vga-16-color-ditherer-filter"></a>VGA 16 色 Ditherer 濾波器
 
@@ -38,7 +38,7 @@ VGA 16 色 Ditherer 濾波器會從 RGB 色彩類型轉換成4位色彩，讓 AV
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

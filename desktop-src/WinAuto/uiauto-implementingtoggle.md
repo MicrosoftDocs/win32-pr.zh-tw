@@ -15,12 +15,12 @@ keywords:
 - 介面，IToggleProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723d45326fdf9942682a318282ce4a9784df489c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37f55ff6043fbb7b006802d8967ccf744044f0e841eebcb0fa155f5035075d3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759098"
 ---
 # <a name="toggle-control-pattern"></a>切換控制項模式
 
@@ -56,7 +56,7 @@ ms.locfileid: "104372003"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -73,9 +73,9 @@ ms.locfileid: "104372003"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

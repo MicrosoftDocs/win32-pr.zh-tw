@@ -4,12 +4,12 @@ ms.assetid: 59b3f0b5-f378-41e6-9b49-85a16bb6e008
 title: 完成和部分媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac772c09668ee3db96e42d25b3089fa74be104af
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 104f5509835c1f5f179c61b90f2c5f58636d022f4e5710b4b941e0819585fe85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958788"
 ---
 # <a name="complete-and-partial-media-types"></a>完成和部分媒體類型
 

@@ -4,12 +4,12 @@ ms.assetid: 996c97d6-e4c6-4189-89cb-912d28327453
 title: 'AVEncAudioMapDestChannelN 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c16e8ab45c7ed7dca7a81f72596047598a629db7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 600f7fb92d52839768771434b116ec8d54915b20ab2e0c1f42ffbf0a1b8415b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824408"
 ---
 # <a name="avencaudiomapdestchanneln-property"></a>AVEncAudioMapDestChannelN 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "104317776"
 
 
 
-| 屬性 GUID                            | Description             |
+| 屬性 GUID                            | 描述             |
 |------------------------------------------|-------------------------|
 | **CODECAPI \_ AVEncAudioMapDestChannel0**  | 目的地通道0。  |
 | **CODECAPI \_ AVEncAudioMapDestChannel1**  | 目的地頻道1。  |
@@ -60,8 +60,8 @@ ms.locfileid: "104317776"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0ee371fb-d980-44de-a9bd-201e2b72e874
 title: 'MF_MT_AUDIO_AVG_BYTES_PER_SECOND 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eca86276e816ea1ef058946bad29f1565fe1c841
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff3facedb9d8a175cce6369add7762930d4b1e7d60f565bf31f048ecb9971b67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826408"
 ---
 # <a name="mf_mt_audio_avg_bytes_per_second-attribute"></a>MF \_ MT \_ 音訊 \_ \_ 每秒平均位元組數 \_ \_ 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104193377"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

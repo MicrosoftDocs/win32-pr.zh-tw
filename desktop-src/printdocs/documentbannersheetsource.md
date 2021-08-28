@@ -4,12 +4,12 @@ ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: DocumentBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d33aa949982e98781c42cbf6aa770dbd4e3d1707
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 13d818e657ceaa2298dccc9c557aa56ec94026146b4bc3db95cb731cacb2d947
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112528"
 ---
 # <a name="documentbannersheetsource"></a>DocumentBannerSheetSource
 
@@ -24,7 +24,7 @@ ms.locfileid: "112409471"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                          |
 | 範圍前置詞 <br/> | 文件<br/>                              |
@@ -74,8 +74,8 @@ ms.locfileid: "112409471"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

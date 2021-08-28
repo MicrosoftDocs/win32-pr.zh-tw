@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fde2d9f3d9db362bf48fda66e9da10b91a864bb0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7840514964d098d8e9000179d4b107001b6e4fdafd7e31fb47f405f231de0cd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951768"
 ---
 # <a name="id3dxeffectgetdevice-method"></a>ID3DXEffect：： GetDevice 方法
 

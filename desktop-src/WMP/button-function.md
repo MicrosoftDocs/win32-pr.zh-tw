@@ -3,18 +3,18 @@ title: Button 函數
 description: Button 函數
 ms.assetid: 6dfcf639-5989-4da8-b78d-8e393aba641a
 keywords:
-- Windows Media Player 行動外觀、按鈕功能
+- Windows Media Player行動外觀、按鈕功能
 - 外觀，按鈕功能
 - 外觀、按鈕的參考
 - 面板中的按鈕，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8316fa6ca6256db551a2a3bd9f984af055424edb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c563a7e84902ac2f2f09c8abadc952d70a0b0e1731808ff7b308dc4f1106e65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864468"
 ---
 # <a name="button-function"></a>Button 函數
 
@@ -42,7 +42,7 @@ ms.locfileid: "104301523"
 
 
 
- 
+ 
 
 \*適用于 Windows Media Player 10 行動裝置版或更新版本。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104301523"
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

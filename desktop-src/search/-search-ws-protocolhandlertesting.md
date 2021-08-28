@@ -4,12 +4,12 @@ ms.assetid: 33c99620-7381-4719-9fc6-4c8284481411
 title: 偵錯工具通訊協定處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 321d59c0c7915f9bbf84a80091408ba88a9a75ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b8946b0203c7bc56dd16606ca28e4811bc6328d0cfa87ae55eb2e752657e7da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944488"
 ---
 # <a name="debugging-protocol-handlers"></a>偵錯工具通訊協定處理常式
 

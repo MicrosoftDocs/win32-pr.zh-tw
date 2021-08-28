@@ -4,12 +4,12 @@ ms.assetid: 03cc7abc-63bd-4a01-a05c-9f7928de8827
 title: 安裝應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cf312e7394c4fcbca699f6e032e315a42356c1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74aad6e130d78bd30b940232aeb6fe1da6508be754fe50b9abb9dbcaa0186562
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119327958"
 ---
 # <a name="installing-an-application"></a>安裝應用程式
 

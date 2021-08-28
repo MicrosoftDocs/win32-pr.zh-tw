@@ -4,12 +4,12 @@ description: 本節中的主題提供指標輸入訊息的參考規格，以及�
 ms.assetid: 2324DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 07b099a9d0595278e7eb53960da42714763a7f90
-ms.sourcegitcommit: f2fe9d9bd65333b74f2af8e30eddbb1643b40c8f
+ms.openlocfilehash: a2114224d3bb13ccd1dcd26d9b451eeffca8c3d482d7ab2fedc363044d19b086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "104374210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036106"
 ---
 # <a name="macros"></a>巨集
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 073e511e0aa3bdba877385bc62a8ce04f13cbf6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2f81e1bd437cff9fe8ee2dbb4168c8db16e270dc86542a1527dcd2aa21a99af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943928"
 ---
 # <a name="pointpoint-constructors"></a>Point 函數
 

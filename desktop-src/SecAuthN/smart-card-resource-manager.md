@@ -4,12 +4,12 @@ ms.assetid: 96434996-88fa-47d3-bb44-3ebb23610b27
 title: 智慧卡 Resource Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3ee8e0bf311539863502d3e789544717e6dff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c9d78b1d54a4db3fa8146b2689173c264e8320da024d0dc3e165dd648b8a33d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917507"
 ---
 # <a name="smart-card-resource-manager"></a>智慧卡 Resource Manager
 
@@ -25,11 +25,11 @@ ms.locfileid: "106987718"
 
 您可以透過 resource manager API 直接存取資源管理員，或透過任何智慧卡 [*服務提供者*](../secgloss/s-gly.md)間接存取資源管理員。
 
-資源管理員 API 是一組 Windows 功能，可直接存取 resource manager 的服務。 如需 API 所提供的 Windows 函式總覽，請參閱 [智慧卡 RESOURCE MANAGER api](smart-card-resource-manager-api.md)。 相較之下，智慧卡服務提供者會使用 COM 介面。
+資源管理員 API 是一組 Windows 函式，可讓您直接存取 resource manager 的服務。 如需 api 所提供之 Windows 函式的總覽，請參閱[智慧卡 Resource Manager api](smart-card-resource-manager-api.md)。 相較之下，智慧卡服務提供者會使用 COM 介面。
 
-資源管理員 API 中的許多 Windows 函式在智慧卡服務提供者的 COM 介面的屬性和方法中都有對等專案。 雖然大部分的應用程式開發人員會發現 COM 更容易使用，但有些應用程式仍然需要使用 Windows 功能來執行某些工作。 例如，需要操作 [*智慧卡資料庫*](../secgloss/s-gly.md)中讀取器或讀者群組清單的應用程式，以及需要直接控制讀取器的應用程式，都必須使用 RESOURCE manager API。 提供這些功能的服務僅適用于 Windows 函式，而不是在服務提供者提供的 COM 中。
+資源管理員 API 中的許多 Windows 函式在智慧卡服務提供者的 COM 介面的屬性和方法中都有對等專案。 雖然大部分的應用程式開發人員會發現 COM 更容易使用，但有些應用程式仍然需要使用 Windows 函式來執行特定工作。 例如，需要操作 [*智慧卡資料庫*](../secgloss/s-gly.md)中讀取器或讀者群組清單的應用程式，以及需要直接控制讀取器的應用程式，都必須使用 RESOURCE manager API。 提供這些功能的服務僅適用于 Windows 函式，而不是服務提供者所提供的 COM。
 
-如需有關如何在 Windows 中執行 [*資源管理員*](../secgloss/r-gly.md) 的詳細資訊，請參閱 [Resource Manager 執行](resource-manager-implementation.md)。
+如需有關如何在 Windows 中執行 [*資源管理員*](../secgloss/r-gly.md)的詳細資訊，請參閱 [Resource Manager 執行](resource-manager-implementation.md)。
 
  
 

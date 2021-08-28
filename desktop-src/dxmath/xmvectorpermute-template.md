@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)
 title: 'XMVectorPermute template (DirectXMath) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37271cbb165f1e9c1769ef3a55e47f1e07310a81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd3f7071edaf659991c1294d29a154d3a319d5faee982537025e107cf9621f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978668"
 ---
 # <a name="xmvectorpermute-template"></a>XMVectorPermute 範本
 
@@ -65,7 +65,7 @@ template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t Permu
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

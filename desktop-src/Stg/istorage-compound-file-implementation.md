@@ -6,12 +6,12 @@ keywords:
 - IStorage Strctd Stg.，複合檔案執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bf37b24a7c68bbe357d99f94e666bfcb613c472
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ab243189d5a8cfb3e053c66bcd752d05bb65ab965657778a3bc3250c30ef8e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992409"
 ---
 # <a name="istorage-compound-file-implementation"></a>IStorage-Compound 檔案的執行
 
@@ -190,6 +190,6 @@ ms.locfileid: "106965652"
 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

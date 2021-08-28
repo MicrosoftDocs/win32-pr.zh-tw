@@ -4,12 +4,12 @@ ms.assetid: 16c6728a-966b-436f-902d-3e12368986b6
 title: 摘要挑戰的內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f90dd78ae28536f6e2d07882f69335975df14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5a0f6ee840e4965ff9615052b57102409a977e5a90660772e963eaf06eb9875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883158"
 ---
 # <a name="contents-of-a-digest-challenge"></a>摘要挑戰的內容
 
@@ -32,7 +32,7 @@ algorithm = "MD5-sess\", qop=\"auth\", nonce=\"0123456789abcdef\"";
 
 
 
-| 指示詞         | Description                                                                                                                                                                                                                                                                                            |
+| 指示詞         | 描述                                                                                                                                                                                                                                                                                            |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | realm             | 對用戶端所需之 [*認證*](/windows/desktop/SecGloss/c-gly) 的執行定義提示。 如果使用者提示輸入認證，用戶端應該向使用者顯示此資訊。                                                  |
 | 演算法         | Microsoft Digest 支援 MD5 和 MD5 Ses 之始。 為了達到最佳效能，請使用 MD5-Ses 之始。                                                                                                                                                                                                                     |

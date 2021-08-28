@@ -4,12 +4,12 @@ ms.assetid: 48f5d9bc-f20d-4364-8ec1-0b4bdc9cfcb4
 title: 'LINE_AGENTSTATUS 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b98242745e2f025f95cfe06fbe22c8956a02b0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a32335e59352b773f84e8a0725c6fd97de679670cbd237f87c3e629985feb43a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959868"
 ---
 # <a name="line_agentstatus-message"></a>行 \_ AGENTSTATUS 訊息
 

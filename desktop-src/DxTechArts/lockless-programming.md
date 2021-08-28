@@ -4,12 +4,12 @@ description: 本文概述在嘗試使用 lockless 的程式設計技術時，應
 ms.assetid: 44700352-a791-7ef7-0858-146214b0e3da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23bf8d66cada8aff00735fe6d6ac2d4f1369bc32
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 4ee9ad19fa15d9f0dc2671e77c7fb2408c96362420ddd70d6e6ad7795ba5b5f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "103933712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042558"
 ---
 # <a name="lockless-programming-considerations-for-xbox-360-and-microsoft-windows"></a>Xbox 360 和 Microsoft Windows 的 Lockless 程式設計考量
 
@@ -169,7 +169,7 @@ Xbox 360 上的寫入不會直接移至 L2 快取。 相反地，若要改善 L2
 
 ### <a name="xbox-360"></a>Xbox 360
 
-快取遺漏可能會導致某些讀取延遲，這會有效地導致讀取不按照順序來自共用的記憶體，而這些快取遺漏的時間根本是無法預期的。 預先提取和分支預測也可能會導致資料從共用記憶體中不按照順序。 這些只是幾個範例，說明如何將讀取重新排序。 可能還有其他可能性。 PowerPC 記憶體模型特別允許這項讀取重新排列。
+快取遺漏可能會導致某些讀取延遲，這會有效地導致讀取不按照順序來自共用的記憶體，而這些快取遺漏的時間根本是無法預期的。 預先提取和分支預測也可能會導致資料從共用記憶體中不按照順序。 這些只是幾個範例，說明如何將讀取重新排序。 可能還有其他可能性。 這項讀取的重新排列是 PowerPC 記憶體模型特別允許的。
 
 ### <a name="x86-and-x64"></a>x86 和 x64
 
@@ -215,7 +215,7 @@ void P1Acquire()
 
 x86 和 x64 Cpu 將不會重新排序先前讀取之前的寫入。 x86 和 x64 Cpu 只會在以不同的位置為目標時，重新排序先前寫入之前的讀取。
 
-PowerPC Cpu 可以在寫入之前重新排列讀取的順序，並可在讀取前重新排序寫入，只要它們是不同的位址即可。
+PowerPCCpu 可以在寫入之前重新排列讀取的順序，並可在讀取前重新排序寫入，只要它們是不同的位址即可。
 
 ### <a name="reordering-summary"></a>重新排列摘要
 
@@ -333,7 +333,7 @@ for( int i = 0; i < numSprites; ++i )
 
 ## <a name="preventing-cpu-reordering"></a>防止 CPU 重新排序
 
-重新調整 CPU 比編譯器重新排列更為微妙。 您看不到直接發生的情況，只是看到 inexplicable 的錯誤。 為了防止 CPU 重新排序讀取和寫入，您必須在某些處理器上使用記憶體屏障指令。 Xbox 360 和 Windows 上的記憶體屏障指令的所有用途名稱都是 [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier)。 此宏會針對每個平臺適當地執行。
+重新調整 CPU 比編譯器重新排列更為微妙。 您看不到直接發生的情況，只是看到 inexplicable 的錯誤。 為了防止 CPU 重新排序讀取和寫入，您必須在某些處理器上使用記憶體屏障指令。 記憶體關卡指令的所有用途名稱（在 Xbox 360 和 Windows 上）都是 [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier)。 此宏會針對每個平臺適當地執行。
 
 在 Xbox 360 上， [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier)定義為 **lwsync** (輕量同步) ，也可透過 **\_ \_ lwsync** 內建（定義于 ppcintrinsics 中）來使用。 **\_ \_ lwsync** 也可作為編譯器記憶體屏障，以防止編譯器重新排列讀取和寫入。
 
@@ -354,7 +354,7 @@ for( int i = 0; i < numSprites; ++i )
 
 PowerPC 也有同步處理指示 **isync** 和 **eieio** (，可用來控制重新排列至快取-抑制記憶體) 。 一般同步處理用途不需要這些同步處理指示。
 
-在 Windows 上， [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) 是在 Winnt 中定義，並根據您要針對 x86 或 x64 編譯而提供不同的記憶體屏障指令。 記憶體關卡指令可做為完整的關卡，防止所有屏障的讀取和寫入重新排列。 因此，Windows 上的 **system.threading.thread.memorybarrier** 提供比 Xbox 360 更強的重新排序保證。
+在 Windows 上， [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier)會定義于 Winnt 中，並根據您要針對 x86 或 x64 編譯而提供不同的記憶體屏障指令。 記憶體關卡指令可做為完整的關卡，防止所有屏障的讀取和寫入重新排列。 因此， **system.threading.thread.memorybarrier** on Windows 可提供比 Xbox 360 更強的重新排序保證。
 
 在 Xbox 360 以及許多其他 Cpu 上，都有一種額外的方式可以防止 CPU 進行讀取重新排列。 如果您讀取指標，然後使用該指標載入其他資料，CPU 可保證讀取指標的次數不會比讀取指標還舊。 如果您的鎖定旗標是指標，且共用資料的所有讀取都不是指標，則可以省略 [**system.threading.thread.memorybarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) ，以節省適度的效能。
 
@@ -377,13 +377,13 @@ if( localPointer )
 
 ## <a name="interlocked-functions-and-cpu-reordering"></a>連鎖函數和 CPU 重新排列
 
-有時會使用其中一個 **InterlockedXxx** 函數來取得或釋放資源的讀取或寫入。 在 Windows 中，這可簡化專案;因為在 Windows 上， **InterlockedXxx** 函式都是完全記憶體的阻礙。 它們在前後都有一個 CPU 記憶體屏障，這表示它們本身是完整的讀取或寫入發行關卡。
+有時會使用其中一個 **InterlockedXxx** 函數來取得或釋放資源的讀取或寫入。 在 Windows，這可簡化專案;因為在 Windows 上， **InterlockedXxx** 函式是所有的記憶體不足的阻礙。 它們在前後都有一個 CPU 記憶體屏障，這表示它們本身是完整的讀取或寫入發行關卡。
 
 在 Xbox 360 上， **InterlockedXxx** 函數不會包含 CPU 記憶體阻礙。 它們可防止編譯器重新排序讀取和寫入，而不會重新排列 CPU。 因此，在大部分情況下，在 Xbox 360 上使用 **InterlockedXxx** 函式時，您應該在其前面或後面加上 **\_ \_ lwsync**，使其成為讀取或寫入發行關卡。 為了方便起見，而且更容易閱讀，有許多 **InterlockedXxx** 函式的 **取得** 和 **發行** 版。 這些都有內建的記憶體屏障。 例如， [**InterlockedIncrementAcquire**](/previous-versions/windows/desktop/legacy/ms683618(v=vs.85))會執行連鎖的遞增，後面接著 **\_ \_ lwsync** 的記憶體屏障，以提供完整的讀取取得功能。
 
-建議您使用 **InterlockedXxx** 函式的 **取得** 和 **發行** 版 (大多數都可在 Windows 上使用，但不會對效能造成負面影響) 讓您的意圖更加明顯，並讓您更輕鬆地在正確的位置取得記憶體關卡指令。 在 Xbox 360 上使用 **InterlockedXxx** 時，若沒有記憶體屏障，則應謹慎檢查，因為這通常是錯誤。
+建議您使用 **InterlockedXxx** 函式的 **取得** 和 **發行** 版 (大多數都可在 Windows 上取得，而不會對效能造成負面影響) 讓您的意圖更清楚，並讓您更輕鬆地在正確的位置取得記憶體關卡指令。 在 Xbox 360 上使用 **InterlockedXxx** 時，若沒有記憶體屏障，則應謹慎檢查，因為這通常是錯誤。
 
-這個範例會示範一個執行緒如何使用 **InterlockedXxxSList** 函式的 **取得** 和 **發行** 版，將工作或其他資料傳遞到另一個執行緒。 **InterlockedXxxSList** 函式是一系列的函式，用來維護共用的單向連結清單，而不需要鎖定。 請注意，這些函式的 **取得** 和 **版本** 變體在 windows 上無法使用，但這些函式的一般版本是 windows 上的完整記憶體屏障。
+這個範例會示範一個執行緒如何使用 **InterlockedXxxSList** 函式的 **取得** 和 **發行** 版，將工作或其他資料傳遞到另一個執行緒。 **InterlockedXxxSList** 函式是一系列的函式，用來維護共用的單向連結清單，而不需要鎖定。 請注意，這些函式的 **取得** 和 **版本** 變體在 Windows 上無法使用，但這些函式的一般版本是 Windows 上的完整記憶體屏障。
 
 ``` syntax
 // Declarations for the Task class go here.
@@ -411,7 +411,7 @@ C + + 標準指出無法快取 volatile 變數的讀取、volatile 寫入無法�
 
 但是，標準的保證並不足以針對多執行緒使用 volatile。 C + + 標準不會阻止編譯器重新排列相對於 volatile 讀取和寫入的非暫時性讀取和寫入，且不會顯示任何關於防止重新調整 CPU 的資訊。
 
-Visual C++ 2005 超越標準 c + +，以針對 volatile 變數存取定義多執行緒易懂的語法。 從 Visual C++ 2005 開始，會將 volatile 變數的讀取定義為具有讀取取得的語法，而 volatile 變數的寫入則定義為具有寫入發行語義。 這表示編譯器將不會重新排列任何超出它們的讀取和寫入，而在 Windows 上，則會確保 CPU 不會執行這項作業。
+Visual C++ 2005 超越標準 c + +，以針對 volatile 變數存取定義多執行緒易懂的語法。 從 Visual C++ 2005 開始，會將 volatile 變數的讀取定義為具有讀取取得的語法，而 volatile 變數的寫入則定義為具有寫入發行語義。 這表示編譯器將不會重新排列任何超出它們的讀取和寫入，而且 Windows 它可確保 CPU 不會執行任何動作。
 
 請務必瞭解這些新的保證只適用于 Visual C++ 2005 和未來版本的 Visual C++。 其他廠商的編譯器通常會執行不同的語法，而不會有 Visual C++ 2005 的額外保證。 此外，在 Xbox 360 上，編譯器不會插入任何指示，以防止 CPU 重新排序讀取和寫入。
 
@@ -441,7 +441,7 @@ Windows 上的同步處理指示和函式的效能，會隨著處理器類型和
 -   取得或釋放重要區段的測量是採用40-100 週期。
 -   取得或釋放 mutex 的測量是大約大約750-2500 迴圈。
 
-這些測試是在 Windows XP 上的各種不同處理器上完成。 在單處理器電腦上會有較短的時間，而在多處理器電腦上則是較長的時間。
+這些測試是在不同處理器上的 Windows XP 上完成。 在單處理器電腦上會有較短的時間，而在多處理器電腦上則是較長的時間。
 
 雖然取得和釋放鎖定的成本比使用 lockless 程式設計更高，但更能更頻繁地共用資料，進而避免成本。
 
@@ -457,8 +457,8 @@ Lockless 演算法不保證會比使用鎖定的演算法更快。 您應該先�
 
 ## <a name="platform-differences-summary"></a>平臺差異摘要
 
--   **InterlockedXxx** 函式會防止在 Windows 上重新排列 CPU 的讀取/寫入，而不是 Xbox 360。
--   使用 Visual Studio c + + 2005 讀取和寫入 volatile 變數，可避免在 Windows 上重新排列 CPU 的讀取/寫入，但是在 Xbox 360 上，它只會防止編譯器的讀取/寫入重新排列。
+-   **InterlockedXxx** 函式會在 Windows 上防止 CPU 讀取/寫入重新排列，但 Xbox 360 不會重新排列。
+-   使用 Visual Studio c + + 2005 讀取和寫入 volatile 變數，可避免 Windows 上的 CPU 讀取/寫入重新排列，但是在 Xbox 360 上，它只會防止編譯器的讀取/寫入重新排列。
 -   寫入會在 Xbox 360 上重新排序，但不會在 x86 或 x64 上重新排序。
 -   讀取會在 Xbox 360 上重新排序，但是在 x86 或 x64 上，它們只會重新排列相對於寫入的順序，而且只有在讀取和寫入目標不同位置時才會重新排序。
 
@@ -477,7 +477,7 @@ Lockless 演算法不保證會比使用鎖定的演算法更快。 您應該先�
 
 -   MSDN Library。 「[**volatile (c + +)**](https://msdn.microsoft.com/library/12a04hfd(v=VS.71).aspx)」。 C + + 語言參考。
 -   Vance Morrison。 「[瞭解多執行緒應用程式中 Low-Lock 技術的影響](/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps)」。 2005年10月的 MSDN 雜誌。
--   Lyons，Michael。 「[PowerPC 儲存體模型與 AIX 程式設計](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)」。 IBM developerWorks，16 11 月2005日。
+-   Lyons，Michael。 「[PowerPC 儲存體模型和 AIX 程式設計](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)」。 IBM developerWorks，16 11 月2005日。
 -   McKenney，Paul E. "[新式微處理器中的記憶體順序，第二部分](https://www.linuxjournal.com/article/8212)。" Linux 日誌，2005年9月。 \[本文有一些 x86 詳細資料。\]
 -   Intel Corporation。 「[Intel®64架構記憶體順序](https://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf)」。 2007年8月。 \[適用于 IA-32 和 Intel 64 處理器。\]
 -   Niebler、Eric。 「[旅程報表： c + + 中線程](https://www.artima.com/cppsource/threads_meeting.html)的臨機操作會議」。 C + + 來源，2006 10 月17日。

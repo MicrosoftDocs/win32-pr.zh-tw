@@ -4,12 +4,12 @@ ms.assetid: 7bd4d725-de17-4801-bd06-8d47a777409d
 title: 保護自動登入密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25508af4de64554e664426db3e786a1eca34579b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b43435afaef5820bdfeb8eda1c092904858e05f11de2f718450f5b5c76058bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920666"
 ---
 # <a name="protecting-the-automatic-logon-password"></a>保護自動登入密碼
 

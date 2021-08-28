@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d00ca6ad8626933b39a82b2288f89454225ed47f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8172f4b86a212923d890d4f496ceb1e4e09b010488cd6d3eb94d8d1a2161634f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923248"
 ---
 # <a name="schema-version-attribute"></a>Schema-Version 屬性
 

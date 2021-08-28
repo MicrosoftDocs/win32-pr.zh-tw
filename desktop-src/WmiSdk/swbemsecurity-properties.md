@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemSecurity 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 582df355954e3a2f548820d51df5233c53539720
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c0087d6f968db39febc33c04355c1af75388ad328edc03735e1a74b3987c839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503268"
 ---
 # <a name="swbemsecurity-properties"></a>SWbemSecurity 屬性
 

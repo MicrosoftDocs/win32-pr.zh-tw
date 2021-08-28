@@ -4,20 +4,20 @@ ms.assetid: f0fc7ab9-7653-45c5-be06-a628c6c3e526
 title: 平板電腦
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c444a9dc2b08c75635335d5bb3b6f6330359f3
-ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
+ms.openlocfilehash: bda61d8cfae3fdf9d621d55df72d99931239e2dddd17b73f79c40880fb064b90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112449891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820168"
 ---
 # <a name="tablet-pc"></a>平板電腦
 
 Tablet PC 是一種功能完整的個人電腦，適用于已啟用畫筆、手寫功能和語音功能的應用程式。 Tablet PC 中的軟體和硬體組合可提供這些使用者互動方法，並可讓使用者以豐富、互動式且有效率的方式計算體驗。
 
-Windows 中的 tablet PC 技術可讓您在 Tablet PC 上輸入和輸出手寫和語音資料，以及將此資料與其他電腦交換。
+Windows 中的 tablet pc 技術可在 tablet pc 上輸入和輸出手寫和語音資料，以及將此資料與其他電腦交換。
 
-在 Windows 7 中引進的 Windows Touch 可為使用者啟用多點觸控手勢和改良的觸控體驗。
+Windows在 Windows 7 中引進的觸控功能，可為使用者啟用多點觸控手勢和改良的觸控體驗。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -33,7 +33,7 @@ Windows 中的 tablet PC 技術可讓您在 Tablet PC 上輸入和輸出手寫�
 
 -   [Tablet PC API 參考](tablet-pc-api-reference.md)
 
-    描述 managed 程式庫和自動化 API 和筆墨控制項，例如 [InkEdit](inkedit-control-reference.md) 和 [InkPicture](inkpicture-control-reference.md) 控制項，可讓您用來建立支援 Windows Touch 的 Tablet PC 和電腦的應用程式。
+    描述 managed 程式庫和自動化 API 和筆墨控制項，例如[InkEdit](inkedit-control-reference.md)和[InkPicture](inkpicture-control-reference.md)控制項，可讓您用來建立支援 Windows Touch 的 Tablet PC 和電腦的應用程式。
 
 -   [附錄](appendices.md)
 

@@ -4,12 +4,12 @@ ms.assetid: A2D0D6A0-30CB-435B-A5CD-A6FB001C46ED
 title: 'CODECAPI_VideoEncoderDisplayContentType 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c11c34549bea4682258ecdd2c2a1cf46bf2e8a84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d48a4b95f8e80430a22f54a5665e7ed58046b0652a087b2710d98c750b6533f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959038"
 ---
 # <a name="codecapi_videoencoderdisplaycontenttype-property"></a>CODECAPI \_ VideoEncoderDisplayContentType 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106973990"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

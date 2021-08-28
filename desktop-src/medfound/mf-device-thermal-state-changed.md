@@ -4,12 +4,12 @@ ms.assetid: 7F656E64-CE72-4DF8-9094-1EBBAE3A81E5
 title: 'MF_DEVICE_THERMAL_STATE_CHANGED 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37906f8c59a8c0f22eeeb471ce2e882e8dd1aa91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 748f8105012f7a796d9e460999f27cb4227f3daee88b65ed1f53e3a16bd6f271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464228"
 ---
 # <a name="mf_device_thermal_state_changed-attribute"></a>MF \_ 裝置 \_ 熱 \_ 狀態 \_ 已變更屬性
 

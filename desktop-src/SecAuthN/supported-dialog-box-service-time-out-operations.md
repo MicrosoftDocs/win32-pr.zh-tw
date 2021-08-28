@@ -4,18 +4,18 @@ ms.assetid: b1dfd7dc-cc00-4f1a-a157-c60b5d0f0b13
 title: 支援的對話方塊服務超時作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 274950cadd45cd4e7e3be890da0e4350a4d0c5ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7715cafb426a59bd9773791788dd9914fff0c1fac4a5b820e9cc06416e966eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916447"
 ---
 # <a name="supported-dialog-box-service-time-out-operations"></a>支援的對話方塊服務超時作業
 
 [*Winlogon*](../secgloss/w-gly.md) 會執行兩個超時作業，一個用於安全對話方塊，另一個用於啟用和終止螢幕保護裝置。
 
-在顯示安全的對話方塊時（例如登入或解除鎖定工作站），Winlogon 可以超時對話方塊，並將適當的結果碼傳回到對話方塊程式。 Winlogon 提供一組 [*GINA*](../secgloss/g-gly.md)的對話方塊支援功能。 GINA 必須使用這些函式，而不是其 Windows 對應項，以確保 GINA 和 Winlogon 維持適當的控制對話方塊。 若無法使用這些函式的 Winlogon 版本，可能會導致未經授權的使用者取得系統的存取權。
+在顯示安全的對話方塊時（例如登入或解除鎖定工作站），Winlogon 可以超時對話方塊，並將適當的結果碼傳回到對話方塊程式。 Winlogon 提供一組 [*GINA*](../secgloss/g-gly.md)的對話方塊支援功能。 GINA 必須使用這些函式，而不是其 Windows 的對應專案，以確保 GINA 和 Winlogon 維持適當的對話方塊控制。 若無法使用這些函式的 Winlogon 版本，可能會導致未經授權的使用者取得系統的存取權。
 
 Winlogon 對話方塊服務是由下列支援功能所提供。
 
@@ -23,11 +23,11 @@ Winlogon 對話方塊服務是由下列支援功能所提供。
 
 | Support 函數                                               | Description                                                                                      |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**WlxMessageBox**](/windows/win32/api/winwlx/nc-winwlx-pwlx_message_box)                         | 類似于 Windows [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox) 函數。                         |
-| [**WlxDialogBox**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box)                           | 類似于 Windows [**對話方塊**](/windows/win32/api/winuser/nf-winuser-dialogboxa) 函數。                           |
-| [**WlxDialogBoxIndirect**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect)           | 類似于 Windows [**DialogBoxIndirect**](/windows/win32/api/winuser/nf-winuser-dialogboxindirecta) 函數。           |
-| [**WlxDialogBoxParam**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_param)                 | 類似于 Windows [**DialogBoxParam**](/windows/win32/api/winuser/nf-winuser-dialogboxparama) 函數。                 |
-| [**WlxDialogBoxIndirectParam**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param) | 類似于 Windows [**DialogBoxIndirectParam**](/windows/win32/api/winuser/nf-winuser-dialogboxindirectparama) 函數。 |
+| [**WlxMessageBox**](/windows/win32/api/winwlx/nc-winwlx-pwlx_message_box)                         | 類似于 Windows [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox)函數。                         |
+| [**WlxDialogBox**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box)                           | 類似于 Windows [**對話方塊**](/windows/win32/api/winuser/nf-winuser-dialogboxa)函數。                           |
+| [**WlxDialogBoxIndirect**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect)           | 類似于 Windows [**DialogBoxIndirect**](/windows/win32/api/winuser/nf-winuser-dialogboxindirecta)函數。           |
+| [**WlxDialogBoxParam**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_param)                 | 類似于 Windows [**DialogBoxParam**](/windows/win32/api/winuser/nf-winuser-dialogboxparama)函數。                 |
+| [**WlxDialogBoxIndirectParam**](/windows/win32/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param) | 類似于 Windows [**DialogBoxIndirectParam**](/windows/win32/api/winuser/nf-winuser-dialogboxindirectparama)函數。 |
 
 
 

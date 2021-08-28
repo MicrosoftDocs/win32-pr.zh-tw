@@ -4,12 +4,12 @@ ms.assetid: e44999c8-cd0e-4653-a191-a7a7ea8e6bec
 title: FrameWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0173133504fba17fb4c9bcc88c6f1c80da406fe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ff85994070f146c62fbd84a792daf1f8837231bdba8b284f8d988cde8c5bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944968"
 ---
 # <a name="systemvideoframewidth"></a>FrameWidth
 

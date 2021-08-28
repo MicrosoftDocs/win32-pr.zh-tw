@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c440d8cb5c720bf6922707f04bc75e2383755c1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a5fd02168c19a5424ef455380bd9e1251f2e8f6c48a9dd8ea5ec4e9e1a1b1e4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104190994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759908"
 ---
 # <a name="setdnsdomain-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetDNSDomain 方法 \_
 
@@ -416,7 +416,7 @@ TechNet 資源庫上的為 [網路介面卡 VBScript 程式碼範例指派 Dns �
 
 在 TechNet 資源庫上 [修改電腦 VBScript 程式](https://Gallery.TechNet.Microsoft.Com/3d5ae334-1d75-4cea-8079-78c6bd836faf) 代碼範例的 tcp/ip 設定會使用 **SetDNSDomain** 來修改網路介面卡的 tcp/ip 設定。
 
-TechNet 資源庫上的電腦 VBScript 範例上的 [啟用 Dhcp 設定](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) ，會使用 **SetDNSDomain** 來設定在電腦上啟用 DHCP 時通常需要的所有設定。
+TechNet 資源庫上的「在 [電腦上啟用 dhcp 設定](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125)」 VBScript 範例會使用 **SetDNSDomain** 來設定在電腦上啟用 DHCP 時通常需要的所有設定。
 
 ## <a name="requirements"></a>規格需求
 

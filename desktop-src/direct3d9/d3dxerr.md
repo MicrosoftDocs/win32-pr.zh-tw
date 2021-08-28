@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9.h
-ms.openlocfilehash: 1c1dd03500a493b30d7c1d3bfdfdf800b65a6d82
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2fc6f72ab88a3c85eff592e289364a1f67eb9c220a7592397eda14b8bf4aace6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988508"
 ---
 # <a name="d3dxerr-enumeration"></a>D3DXERR 列舉
 
