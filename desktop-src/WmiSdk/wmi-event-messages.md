@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 事件訊息
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 543e7131ac0c73a9f1e0f111dafe90197989a33d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7bb2b0a732d79c8b8c11e8bd14a217ef1ee81eb29bead4a885003ea98f82898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120708"
 ---
 # <a name="wmi-event-messages"></a>WMI 事件訊息
 
@@ -161,7 +161,7 @@ Windows Management Instrumentation 服務偵測到目錄 *% windir% \\ system32 
 
 
 
-Windows Management Instrumentation ADAP 無法連接到命名空間 %1，錯誤： %2。
+WindowsManagement Instrumentation ADAP 無法連接到命名空間 %1，發生下列錯誤 %2。
 
 
 </dt> </dl> </dd> <dt>
@@ -174,7 +174,7 @@ Windows Management Instrumentation ADAP 無法連接到命名空間 %1，錯誤�
 
 
 
-Windows Management Instrumentation ADAP 無法在命名空間 %2 中儲存物件 %1，因為發生下列錯誤 %3。
+WindowsManagement Instrumentation ADAP 無法在命名空間 %2 中儲存物件 %1，因為發生下列錯誤 %3。
 
 
 </dt> </dl> </dd> <dt>
@@ -187,7 +187,7 @@ Windows Management Instrumentation ADAP 無法在命名空間 %2 中儲存物件
 
 
 
-Windows Management Instrumentation ADAP 無法 \_ 在 %1 中建立 Win32 效能基底類別：結果 = %2。
+WindowsManagement Instrumentation ADAP 無法 \_ 在 %1 中建立 Win32 效能基底類別：結果 = %2。
 
 
 </dt> </dl> </dd> <dt>
@@ -200,7 +200,7 @@ Windows Management Instrumentation ADAP 無法 \_ 在 %1 中建立 Win32 效能�
 
 
 
-Windows Management Instrumentation ADAP 無法建立 Win32 \_ PerfRawData 基類 %1。
+WindowsManagement Instrumentation ADAP 無法建立 Win32 \_ PerfRawData 基類 %1。
 
 
 </dt> </dl> </dd> <dt>
@@ -239,7 +239,7 @@ Windows Management Instrumentation 服務無法在目錄 *% windir% \\ system32 
 
 
 
-Windows Management Instrumentation 服務無法以非同步方式傳遞 %1 命名空間的結果。 命名空間會以 RequiresEncryption 標示，但 WinMgmt 無法與用戶端電腦建立安全的連線。 請確定用戶端與伺服器電腦之間有信任關係，讓用戶端能夠辨識伺服器電腦帳戶。
+WindowsManagement Instrumentation 服務無法以非同步方式傳遞 %1 命名空間的結果。 命名空間會以 RequiresEncryption 標示，但 WinMgmt 無法與用戶端電腦建立安全的連線。 請確定用戶端與伺服器電腦之間有信任關係，讓用戶端能夠辨識伺服器電腦帳戶。
 
 
 </dt> </dl> </dd> <dt>
@@ -252,7 +252,7 @@ Windows Management Instrumentation 服務無法以非同步方式傳遞 %1 命�
 
 
 
-Windows Management Instrumentation 已停止 WMIPRVSE.EXE，因為配額達到警告值。 配額： %1 值： %2 最大值： %3 WMIPRVSE PID： %4。
+Windows管理檢測已停止 WMIPRVSE.EXE，因為配額達到警告值。 配額： %1 值： %2 最大值： %3 WMIPRVSE PID： %4。
 
 
 </dt> </dl> </dd> <dt>
@@ -278,7 +278,7 @@ Windows Management Instrumentation 已停止 WMIPRVSE.EXE，因為配額達到�
 
 
 
-Windows Management Instrumentation 服務已順利啟動。
+WindowsManagement Instrumentation 服務已順利啟動。
 
 
 </dt> </dl> </dd> <dt>
@@ -291,7 +291,7 @@ Windows Management Instrumentation 服務已順利啟動。
 
 
 
-已成功初始化 Windows Management Instrumentation 服務子系統。
+Windows已成功初始化 Management Instrumentation 服務子系統。
 
 
 </dt> </dl> </dd> <dt>
@@ -317,7 +317,7 @@ Windows Management Instrumentation 服務已順利啟動。
 
 
 
-已使用自動復原機制成功重新建立 Windows Management Instrumentation 存放庫。
+Windows已使用自動復原機制成功重新建立 Management Instrumentation 存放庫。
 
 
 </dt> </dl> </dd> </dl>

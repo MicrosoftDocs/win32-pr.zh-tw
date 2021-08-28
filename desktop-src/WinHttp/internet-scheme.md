@@ -4,12 +4,12 @@ ms.assetid: 31e45879-807e-4dd5-9f99-94a46011e55e
 title: 'INTERNET_SCHEME (WinHTTP. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7b73dcc13b2623e3a6f28d2d49d1965464070f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0429d07ef366acdc881a82373194e153ad3c8f367172b7e64221ecf479e7bf3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644018"
 ---
 # <a name="internet_scheme"></a>網際網路 \_ 配置
 
@@ -75,8 +75,8 @@ SOCKS 網際網路配置。 此配置僅支援在 [**WINHTTP \_ PROXY \_ 結果 
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>      |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>   |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>      |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>   |
 | 標頭<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 

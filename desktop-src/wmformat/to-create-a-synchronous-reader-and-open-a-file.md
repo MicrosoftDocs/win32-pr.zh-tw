@@ -11,12 +11,12 @@ keywords:
 - 同步讀取器，開啟檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e222c046a685885fa9e17baa52d0161176551ff3
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 52d1c6897c05bb0d843e5818f078df5235a5afac4a485d6a719ab86b8e4f8267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106969696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807648"
 ---
 # <a name="to-create-a-synchronous-reader-and-open-a-file"></a>建立同步讀取器並開啟檔案
 
@@ -37,9 +37,9 @@ ms.locfileid: "106969696"
 [**使用同步讀取器讀取檔案**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

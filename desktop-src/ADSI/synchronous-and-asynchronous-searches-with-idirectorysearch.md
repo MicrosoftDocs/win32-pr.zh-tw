@@ -8,12 +8,12 @@ keywords:
 - ADSI、搜尋、>idirectorysearch、其他搜尋選項、同步和非同步搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f369d45aaf4453d310c4bac2259bfa9cd089f567
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3891351bc7ebb9872938f3022f5397100e0be74ca6cd2d86d21a2535f010cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690195"
 ---
 # <a name="synchronous-and-asynchronous-searches-with-idirectorysearch"></a>使用 >idirectorysearch 進行同步和非同步搜尋
 
@@ -37,9 +37,9 @@ SearchPref.vValue.Boolean = TRUE;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

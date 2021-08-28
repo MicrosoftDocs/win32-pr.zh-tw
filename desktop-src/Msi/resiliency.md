@@ -1,19 +1,19 @@
 ---
 description: 復原是指應用程式從遺失重要元件，或已被不相容版本取代的情況下，能夠正常復原的能力。
 ms.assetid: c0504a84-6d51-4734-a55d-f1d1ebcb3e73
-title: 災害復原
+title: 復原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6d57e5c5a342a8e1c295afd97a69fe2828362a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73565a129c25b19e0fb362e5363626f1acfee0387b2d4e4826f79222e7425b96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810778"
 ---
-# <a name="resiliency"></a>災害復原
+# <a name="resiliency"></a>復原
 
-復原是指應用程式從遺失重要元件，或已被不相容版本取代的情況下，能夠正常復原的能力。 藉由撰寫安裝套件並使用 [安裝程式功能](installer-functions.md)，開發人員可以使用 Windows Installer 來產生可從這類情況復原的復原應用程式。
+復原是指應用程式從遺失重要元件，或已被不相容版本取代的情況下，能夠正常復原的能力。 藉由撰寫安裝套件並使用[安裝程式功能](installer-functions.md)，開發人員可以使用 Windows Installer 來產生可從這類情況復原的復原應用程式。
 
 -   使用安裝程式的來源清單來提高依賴網路資源的應用程式的復原能力。 如需詳細資訊，請參閱 [來源復原](source-resiliency.md)。
 -   使用安裝程式的 API 來檢查是否已安裝重要功能、元件、檔案或檔案版本。

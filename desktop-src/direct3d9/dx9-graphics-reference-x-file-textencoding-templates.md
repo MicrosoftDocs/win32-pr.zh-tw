@@ -4,12 +4,12 @@ ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: '範本 (X 檔案格式，文字編碼) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a719278893c771818df029e13b2d7221c6ca0ccdcb0869b9966a737793981176
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e164b92c6c5738ad98b138941b1b2fda6c332068
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119373508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881027"
 ---
 # <a name="templates-x-file-format-text-encoding"></a>範本 (X 檔案格式，文字編碼) 
 
@@ -70,7 +70,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<維度大小> 可以是整數，也可以是另一個樣板成員的命名參考，而該成員的值會被取代。 陣列可以是 n 維，其中 n 是由結尾的成對方括弧數目所決定，如下列範例所示。
+&lt;維度大小 &gt; 可以是整數，也可以是另一個樣板成員的命名參考，其值會被取代。 陣列可以是 n 維，其中 n 是由結尾的成對方括弧數目所決定，如下列範例所示。
 
 
 ```

@@ -4,12 +4,12 @@ ms.assetid: A83106CC-46CC-4323-BE29-FE0ED655AC44
 title: 閾值類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94f0e921e569b02f9f6efd7759144c72e8169806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fa24820268d342c2214bb9209327a2e6045a27a992a5d307752a3d647c982fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014266"
 ---
 # <a name="threshold-classes"></a>閾值類別
 

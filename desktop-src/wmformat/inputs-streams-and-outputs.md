@@ -3,9 +3,9 @@ title: 輸入、串流和輸出
 description: 輸入、串流和輸出
 ms.assetid: f9f979c4-a15c-4f2a-b63c-7fe776394fdd
 keywords:
-- Windows Media Format SDK，輸入
-- Windows Media Format SDK，資料流程
-- Windows Media Format SDK，輸出
+- Windows媒體格式 SDK，輸入
+- Windows媒體格式 SDK，資料流程
+- Windows媒體格式 SDK，輸出
 - Advanced Systems Format (ASF) 、輸入
 - ASF (Advanced Systems Format) ，輸入
 - Advanced Systems Format (ASF) 、串流
@@ -14,12 +14,12 @@ keywords:
 - ASF (Advanced Systems Format) ，輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e6b6941a990b108c16b49648ec0d8d028a44d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c4518ed60495aa2318ad27cdade2885aa2660698b5dbf2659290dabf985246da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701822"
 ---
 # <a name="inputs-streams-and-outputs"></a>輸入、串流和輸出
 
@@ -46,9 +46,9 @@ ms.locfileid: "106965811"
 先前所述的關聯性有一些變化。 例如，檔案可以包含三個關聯性，或其中一個或兩個關聯性。 您也可以壓縮某些輸入，在這種情況下，寫入器不會執行額外的壓縮。 讀者也可以傳遞壓縮的範例。 但在此情況下，您必須依串流號碼存取它們，而不是依輸出編號來存取。
 
 > [!Note]  
-> 輸入、steams 和輸出都是由 Windows Media 格式 SDK 的物件所指派的數位。 資料流程具有您在設定檔中定義的資料流程編號（以1為基礎）。 每個資料流程也會被指派一個資料流程索引，以用於列舉設定檔中的資料流程。 這些數位都不保證彼此一致。 也就是說，輸入編號1可能不會對應到資料流程編號1，資料流程編號1可能不會對應到資料流程索引1，依此類推。
+> 輸入、steams 和輸出都是由 Windows 媒體格式 SDK 的物件所指派的數位。 資料流程具有您在設定檔中定義的資料流程編號（以1為基礎）。 每個資料流程也會被指派一個資料流程索引，以用於列舉設定檔中的資料流程。 這些數位都不保證彼此一致。 也就是說，輸入編號1可能不會對應到資料流程編號1，資料流程編號1可能不會對應到資料流程索引1，依此類推。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -60,9 +60,9 @@ ms.locfileid: "106965811"
 [**互斥**](mutual-exclusion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

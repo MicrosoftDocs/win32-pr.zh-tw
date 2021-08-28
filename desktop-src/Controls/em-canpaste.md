@@ -3,7 +3,7 @@ title: 'EM_CANPASTE 訊息 (Richedit .h) '
 description: 判斷 rich edit 控制項是否可以貼上指定的剪貼簿格式。
 ms.assetid: 1b858ad8-1312-407b-b12a-c63668ba9f72
 keywords:
-- EM_CANPASTE message Windows 控制項
+- EM_CANPASTE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aad400b610a033b6f67177da99876a892d294ec8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24f2d831cd3b3d04fcb7859d2b5936b7354fbb6b638558d605c9f8c5a6ee6333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916058"
 ---
 # <a name="em_canpaste-message"></a>EM \_ CANPASTE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104025257"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

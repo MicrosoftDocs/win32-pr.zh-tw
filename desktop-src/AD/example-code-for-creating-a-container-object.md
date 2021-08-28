@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，建立容器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107e26a973cc05e14e5e7c0f9fec04bdd4d1fe06
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6a0b411c4d0fa2dd688f325105cd09d46255dc287a202e1300a5451a4d33ca9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694254"
 ---
 # <a name="example-code-for-creating-a-container-object"></a>建立容器物件的範例程式碼
 
@@ -302,6 +302,6 @@ HRESULT AddValueToOtherWKOProperty(IADs *pads,
 
 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e20fd8a29ba3f9adec7134a011f8f470c60f7011
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d192064c550630cfe84350a1903ba66989519e66ee1e13bc8850cfe11d8520e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120308"
 ---
 # <a name="d3dxmatrixtranspose-function-d3dx10mathh"></a>D3DXMatrixTranspose 函式 (D3DX10Math) 
 

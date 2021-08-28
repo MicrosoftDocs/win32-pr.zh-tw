@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f144f188de46d17702dd22aa12e2245156b59a21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61b5408a71dcbedc98ccfdd70517cdae086620a05d8f648fcb327a608a2612bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701619"
 ---
 # <a name="iwmdrmindividualizationstatusgetstatus-method"></a>IWMDRMIndividualizationStatus：： GetStatus 方法
 

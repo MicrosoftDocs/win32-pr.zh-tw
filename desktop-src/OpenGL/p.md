@@ -13,12 +13,12 @@ keywords:
 - 投射矩陣
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9970b3eb84920184e693ace93b14120828573e30
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 213fd30866deeaacec6408752424444190801164a3f15de2417fbd308f3beb6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936389"
 ---
 # <a name="p-opengl"></a>P (OpenGL) 
 

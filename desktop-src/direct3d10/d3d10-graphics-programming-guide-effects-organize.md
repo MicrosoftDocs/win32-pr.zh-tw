@@ -4,12 +4,12 @@ ms.assetid: 674ed278-102c-43da-a6bf-58e084df151e
 title: '將效果中的狀態組織 (Direct3D 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79cbea90c4d42d0a24ec7e35815616bf6698f72f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac0fdd4389ce4db34a64e4bc5e39f21998c90481d4a43a06244be2b231cca999
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753748"
 ---
 # <a name="organizing-state-in-an-effect-direct3d-10"></a>將效果中的狀態組織 (Direct3D 10) 
 

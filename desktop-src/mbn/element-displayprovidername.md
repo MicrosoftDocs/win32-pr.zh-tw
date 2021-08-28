@@ -7,12 +7,12 @@ MSHAttr:
 title: DisplayProviderName
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b342353ba06cf911a3da97d48eea83ecc2faf7
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 638f3222d99935dc758adcd4a1df1b1546ddb87a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885481"
 ---
 # <a name="span-idwwan_profile_v2element_displayprovidernamespandisplayprovidername"></a><span id="WWAN_profile_v2.element_DisplayProviderName"></span>DisplayProviderName
 
@@ -20,7 +20,7 @@ ms.locfileid: "122479934"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-**<DisplayProviderName>**
+**&lt;DisplayProviderName&gt;**
 
 ## <a name="syntax"></a>Syntax
 

@@ -4,12 +4,12 @@ ms.assetid: 59EDDA51-D4FA-43B5-B85E-7D7F6AED6201
 title: IX509ExtensionAuthorityKeyIdentifier 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d492f501fe5fc86660cd3edba1541d9d3a84f12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15537296c31f3f9c395ec9f29eab73e98896df25c210c2c4f3a26e5cc0f9fec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881508"
 ---
 # <a name="ix509extensionauthoritykeyidentifier-methods"></a>IX509ExtensionAuthorityKeyIdentifier 方法
 

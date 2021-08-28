@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 修改過的類別考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f77a2caa315ab4878fe619c13c69bd5d2e1a2610
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30cd38bc6134c4fd3596cc36e8a7638eaa1fd6ed264c90302d921a391982e5d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320237"
 ---
 # <a name="amended-class-considerations"></a>修改過的類別考慮
 

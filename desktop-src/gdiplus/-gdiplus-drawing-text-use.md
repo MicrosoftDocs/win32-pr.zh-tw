@@ -4,12 +4,12 @@ ms.assetid: a873c132-f232-4144-bcc3-ca200055074c
 title: 繪製文字 (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e16ed49a5ab92380b42ed3316346ac547f95be9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31591d62198bc6ff72cdd7cce0d8ab515dc0e96011457b5bccd601a59ee0293f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115038"
 ---
 # <a name="drawing-text-gdi"></a>繪製文字 (GDI+)
 

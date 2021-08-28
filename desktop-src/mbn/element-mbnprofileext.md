@@ -7,12 +7,12 @@ MSHAttr:
 title: MBNProfileExt
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf6b821d36fc69c06fd42fad58efc4102e64f6a
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: ac9167561aabe151b75a4aa295a1c8aacec974df
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987911"
+ms.locfileid: "122884078"
 ---
 # <a name="span-idwwan_profile_v4element_mbnprofileextspanmbnprofileext"></a><span id="WWAN_profile_v4.element_MBNProfileExt"></span>MBNProfileExt
 
@@ -71,7 +71,7 @@ ms.locfileid: "122987911"
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目
 
 
-| 子元素 | Description | 
+| 子元素 | 說明 | 
 |---------------|-------------|
 | <a href="element-adminenable.md">AdminEnable</a> | <p>指定是否以系統管理員的方式啟用設定檔。這是 v4 的新元素。</p> | 
 | <a href="element-adminroamcontrol.md">AdminRoamControl</a> | <p>指定設定檔是否為系統管理漫遊控制。 此元素是 v4 的新專案。 這個元素的值是 <a href="simpletype-roamcontroltype.md"><strong>roamControlType</strong></a> 值。 這是選擇性元素;如果未指定任何值，則 <strong>AllRoamAllowed</strong> 為預設值。</p> | 
@@ -105,9 +105,7 @@ ms.locfileid: "122987911"
 ## <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

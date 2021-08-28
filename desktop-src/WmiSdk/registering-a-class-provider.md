@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 註冊類別提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc15893e654f96f8c4e476219389a1f8f2c464a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f16a28b489f2cfd01163d6b32c9a70c0d8a193a542197795d6d2b40de0e1baef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316480"
 ---
 # <a name="registering-a-class-provider"></a>註冊類別提供者
 

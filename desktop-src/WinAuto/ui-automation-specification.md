@@ -4,12 +4,12 @@ description: 本主題提供 Microsoft 消費者介面自動化規格的總覽�
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc07b70128a401d48813ded68c31dfcfca5bb5a49d2ca46683e9a902af003ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d78298299241545033b25dccc8d79376ec55e1b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118325092"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987641"
 ---
 # <a name="ui-automation-specification"></a>消費者介面自動化規格
 
@@ -100,7 +100,7 @@ Automation 元素會公開其所代表之 UI 元素的通用屬性。 其中一�
 
 在您可以將控制項類型指派給專案之前，專案必須符合特定條件，包括特定的自動化樹狀結構、屬性值、控制項模式和事件。 不過，您不一定要這樣做。 您可以使用自訂模式和屬性，以及預先定義的屬性來擴充控制項。
 
-預先定義的控制項類型總數明顯低於 Microsoft Active Accessibility [物件角色](object-roles.md)，因為消費者介面自動化控制項類型可以合併以表示一組較大的功能，而 Microsoft Active Accessibility 的角色則無法使用。
+預先定義的控制項類型總數明顯低於 Microsoft Active Accessibility [物件角色](object-roles.md)，因為消費者介面自動化控制項模式可以合併以表示一組較大的功能，而 Microsoft Active Accessibility 的角色則無法使用。
 
 如需詳細資訊，請參閱 [UI Automation Control Types Overview](uiauto-controltypesoverview.md)。
 

@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0075d881c688fd80dfdc1f74af37e4a61a5c71faaddc4893254ec0a36455a416
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 908f3e37b13d50c56923e566451730ffc9dd03cf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119924718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884098"
 ---
 # <a name="cim_createdirectoryaction-class"></a>CIM \_ CreateDirectoryAction 類別
 
@@ -74,7 +74,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 
 
-| 方法                                                             | 描述                                                                                                                                  |
+| 方法                                                             | 說明                                                                                                                                  |
 |:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**調用**](invoke-method-in-class-cim-createdirectoryaction.md) | 採取特定動作。 方法執行動作的詳細資料是實作為特定的。 不是由 WMI 所執行。<br/> |
 
@@ -188,7 +188,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -830,8 +830,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 這個屬性繼承自 [**CIM \_ 動作**](cim-action.md)。
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3ba7b3a85b512b2ad8d6e85aa38627a2abc68c21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55f697d6ff1a2bd3ebac77a77d8ba98321f29d09a75181b52e8ef08b03eed682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056191"
 ---
 # <a name="cbasepin-class"></a>CBasePin 類別
 
@@ -37,7 +37,7 @@ ms.locfileid: "106983037"
 
 
 
-| 受保護的成員變數                                               | Description                                                                                                |
+| 受保護的成員變數                                               | 描述                                                                                                |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [**m \_ pName**](cbasepin-m-pname.md)                                     | Pin 名稱。                                                                                                  |
 | [**m \_ 已連線**](cbasepin-m-connected.md)                             | 連接至此釘選的釘選指標。                                                          |
@@ -53,14 +53,14 @@ ms.locfileid: "106983037"
 | [**m \_ tStart**](cbasepin-m-tstart.md)                                   | 區段開始時間。                                                                                        |
 | [**m \_ tStop**](cbasepin-m-tstop.md)                                     | 區段停止時間。                                                                                         |
 | [**m \_ dRate**](cbasepin-m-drate.md)                                     | 區段速率。                                                                                              |
-| 保護方法                                                        | Description                                                                                                |
+| 保護方法                                                        | 描述                                                                                                |
 | [**DisplayPinInfo**](cbasepin-displaypininfo.md)                        | 在調試過程中追蹤 pin 連接。                                                                  |
 | [**DisplayTypeInfo**](cbasepin-displaytypeinfo.md)                      | 在調試過程中顯示媒體類型資訊。                                                          |
 | [**AttemptConnection**](cbasepin-attemptconnection.md)                  | 使用指定的媒體類型連接到另一個 pin。                                                      |
 | [**TryMediaTypes**](cbasepin-trymediatypes.md)                          | 指定媒體類型的清單之後，會嘗試使用這些類型的其中一種來完成連接。                      |
 | [**AgreeMediaType**](cbasepin-agreemediatype.md)                        | 搜尋媒體類型以建立 pin 連接。                                                        |
 | [**DisconnectInternal**](cbasepin-disconnectinternal.md)                | 中斷目前的 pin 連接。                                                                         |
-| 公用方法                                                           | Description                                                                                                |
+| 公用方法                                                           | 描述                                                                                                |
 | [**CBasePin**](cbasepin-cbasepin.md)                                    | 函式方法。                                                                                        |
 | [**~ CBasePin**](cbasepin--cbasepin.md)                                 | 函式方法。 虛擬。                                                                                |
 | [**IsConnected**](cbasepin-isconnected.md)                              | 判斷 pin 是否已連接到另一個 pin。                                                    |
@@ -79,13 +79,13 @@ ms.locfileid: "106983037"
 | [**CurrentStopTime**](cbasepin-currentstoptime.md)                      | 捕獲區段停止時間。                                                                           |
 | [**CurrentStartTime**](cbasepin-currentstarttime.md)                    | 捕獲區段開始時間。                                                                          |
 | [**CurrentRate**](cbasepin-currentrate.md)                              | 捕獲區段速率。                                                                                |
-| [**Name**](cbasepin-name.md)                                            | 抓取 pin 識別碼。                                                                              |
+| [**名稱**](cbasepin-name.md)                                            | 抓取 pin 識別碼。                                                                              |
 | [**SetReconnectWhenActive**](cbasepin-setreconnectwhenactive.md)        | 指定 pin 是否支援動態重新連接。                                                  |
 | [**CanReconnectWhenActive**](cbasepin-canreconnectwhenactive.md)        | 查詢 pin 是否支援動態重新連接。                                                    |
-| 純虛擬方法                                                     | Description                                                                                                |
+| 純虛擬方法                                                     | 描述                                                                                                |
 | [**CheckMediaType**](cbasepin-checkmediatype.md)                        | 判斷 pin 是否接受特定的媒體類型。                                                       |
-| IPin 方法                                                             | Description                                                                                                |
-| [**連接**](cbasepin-connect.md)                                      | 將 pin 連接到另一個 pin。                                                                           |
+| IPin 方法                                                             | 描述                                                                                                |
+| [**連線**](cbasepin-connect.md)                                      | 將 pin 連接到另一個 pin。                                                                           |
 | [**ReceiveConnection**](cbasepin-receiveconnection.md)                  | 接受來自另一個 pin 的連接。                                                                     |
 | [**中斷連線**](cbasepin-disconnect.md)                                | 中斷目前的 pin 連接。                                                                         |
 | [**ConnectedTo**](cbasepin-connectedto.md)                              | 抓取連接至此釘選的 pin。                                                                   |
@@ -98,8 +98,8 @@ ms.locfileid: "106983037"
 | [**QueryInternalConnections**](cbasepin-queryinternalconnections.md)    | 抓取篩選) 內 (在內部連接到此 pin 的釘選。                          |
 | [**EndOfStream**](cbasepin-endofstream.md)                              | 通知 pin，不需要額外的資料。                                                      |
 | [**NewSegment**](cbasepin-newsegment.md)                                | 通知釘選將此呼叫群組為區段之後所收到的媒體範例。                     |
-| IQualityControl 方法                                                  | Description                                                                                                |
-| [**Notify**](cbasepin-notify.md)                                        | 通知 pin 已要求品質變更。                                                       |
+| IQualityControl 方法                                                  | 描述                                                                                                |
+| [**通知**](cbasepin-notify.md)                                        | 通知 pin 已要求品質變更。                                                       |
 | [**SetSink**](cbasepin-setsink.md)                                      | 設定外部品質管制員。                                                                          |
 
 

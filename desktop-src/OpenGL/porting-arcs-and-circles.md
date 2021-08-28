@@ -15,12 +15,12 @@ keywords:
 - 繪圖函數、圓形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce17546ce17f24adf80641549d8843a473c8754
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72298caac6495d39c8a5d6cf7441b3b3664180d9e5396fb22106d9e138019b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936217"
 ---
 # <a name="porting-arcs-and-circles"></a>移植弧形和圓形
 
@@ -35,7 +35,7 @@ ms.locfileid: "104372615"
 
 
 
- 
+ 
 
 您可以使用鳶尾花 GL 無法進行的 OpenGL 弧形和圓形來做一些事情。 OpenGL 會分別呼叫弧形和圓形、磁片和部分磁片。
 
@@ -47,9 +47,9 @@ ms.locfileid: "104372615"
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

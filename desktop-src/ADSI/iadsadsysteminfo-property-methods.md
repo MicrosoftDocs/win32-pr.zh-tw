@@ -33,12 +33,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8dba53dfda4bb8f4dd3290cb2737cdeb4e8a6d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 177926924d989686dae33c3403c07bfe5e69d0ba1762dd2a1a1cdee78a2175f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691609"
 ---
 # <a name="iadsadsysteminfo-property-methods"></a>IADsADSystemInfo 屬性方法
 
@@ -277,7 +277,7 @@ HRESULT get_UserName(
 
 ## <a name="examples"></a>範例
 
-下列 c + + 程式碼範例會捕獲 Windows 系統資訊。 為了簡潔起見，會忽略錯誤檢查。
+下列 c + + 程式碼範例會捕獲 Windows 的系統資訊。 為了簡潔起見，會忽略錯誤檢查。
 
 
 ```C++
@@ -333,7 +333,7 @@ int main()
 
 
 
-下列 Visual Basic 程式碼範例會捕獲 Windows 系統資訊。
+下列 Visual Basic 程式碼範例會捕獲 Windows 的系統資訊。
 
 
 ```VB
@@ -346,7 +346,7 @@ Debug.print "PDC Role Owner: " & sys.PDCRoleOwner
 
 
 
-下列 VBScript/ASP 程式碼範例會捕獲 Windows 系統資訊。
+下列 VBScript/ASP 程式碼範例會捕獲 Windows 的系統資訊。
 
 
 ```VB

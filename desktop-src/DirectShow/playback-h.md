@@ -1,19 +1,19 @@
 ---
-description: 本文包含在 DirectShow 中播放教學課程音訊/影片的程式碼。
+description: 本文包含 DirectShow 中教學課程音訊/影片播放的播放 .h 檔案程式碼。
 ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: 播放。h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba52dc50cd14b26bcd26284a62c96400706d8aa8
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8f000c1f9d41a989672feb48cb129a4c86785d4b389a6c3aea987464de664341
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107618"
 ---
 # <a name="playbackh"></a>播放。h
 
-本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。
+本主題包含 DirectShow 中的教學課程[音訊/影片播放](audio-video-playback-in-directshow.md)程式碼。
 
 
 ```C++
@@ -84,10 +84,10 @@ private:
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ keywords:
 - Windows Media Player 的版本，物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: a6f2e092f7e32b889056841b5802dffa141c0be4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623534"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884770"
 ---
 # <a name="detailed-object-model-comparison"></a>詳細的物件模型比較
 
@@ -41,7 +41,7 @@ ms.locfileid: "122623534"
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>。<strong>AllowChangeDisplaySize</strong></td>
-<td>Windows Media Player 7 或更新版本的顯示會自動調整大小以符合媒體的大小。 您可以在 <OBJECT> 標記或腳本中設定 [高度] 和 [寬度] 屬性。</td>
+<td>Windows Media Player 7 或更新版本的顯示會自動調整大小以符合媒體的大小。 您可以設定 &lt; 物件 &gt; 標記或腳本中的高度和寬度屬性。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>AllowScan</strong></td>
@@ -69,7 +69,7 @@ ms.locfileid: "122623534"
 </tr>
 <tr class="even">
 <td><em>Player6</em>。自動<strong>調整</strong></td>
-<td>自動調整大小是預設行為。 若要覆寫自動調整大小，請在 <OBJECT> 標記或腳本中設定 [高度] 和 [寬度] 屬性。</td>
+<td>自動調整大小是預設行為。 若要覆寫自動調整大小，請在 &lt; 物件 &gt; 標記或腳本中設定 [高度] 和 [寬度] 屬性。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>自動啟動</strong></td>
@@ -233,7 +233,8 @@ ms.locfileid: "122623534"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>DefaultFrame</strong></td>
-<td>使用<em>設定</em>。<strong>defaultFrame</strong>，或使用 <PARAM> 元素中的屬性 <OBJECT> ： <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>使用<em>設定</em>。<strong>defaultFrame</strong>，或使用 <PARAM> OBJECT 元素中的屬性 &lt; &gt; ：
+<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>DisplayBackColor</strong></td>
@@ -249,7 +250,7 @@ ms.locfileid: "122623534"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>DisplaySize</strong></td>
-<td>預設顯示會自動調整大小以符合媒體。 您可以設定 <OBJECT> 標記或腳本中的高度和寬度屬性。 使用 <em>Player</em>。<strong>全</strong> 螢幕切換至全螢幕模式。</td>
+<td>預設顯示會自動調整大小以符合媒體。 您可以設定 &lt; 物件 &gt; 標記或腳本中的高度和寬度屬性。 使用 <em>Player</em>。<strong>全</strong> 螢幕切換至全螢幕模式。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>持續時間</strong></td>

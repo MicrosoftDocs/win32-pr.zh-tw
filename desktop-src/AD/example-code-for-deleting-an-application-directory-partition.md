@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割 Active Directory、用於刪除的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04be132d9a9ea58b72f732efd5e5fcc9f370b4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fa41e98fcc90e9f4af1c9f46ed7c414b723daedc1d600d5899c941f88a393871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694077"
 ---
 # <a name="example-code-for-deleting-an-application-directory-partition"></a>用來刪除應用程式目錄分割的範例程式碼
 
@@ -218,7 +218,7 @@ HRESULT DeleteAppPartition( LPCWSTR pwszPartitionDN,
 
 
 
-下列 Visual Basic Scripting Edition 程式碼範例可以使用 ADSI 來刪除應用程式目錄分割。 此範例會使用 [範例程式碼](example-code-for-locating-the-partitions-container.md)中所述的其中一個 **\* GetPartitionsDN** 範例函式來尋找分割區容器。
+下列 Visual Basic 腳本撰寫版程式碼範例可以使用 ADSI 來刪除應用程式目錄分割。 此範例會使用 [範例程式碼](example-code-for-locating-the-partitions-container.md)中所述的其中一個 **\* GetPartitionsDN** 範例函式來尋找分割區容器。
 
 
 ```VB
@@ -414,7 +414,7 @@ static void DeleteAppPartition(
 
 
 
-下列 Visual Basic .NET 程式碼範例可用來使用 [DirectoryServices](/dotnet/api/system.directoryservices)來刪除應用程式目錄分割。 此範例會使用 [範例程式碼](example-code-for-locating-the-partitions-container.md)中所述的其中一個 **\* GetPartitionsDN** 範例函式來尋找分割區容器。
+下列 Visual Basic .net 程式碼範例可用來使用[DirectoryServices](/dotnet/api/system.directoryservices)來刪除應用程式目錄分割。 此範例會使用 [範例程式碼](example-code-for-locating-the-partitions-container.md)中所述的其中一個 **\* GetPartitionsDN** 範例函式來尋找分割區容器。
 
 
 ```VB
@@ -511,6 +511,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 7798cb50-72e4-4530-bf06-1927dd963a01
 title: TrackDiskSpace 對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eab0cf234071ace41432e20a598b38fb1fc431e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd8e12a77f0b7e67bd82e094953a2bacd8204d93b444dc6bd1dc378602e67809
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810568"
 ---
 # <a name="trackdiskspace-dialog-style-bit"></a>TrackDiskSpace 對話方塊樣式位
 

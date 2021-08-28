@@ -15,12 +15,12 @@ keywords:
 - 進行的函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2c261e0a3de7409fc79ec43eb5046f084ee11d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cabd9a66bee13c02c87df95565744eb973283baedb7e955449feb2ddad3005a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808378"
 ---
 # <a name="audio-compression-manager-functions-and-structures"></a>音訊壓縮管理員函式和結構
 
@@ -34,6 +34,6 @@ ms.locfileid: "106969512"
 
 資料流程群組中的函式代表與轉換有關的許多步驟：開啟轉換實例、準備轉換、執行轉換、在轉換完成之後清除，以及關閉轉換實例。
 
- 
+ 
 
- 
+ 

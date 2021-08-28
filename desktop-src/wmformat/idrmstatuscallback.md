@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 415d04e3934d39ad43787596f4dab16970241b0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bda2e2de173198ca9ac81f0b5d8b49d1159ae0e2aa4e75139a91f49646513c1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702852"
 ---
 # <a name="idrmstatuscallback-interface"></a>IDRMStatusCallback 介面
 

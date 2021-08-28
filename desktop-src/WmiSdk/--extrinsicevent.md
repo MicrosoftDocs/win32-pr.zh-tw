@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 76af7a9f32c24b8d44f81c60b0f2fca693c26f51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 592632a7d0b5593a9de200062ef1ae6b167e72aaa2d2f41c44a8f955324b6b6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321017"
 ---
 # <a name="__extrinsicevent-class"></a>\_\_ExtrinsicEvent 類別
 

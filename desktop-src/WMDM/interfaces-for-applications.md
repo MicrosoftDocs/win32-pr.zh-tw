@@ -3,21 +3,21 @@ title: 應用程式的介面
 description: 應用程式的介面
 ms.assetid: bea867d6-a875-4150-9958-7f683cd215b9
 keywords:
-- Windows Media 裝置管理員，應用程式介面
+- Windows媒體裝置管理員，應用程式介面
 - 裝置管理員，應用程式介面
 - 桌面應用程式，介面
 - 程式設計參考，應用程式介面
-- Windows Media 裝置管理員的參考，應用程式介面
+- Windows 媒體裝置管理員的參考、應用程式介面
 - 外掛程式，介面
 - 應用程式介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49d66272c42679fd38d01b0114a834ee6f33e92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 690b8419a7f04ef2b4eab1db65266027bdf5bcf3a102e59a95030a290e3747ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619951"
 ---
 # <a name="interfaces-for-applications"></a>應用程式的介面
 
@@ -32,7 +32,7 @@ ms.locfileid: "104301068"
 | 介面或類別                                           | 描述                                                                                                                                                                                                         |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [CSecureChannelClient 類別](csecurechannelclient-class.md) | Helper 類別，可讓應用程式自行驗證、加密和解密資料，以及建立 Mac。                                                                                                     |
-| [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager)                 | 適用于應用程式的最上層 Windows Media 裝置管理員介面。                                                                                                                                              |
+| [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager)                 | 應用程式的最上層 Windows 媒體裝置管理員介面。                                                                                                                                              |
 | [**IWMDeviceManager2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2)               | 藉由提供先進的列舉方法和其他方法來擴充 **IWMDeviceManager** 。                                                                                                                           |
 | [**IWMDeviceManager3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager3)               | 藉由提供可設定裝置列舉喜好設定的方法，來擴充 **IWMDeviceManager2** 介面。                                                                                                      |
 | [**IWMDMDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice)                           | 提供檢查及探索單一可攜式裝置的方法。                                                                                                                                                   |
@@ -58,7 +58,7 @@ ms.locfileid: "104301068"
 
 
 
- 
+ 
 
 回呼介面
 
@@ -78,7 +78,7 @@ ms.locfileid: "104301068"
 
 
 
- 
+ 
 
 下圖顯示從根 **IWMDeviceManager** 介面取得大部分重要的應用程式介面的方式。 應用程式會藉由 cocreating MediaDevMgr 物件、要求 **IComponentAuthenticate** 介面、驗證元件，然後要求 **IWMDeviceManager** (這些步驟會在 [驗證應用程式](authenticating-the-application.md)) 中說明，來取得這個根介面。 一旦取得這個根介面，就會呼叫 [**IWMDeviceManager：： EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices) 來建立可執行 [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice)的物件。 其他介面則是藉由在介面上依顯示的順序呼叫方法來取得。 衍生介面（例如 [**IWMDMDevice2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2) ）是藉由在基底介面上呼叫 **QueryInterface** 來取得。
 
@@ -93,9 +93,9 @@ ms.locfileid: "104301068"
 [**程式設計參考**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

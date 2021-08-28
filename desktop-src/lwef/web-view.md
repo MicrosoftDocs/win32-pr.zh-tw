@@ -10,12 +10,12 @@ keywords:
 - FileList 區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ebe106bdada4da55eef8891a3c93ee82aba3cc4da9194e1fcd4c7e71bcd4e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac85478bd42737f0a240b356bb6b3b73e838a8ee
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884530"
 ---
 # <a name="customizing-a-folders-web-view"></a>自訂資料夾的 Web View
 
@@ -365,7 +365,7 @@ web view 的可用區域取決於 web view 視窗的大小，以及 Windows 檔�
 
 ### <a name="loading-and-initializing-the-web-view"></a>載入和初始化 Web View
 
-當 Web view 載入時，必須調整配置以符合可用的顯示區域。 由於尚未選取任何專案，因此 Web 視圖通常會顯示套用至整個資料夾的一些預設資訊。 若要處理初始化， <BODY> 適用于 Generic 的標記。 htt 會偵測 [onload](/previous-versions//ms531409(v=vs.85)) 事件並呼叫 **Init** 函數。
+當 Web view 載入時，必須調整配置以符合可用的顯示區域。 由於尚未選取任何專案，因此 Web 視圖通常會顯示套用至整個資料夾的一些預設資訊。 若要處理初始化， &lt; &gt; 泛型. htt 的主體標記會偵測 [onload](/previous-versions//ms531409(v=vs.85)) 事件並呼叫 **Init** 函數。
 
 
 ```

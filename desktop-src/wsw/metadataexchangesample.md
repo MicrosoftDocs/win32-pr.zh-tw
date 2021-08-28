@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a2d04510d664e11a9fd9a812411b4dbd197e364
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7077cf904d358a9697b0993a27c136215787243bdfce9e7d29d659a5e275d09b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880998"
 ---
 # <a name="metadataexchangesample"></a>MetadataExchangeSample
 
@@ -652,9 +652,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

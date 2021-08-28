@@ -10,12 +10,12 @@ keywords:
 - 非同步讀取器，正在抓取媒體範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0419619ea99bd3734db67f8e658b1f3ff058a3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 896fa4a023dc0cbcce3db6e0b0fc5101347f12fd65a4294a608823e511a55e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699119"
 ---
 # <a name="to-retrieve-media-samples-with-the-asynchronous-reader"></a>使用非同步讀取器取出媒體範例
 
@@ -36,9 +36,9 @@ ms.locfileid: "104023027"
 [**若要執行 OnSample 回呼**](to-implement-the-onsample-callback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

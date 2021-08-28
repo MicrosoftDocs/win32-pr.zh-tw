@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fc2eb3d91cd05493f98c75d3b7ada3132816ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fecddc4ddaf1d28b464a2d120c5d7fea11779784ed6ec496cdddcb1a09a9ded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000778"
 ---
 # <a name="wmwmshadowfilesourcefiletype-windows-media-player-sdk"></a>WM/WMShadowFileSourceFileType (Windows Media Player SDK) 
 

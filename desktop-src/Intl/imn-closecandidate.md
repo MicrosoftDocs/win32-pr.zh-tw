@@ -4,12 +4,12 @@ ms.assetid: d96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b
 title: 'IMN_CLOSECANDIDATE 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3414d2aa37a50b7f35f0dfb936b641b7c86a932
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dd0a71eac28b2c7dc170724e40c9b4ba6707cd5774145f38efdd791e7ebd8b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107148"
 ---
 # <a name="imn_closecandidate-notification-code"></a>IMN \_ CLOSECANDIDATE 通知碼
 
@@ -58,7 +58,7 @@ IMN_CLOSECANDIDATE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

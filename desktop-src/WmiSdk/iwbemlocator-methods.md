@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemLocator 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db46f32aa34d7447a86cf5116d15911aba9d1963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 436bb49a90c45f2cbcfb6b4ff69a01fa6b1179ff566d2e59df4bca811dde0224
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317930"
 ---
 # <a name="iwbemlocator-methods"></a>IWbemLocator 方法
 

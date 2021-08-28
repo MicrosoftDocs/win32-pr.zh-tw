@@ -4,16 +4,16 @@ description: 封送處理內嵌指標類型的憑證-DCE 規格需要您在實 \
 ms.assetid: 077cdd1a-9630-459e-8749-ab0c70b16ecb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1edb384450e024d8e1d096d46e55916e9804735408a8ae680a30cc731eef8315
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e97f073a5745570aae5c52d4a61d2454b960d77a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883834"
 ---
 # <a name="marshaling-rules-for-user_marshal-and-wire_marshal"></a>封送處理使用者 \_ 封送處理和網路封送處理的規則 \_
 
-封送處理內嵌指標類型的憑證-DCE 規格需要您在實 <type> \_ UserSize、 <type> \_ UserMarshal 和 <type> \_ UserUnMarshal 函式時觀察到下列限制。  (此處提供的規則和範例適用于封送處理。 不過，您的大小調整和封送送出常式必須遵循相同的限制) ：
+封送處理內嵌指標類型的憑證-DCE 規格需要您在實 &lt; &gt; \_ UserSize、 &lt; 型別 &gt; \_ UserMarshal 和 &lt; 型別 &gt; \_ UserUnMarshal 函式時觀察下列限制。  (此處提供的規則和範例適用于封送處理。 不過，您的大小調整和封送送出常式必須遵循相同的限制) ：
 
 -   如果連線類型是沒有指標的一般類型，則對應 userm 類型的封送處理常式應該只會根據網路類型的配置封送處理資料。 例如：
 

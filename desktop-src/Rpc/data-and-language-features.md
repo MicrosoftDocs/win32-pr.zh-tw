@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、描述、資料和語言功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f481d67d2d5bf69001eebcb2f45bcd266b5e1b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6af9622416b4da4e3bdd1094f3d37c87d97870b1151e6f7fa570e3fd5d8da4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931147"
 ---
 # <a name="data-and-language-features"></a>資料和語言功能
 
@@ -23,9 +23,9 @@ Microsoft 介面定義語言 (MIDL) 提供一組擴充 C 程式設計語言的�
 -   [方向 (參數) 屬性](directional-parameter-attributes.md)
 -   [資料表示](data-representation.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e7b1c702-1726-404b-9116-dd3c2e3dc4dd
 title: Winsock SPI 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4c8af2e3d652572d230e47e0bdd3d787c64161
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b4702e8a6697348a70b0e03f2e1dc4c8390efd6b2801d877d1eb2a2412c731b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322011"
 ---
 # <a name="winsock-spi-functions"></a>Winsock SPI 函式
 
@@ -17,7 +17,7 @@ ms.locfileid: "103944802"
 
 
 
-| Winsock SPI 函數                                                          | Description                                                                                                                                                                                                          |
+| Winsock SPI 函數                                                          | 描述                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**NSPCleanup**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspcleanup)                                            | 終止使用 Winsock 命名空間服務提供者。                                                                                                                                                          |
 | [**NSPGetServiceClassInfo**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo)                    | 抓取與所指定命名空間提供者相關的 (架構) 類別資訊。                                                                                                                                   |
@@ -46,7 +46,7 @@ ms.locfileid: "103944802"
 | [**WPUGetProviderPath**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpugetproviderpath)                            | 抓取所指定提供者的 DLL 路徑。                                                                                                                                                                   |
 | [**WPUModifyIFSHandle**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpumodifyifshandle)                            | 從 Ws232.dll 接收可能修改的 IFS 控制碼 \_ 。                                                                                                                                                            |
 | [**WPUOpenCurrentThread**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuopencurrentthread)                        | 開啟目前線程的控制碼，這個控制碼可用於多層式服務提供者中的重迭函數。                                                                                                       |
-| [**WPUPostMessage**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpupostmessage)                                    | 以與舊版 WSOCK32.dll 維持回溯相容性的方式，執行標準 Windows [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea) 函數。                                                  |
+| [**WPUPostMessage**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpupostmessage)                                    | 以與舊版 WSOCK32.dll 維持回溯相容性的方式，執行標準 Windows [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea)函式。                                                  |
 | [**WPUQueryBlockingCallback**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuqueryblockingcallback)                | 傳回回呼函數的指標，服務提供者應該在服務封鎖作業時定期叫用。                                                                                        |
 | [**WPUQuerySocketHandleCoNtext**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuquerysockethandlecontext)          | 查詢與指定之通訊端控制碼相關聯的內容值。                                                                                                                                               |
 | [**WPUQueueApc**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuqueueapc)                                          | 將使用者模式排入佇列–非同步程序呼叫， (APC) 至指定的執行緒，以促進重迭 i/o 完成常式的調用。                                                                |
@@ -84,12 +84,12 @@ ms.locfileid: "103944802"
 | [**WSCUpdateProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscupdateprovider)                              | 修改系統設定資料庫中的傳輸服務提供者。                                                                                                                                          |
 | [**WSCUpdateProvider32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscupdateprovider32)                            | 修改64位平臺上系統設定資料庫中的32位傳輸服務提供者。                                                                                                              |
 | [**WSCWriteNameSpaceOrder**](/windows/desktop/api/Sporder/nf-sporder-wscwritenamespaceorder)                      | 變更可用命名空間提供者的順序。                                                                                                                                                                  |
-| [**WSCWriteNameSpaceOrder32**](/windows/desktop/api/Sporder/nf-sporder-wscwritenamespaceorder32)                  | 在64位平臺上，變更32位目錄中可用的 Windows 通訊端 (Winsock) 2 命名空間提供者的順序。                                                                                             |
+| [**WSCWriteNameSpaceOrder32**](/windows/desktop/api/Sporder/nf-sporder-wscwritenamespaceorder32)                  | 在64位平臺上，變更32位目錄中的可用 Windows 通訊端 (Winsock) 2 命名空間提供者的順序。                                                                                             |
 | [**WSCWriteProviderOrder**](/windows/desktop/api/Sporder/nf-sporder-wscwriteproviderorder)                      | 重新排序可用的傳輸服務提供者。                                                                                                                                                                     |
 | [**WSCWriteProviderOrder32**](/windows/desktop/api/Sporder/nf-sporder-wscwriteproviderorder32)                    | 在64位平臺上的32位目錄中重新排序可用的傳輸服務提供者。                                                                                                                            |
 | [**WSPAccept**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaccept)                                              | 根據條件函數的傳回值，有條件地接受連接。                                                                                                                                |
 | [**WSPAddressToString**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaddresstostring)                            | 將 [**sockaddr**](sockaddr-2.md) 結構的所有元件轉換成人類可讀取的位址的數位字串表示。                                                                            |
-| [**WSPAsyncSelect**](/previous-versions/windows/desktop/legacy/ms742267(v=vs.85))                                    | 要求通訊端的網路事件以 Windows 訊息為基礎的事件通知。                                                                                                                                    |
+| [**WSPAsyncSelect**](/previous-versions/windows/desktop/legacy/ms742267(v=vs.85))                                    | 要求通訊端的網路事件 Windows 訊息事件通知。                                                                                                                                    |
 | [**WSPBind**](/previous-versions/windows/hardware/network/ff566268(v=vs.85))                                                  | 將本機位址與通訊端產生關聯。                                                                                                                                                                            |
 | [**WSPCancelBlockingCall**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))                      | 取消目前正在進行中的封鎖通話。                                                                                                                                                               |
 | [**WSPCleanup**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                                            | 終止使用 Winsock 服務提供者。                                                                                                                                                                      |
@@ -132,7 +132,7 @@ ms.locfileid: "103944802"
 
 
 
-| 32位 Winsock SPI 函數                                                   | Description                                                                                                                                                 |
+| 32位 Winsock SPI 函數                                                   | 描述                                                                                                                                                 |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WSCDeinstallProvider32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider32)                      | 從64位平臺上的系統設定資料庫移除指定的32位傳輸服務提供者。                                        |
 | [**WSCEnableNSProvider32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenablensprovider32)                        | 在64位平臺上變更給定32位命名空間提供者的狀態。                                                                                |

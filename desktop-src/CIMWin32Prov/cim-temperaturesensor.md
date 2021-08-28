@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f48988db3cb213c06013b7ebac61095dbc365daa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b325795c0a144fb9bb15724986c95ba35710b6ce86b59af4393b18d5bb2d8052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918958"
 ---
 # <a name="cim_temperaturesensor-class"></a>CIM \_ 溫度感應器類別
 
@@ -139,7 +139,7 @@ class CIM_TemperatureSensor : CIM_NumericSensor
 
 <dl> <dt>
 
-**精確度**
+**精度**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**

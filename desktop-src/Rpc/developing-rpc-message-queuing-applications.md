@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、開發訊息佇列應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3e51707c0a6903200e51dd35e50e998430c8eae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09cf7b3a5d6d33facebb1de6a3c0f37eb9ba48f2afa54e6143ad5cb0169ad601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930571"
 ---
 # <a name="developing-rpc-message-queuing-applications"></a>開發 RPC-Message 佇列應用程式
 
@@ -21,7 +21,7 @@ ms.locfileid: "104023982"
 
 -   服務品質
 -   收條的確認
--   日誌
+-   日誌記錄
 -   呼叫優先順序
 -   伺服器進程佇列的持續性
 
@@ -40,10 +40,10 @@ RPC 伺服器進程可以控制其接收佇列的存留期。 根據預設，佇
 > [!Note]  
 > 如果您 \[ [](/windows/desktop/Midl/message) \] 在介面中使用非同步訊息呼叫，則必須先呼叫 [**RpcServerRegisterIf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif)或 [**RpcServerRegisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex)來註冊介面，然後再呼叫 [**RpcServerUseProtseqEpEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex) **(ncadg \_ mq)**。 一旦開啟通訊協定順序，任何已在佇列中等候伺服器的呼叫，就會開始讀取佇列。 如果對應的 RPC 介面尚未註冊，則呼叫會失敗。 如果您已設定遠端程序呼叫的永久端點、伺服器已經關閉，而且用戶端繼續傳送呼叫給伺服器，就會發生這種情況。 這些呼叫會堆疊在佇列中，等候在伺服器重新上線時讀取。
 
- 
+ 
 
 如需詳細資訊，請參閱 [**RpcBindingSetOption**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption)、 [**RpcServerUseProtseqEpEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex)和 \[ [**message**](/windows/desktop/Midl/message) \] [**ncadg \_ mq**](/windows/desktop/Midl/ncadg-mq)。
 
- 
+ 
 
- 
+ 

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 079eded352c81bc7a066a02616cf314435e7c862b7a34b1b957a0a633f73c20e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42852346af5e4f19038594627e9b7f567e2d3e86
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117835063"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885310"
 ---
 # <a name="cim_check-class"></a>CIM \_ 檢查類別
 
@@ -150,7 +150,7 @@ class CIM_Check
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -784,8 +784,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 </dd> </dl>
 

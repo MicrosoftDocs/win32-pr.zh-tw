@@ -1,15 +1,15 @@
 ---
-description: AVAILABLEFREEREG 屬性會在呼叫 AllocateRegistrySpace 動作之後，以 kb 為單位指定登錄中的可用空間總計（以 kb 為單位）。AVAILABLEFREEREG 屬性的最大值為 2000000 kb。這個屬性只會在 Windows 2000 上設定。
+description: AVAILABLEFREEREG 屬性會在呼叫 AllocateRegistrySpace 動作之後，以 kb 為單位指定登錄中的可用空間總計（以 kb 為單位）。AVAILABLEFREEREG 屬性的最大值為 2000000 kb。這個屬性只會設定在 Windows 2000。
 ms.assetid: 95afc397-2f28-4ab9-8d95-d071c2f1f498
 title: AVAILABLEFREEREG 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 517073748195c47ee27b68adbe70d6c69f3f585b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b45508494f9ba87ec8261b38ea18f83d0b3ad9796f7390b70349211cbf244df3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650068"
 ---
 # <a name="availablefreereg-property"></a>AVAILABLEFREEREG 屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "106980132"
 
 **AVAILABLEFREEREG** 屬性的最大值為 2000000 kb。
 
-這個屬性只會在 Windows 2000 上設定。
+這個屬性只會設定在 Windows 2000。
 
 ## <a name="remarks"></a>備註
 
@@ -33,7 +33,7 @@ ms.locfileid: "106980132"
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

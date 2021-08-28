@@ -5,16 +5,16 @@ ms.assetid: eee9b8b0-8566-442a-9a46-b6469e5bb1fc
 ms.tgt_platform: multiple
 keywords:
 - 移除 RnR 連接點廣告的範例程式碼
-- Windows 通訊端註冊和解析 AD、範例程式碼、移除 RnR 連接點
+- Windows通訊端註冊和解析 AD、範例程式碼、移除 RnR 連接點
 - 移除 RnR 連接點廣告，範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1db126af451d8ecd3648ce04a93043df34b6a47
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b1dbeaecff3ced72ecce1ae4a789878c3cc5f00d333c4c19b5d5c8ef3b4abf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693081"
 ---
 # <a name="example-code-for-removing-the-rnr-connection-point"></a>移除 RnR 連接點的範例程式碼
 
@@ -84,9 +84,9 @@ INT serverUnregister(SOCKADDR *sa,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

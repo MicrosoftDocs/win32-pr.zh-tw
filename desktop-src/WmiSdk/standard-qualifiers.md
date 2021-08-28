@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 67877cfc07a247d6b5e3309270d145bc64fbb814416fa4288c6e85ff2ad2e986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ba975b9b35cd000844b3956e141c86b1be52531
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884995"
 ---
 # <a name="standard-qualifiers"></a>標準限定詞
 
@@ -378,7 +378,7 @@ ms.locfileid: "118315134"
 
 適用于：參考
 
-實例的位置類型。 其值為 <namespacetype> 。 預設值為 **Null**。
+實例的位置類型。 其值為 &lt; namespacetype &gt; 。 預設值為 **Null**。
 
 使用方式：此辨識符號不能與 **非本機** 辨識符號一起使用。
 

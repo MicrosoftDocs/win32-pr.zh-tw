@@ -5,16 +5,16 @@ title: 載入和顯示點陣圖
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: ab2405462db5017215893d50d93dc0b228633cfb
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: db3ec9e1d586a585380123aa01d9553ad1f57f60efb93c28d2d974f54d56b249
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104974793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114998"
 ---
 # <a name="loading-and-displaying-bitmaps"></a>載入和顯示點陣圖
 
-另請參閱 [WIC 檢視器 GDI + 範例應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)。
+另請參閱[WIC 檢視器 GDI+ 範例應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)。
 
 若要在螢幕上顯示 (點陣圖) 的點陣影像，您需要 [**影像**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) 物件和 [**圖形**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件。 將檔案的名稱 (或) 的資料流程指標傳遞至 **影像** 的函式。 建立 **影像** 物件之後，將該 **影像** 物件的位址傳遞給 **圖形** 物件的 **DrawImage** 方法。
 
@@ -41,4 +41,4 @@ graphics.DrawImage(&bitmap, 10, 10);
 
 ## <a name="see-also"></a>另請參閱
 
-[WIC 檢視器 GDI + 範例應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)
+[WIC 檢視器 GDI+ 範例應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)

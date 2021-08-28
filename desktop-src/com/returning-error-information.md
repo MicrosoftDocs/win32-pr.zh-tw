@@ -4,12 +4,12 @@ description: 傳回錯誤資訊
 ms.assetid: 4206f2e5-db01-458c-93cb-10c5cd4a4536
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303db82dc220d09d4db7f52bf4c04ad1e5ca691f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 545c697be7da64362ecce0f5b4c45272832ad682d8b4dd0eb5234620b993e5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309640"
 ---
 # <a name="returning-error-information"></a>傳回錯誤資訊
 
@@ -22,6 +22,6 @@ ms.locfileid: "104382914"
 
 錯誤處理介面會建立和管理 error 物件，此物件會提供錯誤的相關資訊。 錯誤物件與發生錯誤的物件不同。 它是與目前執行中線程相關聯的個別物件。
 
- 
+ 
 
- 
+ 

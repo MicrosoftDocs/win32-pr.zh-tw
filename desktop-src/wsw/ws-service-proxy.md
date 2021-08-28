@@ -6,12 +6,12 @@ keywords:
 - WS_SERVICE_PROXY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cfe81f45141b2ac6eb64e17895261c3e6fea8db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ba5c17b36d0ca36ce43192fe29a3ef9113cc47530f0fe8e00d67717f42f71bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880758"
 ---
 # <a name="ws_service_proxy"></a>WS \_ 服務 \_ PROXY
 
@@ -35,7 +35,7 @@ typedef struct _WS_SERVICE_PROXY WS_SERVICE_PROXY;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

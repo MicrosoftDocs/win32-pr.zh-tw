@@ -4,12 +4,12 @@ description: 使用 WinINet 函式之前，應用程式應該嘗試使用 Intern
 ms.assetid: 80747c0d-5a09-4ffa-a0ca-b051b82acbf8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb44fadaf0726b81618dde19105da7517673a00
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 23f4780b508059c088e2948829662171fd6df46f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885492"
 ---
 # <a name="enabling-internet-functionality"></a>啟用網際網路功能
 
@@ -37,7 +37,7 @@ ms.locfileid: "104023959"
 -   如果執行 \_ \_ \_ 應用程式的系統使用一或多個 PROXY 伺服器來存取網際網路，請使用 internet OPEN TYPE PROXY。 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) 會使用 *lpszProxyName* 所指示的 proxy 伺服器，並針對 *lpszProxyBypass* 指定的任何主機名稱或 IP 位址略過 proxy。
 -   使用 INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 來指示您的應用程式從登錄中取得設定。 這通常是最好的選擇，因為大部分的應用程式（包括網頁瀏覽器）都會使用此選項。
 
-INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 會查看登錄值 **ProxyEnable**、 **ProxyServer** 和 **ProxyOverride**。 這些值位於 [HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ 網際網路設定] 下。
+INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 會查看登錄值 **ProxyEnable**、 **ProxyServer** 和 **ProxyOverride**。 這些值位於「HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet 設定」之下。
 
 如果 **ProxyEnable** 為零，則應用程式會使用網際網路 \_ 開放式 \_ 型別直接存取 \_ 。 否則，應用程式會使用網際網路 \_ 開放式 \_ 型別 \_ PROXY，並使用 **ProxyServer** 和 **ProxyOverride** 資訊。
 
@@ -47,13 +47,13 @@ INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 會查看登錄值 **ProxyEnable**、 **Pr
 
 WinINet 辨識兩種類型的 proxy： CERN 類型 proxy (僅限 HTTP) 和 TIS FTP proxy (FTP) 。 如果 Internet Explorer 已安裝，WinINet 也支援 SOCKS 類型 proxy。 根據預設， [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta)會假設指定的 PROXY 是 CERN proxy。 如果存取類型設定為 INTERNET \_ open \_ type \_ DIRECT 或 internet \_ open \_ type \_ PRECONFIG，則 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena)的 *lpszProxyName* 參數應該設定為 **Null**。 否則，傳遞給 *lpszProxyName* 的值必須包含以空格分隔之字串的 proxy。 Proxy 清單可以包含用來存取 proxy 的埠號碼。
 
-若要列出特定通訊協定的 proxy，字串必須採用 "" <protocol> <protocol> ：//<proxy \_ name> "" 格式。 有效的通訊協定為 HTTP、HTTPS 和 FTP。 例如，若要列出 FTP proxy，有效的字串會是 "" ftp = FTP：//ftp \_ proxy \_ name： 21 ""，其中 ftp \_ PROXY \_ 名稱是 ftp proxy 的名稱，而21是必須用來存取 proxy 的埠號碼。 如果 proxy 使用該通訊協定的預設通訊埠號碼，則可以省略埠號碼。 如果 proxy 名稱本身列出，則會使用它做為未指定特定 proxy 之任何通訊協定的預設 proxy。 例如，"" HTTP = https://http\_proxy other "" 會 \_ 對任何 HTTP 作業使用 HTTP proxy，其他所有通訊協定則會使用其他通訊協定。
+若要列出特定通訊協定的 proxy，字串必須採用 "" &lt; protocol &gt; &lt; protocol： &gt; //<proxy \_ name> "" 格式。 有效的通訊協定為 HTTP、HTTPS 和 FTP。 例如，若要列出 FTP proxy，有效的字串會是 "" ftp = FTP：//ftp \_ proxy \_ name： 21 ""，其中 ftp \_ PROXY \_ 名稱是 ftp proxy 的名稱，而21是必須用來存取 proxy 的埠號碼。 如果 proxy 使用該通訊協定的預設通訊埠號碼，則可以省略埠號碼。 如果 proxy 名稱本身列出，則會使用它做為未指定特定 proxy 之任何通訊協定的預設 proxy。 例如，"" HTTP = https://http\_proxy other "" 會 \_ 對任何 HTTP 作業使用 HTTP proxy，其他所有通訊協定則會使用其他通訊協定。
 
 根據預設，此函式會假設 *lpszProxyName* 所指定的 PROXY 是 CERN proxy。 應用程式可以指定一個以上的 proxy，包括不同通訊協定的不同 proxy。 例如，如果您指定 "" ftp = ftp：//ftp-gw HTTP = https://jericho:99 proxy ""，ftp 要求會透過 ftp-gw proxy （接聽埠21）發出，而 HTTP 要求則是透過名為 jericho 的 CERN proxy 來接聽，而此 proxy 會接聽埠99。 否則，HTTP 要求會透過名為 proxy 的 CERN proxy 來進行，它會接聽埠80。 請注意，如果應用程式只使用 FTP，就不需要指定 "" ftp = FTP：//ftp-gw： 21 "」。 它可以只指定 "" ftp-gw ""。 只有當應用程式針對 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena)所傳回的每個控制碼使用一個以上的通訊協定時，才需要指定通訊協定名稱。
 
 ### <a name="listing-the-proxy-bypass"></a>列出 Proxy 略過
 
-不應傳送至 proxy 的主機名稱或 IP 位址可以列在 proxy 略過清單中。 這份清單可以包含萬用字元 " \* "，這會導致應用程式針對符合指定模式的位址略過 proxy 伺服器。 若要列出多個位址和主機名稱，請在 proxy 略過字串中以分號分隔它們。 如果指定 " <local> " 宏，函式會略過不包含句號的任何主機名稱的 proxy。
+不應傳送至 proxy 的主機名稱或 IP 位址可以列在 proxy 略過清單中。 這份清單可以包含萬用字元 " \* "，這會導致應用程式針對符合指定模式的位址略過 proxy 伺服器。 若要列出多個位址和主機名稱，請在 proxy 略過字串中以分號分隔它們。 如果指定 " &lt; local &gt; " 宏，函式會略過不包含句號的任何主機名稱的 proxy。
 
 根據預設，WinINet 將會略過使用主機名稱 "localhost"、"回送"、"127.0.0.1" 或 " \[ ：： 1" 之要求的 proxy \] 。 這種行為存在的原因是，遠端 proxy 伺服器通常不會正確地解析這些位址。
 
@@ -104,45 +104,15 @@ hInternetRoot = InternetOpen(TEXT("WinInet Example"),
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>INTERNET_DEFAULT_FTP_PORT</td>
-<td>使用 ftp 伺服器的預設埠 (埠 21) 。</td>
-</tr>
-<tr class="even">
-<td>INTERNET_DEFAULT_GOPHER_PORT</td>
-<td>使用 (埠 70) 的 Gopher 伺服器的預設埠。
-<blockquote>
-[!Note]<br />
-僅限 windows XP 及 Windows Server 2003 R2 及更早版本。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>INTERNET_DEFAULT_HTTP_PORT</td>
-<td>使用 HTTP 伺服器的預設埠 (埠 80) 。</td>
-</tr>
-<tr class="even">
-<td>INTERNET_DEFAULT_HTTPS_PORT</td>
-<td>使用 HTTPs 伺服器的預設埠 (埠 443) 。</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_DEFAULT_SOCKS_PORT</td>
-<td>使用 (埠 1080) 的 SOCKS 防火牆伺服器的預設埠。</td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| INTERNET_DEFAULT_FTP_PORT | 使用 ftp 伺服器的預設埠 (埠 21) 。 | 
+| INTERNET_DEFAULT_GOPHER_PORT | 使用 (埠 70) 的 Gopher 伺服器的預設埠。<blockquote>[!Note]<br />WindowsXP 和 Windows Server 2003 R2 及更早版本。</blockquote><br /> | 
+| INTERNET_DEFAULT_HTTP_PORT | 使用 HTTP 伺服器的預設埠 (埠 80) 。 | 
+| INTERNET_DEFAULT_HTTPS_PORT | 使用 HTTPs 伺服器的預設埠 (埠 443) 。 | 
+| INTERNET_DEFAULT_SOCKS_PORT | 使用 (埠 1080) 的 SOCKS 防火牆伺服器的預設埠。 | 
+
 
 
 
@@ -182,7 +152,7 @@ hInternetRoot = InternetOpen(TEXT("WinInet Example"),
 針對 FTP 會話， [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) 會嘗試建立與網際網路上伺服器的連線。 針對 HTTP 會話， [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) 會在另一個函數嘗試從伺服器取得資訊之前，不會建立連接。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

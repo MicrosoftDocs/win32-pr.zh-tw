@@ -925,6 +925,14 @@
               href: wmiperfclass-provider.md
             - name: WmiPerfInst 提供者
               href: wmiperfinst-provider.md
+            - name: 應用程式清查類別
+              href: applicationanddeviceinventory-portal.md
+            - name: Win32_InstalledWin32Program 類別
+              href: win32-installedwin32program.md
+            - name: Win32_InstalledStoreProgram 類別
+              href: win32-installedstoreprogram.md
+            - name: Win32_InstalledProgramFramework 類別
+              href: win32-installedprogramframework.md
         - name: WMI 提供者架構 c + + 類別
           href: wmi-c-classes.md
           items:

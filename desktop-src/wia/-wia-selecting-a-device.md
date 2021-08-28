@@ -1,19 +1,19 @@
 ---
-description: 當應用程式連線到 Windows 映像取得 (WIA) 硬體裝置時，WIA 會建立專案樹狀結構 (IWiaItem 或 IWiaItem2 介面的階層式樹狀結構，) 代表裝置及其影像、資料夾和掃描張床。
+description: 當應用程式連線至 Windows 映像取得 (WIA) 硬體裝置時，wia 會建立專案樹狀結構 (IWiaItem 或 IWiaItem2 介面的階層式樹狀結構，) 代表裝置及其影像、資料夾和掃描張床。
 ms.assetid: 2a7bcfd4-4075-48a4-9eff-5210b9a635e3
 title: '選取裝置 (WIA) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08a2eab41016397f6505e60efcbf78d1fdf82499
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d068dc2501419b5748f199114fab15d72dc5fecc6c7e6881f63b8e47114b7d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813657"
 ---
 # <a name="selecting-a-device-wia"></a>選取裝置 (WIA) 
 
-當應用程式連線到 Windows 映像取得 (WIA) 硬體裝置時，WIA 會建立專案樹狀結構 ([**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 或 [**IWiaItem2**](-wia-iwiaitem2.md) 介面的階層式樹狀結構，) 代表裝置及其影像、資料夾和掃描張床。 應用程式可以在沒有使用者輸入的情況下，選取並聯機到裝置，或顯示可讓使用者選取裝置的對話方塊。
+當應用程式連線至 Windows 映像取得 (WIA) 硬體裝置時，wia 會建立專案樹狀結構 ([**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)或 [**IWiaItem2**](-wia-iwiaitem2.md)介面的階層式樹狀結構，) 代表裝置及其影像、資料夾和掃描張床。 應用程式可以在沒有使用者輸入的情況下，選取並聯機到裝置，或顯示可讓使用者選取裝置的對話方塊。
 
 -   [在不使用 UI 的情況下選取裝置](#selecting-a-device-without-the-ui)
 -   [使用 UI 選取裝置](#selecting-a-device-with-the-ui)

@@ -3,7 +3,7 @@ title: 'XTYP_ERROR 交易 (Ddeml .h) '
 description: 當發生重大錯誤時，動態資料交換 (DDE) 回呼函式 DdeCallback 會接收 XTYP \_ 錯誤交易。
 ms.assetid: 710daa04-ed83-42e3-a55e-6ccf891a3d52
 keywords:
-- XTYP_ERROR 交易資料交換
+- XTYP_ERROR 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbad80cb23a37881e8954dee4a80a87f253e499
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce59800723758201b4857b5a3ae0844675347b2d4fd403c77650b36d9275bfb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755978"
 ---
 # <a name="xtyp_error-transaction"></a>XTYP \_ 錯誤交易
 
@@ -116,7 +116,7 @@ ms.locfileid: "106967733"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

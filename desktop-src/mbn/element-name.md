@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: bbf9c3452d98f669dbee49a1e773b52bccc05d62
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 728b819b267e17b4624135298554ebaabc9efc65
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469365"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988701"
 ---
 # <a name="span-idwwan_profile_v4element_namespanmbnprofileextname-v4"></a><span id="WWAN_profile_v4.element_Name"></span>MBNProfileExt \/ (v4) 名稱
 
@@ -69,7 +69,9 @@ ms.locfileid: "122469365"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

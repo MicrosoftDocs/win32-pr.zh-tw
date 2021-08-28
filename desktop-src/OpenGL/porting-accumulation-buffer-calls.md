@@ -10,12 +10,12 @@ keywords:
 - 累積緩衝區 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ca91cb3ba35535ba2470297070dffc932a1c33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f8a9e1999da2d76f19f6cc0a4c86072f68a1aa239829edcb3f22bf8c873ed181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936237"
 ---
 # <a name="porting-accumulation-buffer-calls"></a>移植累積的緩衝區呼叫
 
@@ -32,7 +32,7 @@ ms.locfileid: "104184157"
 
 
 
- 
+ 
 
 下表列出鳶尾花 GL **acbuf** 參數，以及相等的 OpenGL [**glAccum**](glaccum.md) 參數。
 
@@ -48,11 +48,11 @@ ms.locfileid: "104184157"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

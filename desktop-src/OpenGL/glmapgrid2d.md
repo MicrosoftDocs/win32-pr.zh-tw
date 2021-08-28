@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6992a904528cf961f27335e7241c50fbd14f058b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d4a6b01e45878b3eb2db6fe11b5fba4bf64c185b6e430e5af17007cd5a91953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938451"
 ---
 # <a name="glmapgrid2d-function"></a>glMapGrid2d 函式
 
@@ -80,7 +80,7 @@ void WINAPI glMapGrid2d(
 
 </dd> <dt>
 
-*v2* 
+*2* 
 </dt> <dd>
 
 用來當做整數方格定義域值 j = vn 之對應的值。
@@ -97,7 +97,7 @@ void WINAPI glMapGrid2d(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *Un* 或 *vn* 不是正數。<br/>                                                                                      |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8594d53797b028dd74a8ef11cb8f2fa64b3654cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d224e35dd9c87dad627e71f2ae07d3d0b9e24ee1b094cfa5dea549e86c69a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999988"
 ---
 # <a name="iwmpnetworkbufferingtime-property"></a>IWMPNetwork：： bufferingTime 屬性
 
