@@ -4,12 +4,12 @@ ms.assetid: 5bcd3cd4-e370-41ee-a09d-eec444fc620e
 title: ICE20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 564dd1f8331405f1c0539c6c0c8668be549f7375
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 287e8483a5b58af972e2719e324c71cd5a61acb20217e07b09deb6e6356eee0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763908"
 ---
 # <a name="ice20"></a>ICE20
 

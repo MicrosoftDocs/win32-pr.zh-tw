@@ -4,12 +4,12 @@ ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
 title: 設定 Demux 輸出圖釘
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56a24af3f49f26efe4ff6afad075a3cef61fcd1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0456b7354c23048bafe012439d5d2c4fa1843df601ee2d8e49aa62dfc01a4b9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813608"
 ---
 # <a name="configuring-the-demux-output-pins"></a>設定 Demux 輸出圖釘
 

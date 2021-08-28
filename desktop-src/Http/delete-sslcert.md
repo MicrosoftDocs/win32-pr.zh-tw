@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7672df5eee1634c41ff153435edcbecc58c2595
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: a45d811bedfa1d2a228cd29decf2272d85b8ca6de5c1d27656b3e37b8d6b4d4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103678868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870538"
 ---
 # <a name="delete-sslcert"></a>delete sslcert
 
@@ -32,7 +32,7 @@ delete sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = \] * * * IP 位址：埠*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ ipport = \]** _IP 位址：埠_
 </dt> <dd>
 
 指定將刪除 SSL 憑證系結的 IPv4 或 IPv6 位址和埠。
@@ -47,9 +47,9 @@ delete sslcert [ipport=]IP Address:port
 
 **delete sslcert ipport = \[ ：： \] ：443**
 
- 
+ 
 
- 
+ 
 
 
 

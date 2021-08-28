@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 46cc7e93fc01e14ff34091da4549308730d7cd7c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 14a079443370f2363006ce23fcc5f5119b7ec7c48e3b15afe4969c989e071af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853318"
 ---
 # <a name="texture1darraygetdimensions-function"></a>Texture1DArray：： GetDimensions 函數
 
@@ -108,7 +108,7 @@ void GetDimensions(out float Width,
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

@@ -10,12 +10,12 @@ keywords:
 - framebuffers、每個頂點的作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3207f2716ca59456328078fd10bd03ea9de09da6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfe7f0606d0b2cd74402ac7015323b68dcda7337478a060791ee0ab97f0294a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776458"
 ---
 # <a name="vertices"></a>頂點
 
@@ -28,9 +28,9 @@ ms.locfileid: "106966189"
 -   [組合基本專案](assembling-primitives.md)
 -   [頂點參考](vertices-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

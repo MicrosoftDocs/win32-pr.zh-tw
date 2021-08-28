@@ -4,12 +4,12 @@ ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: 超越向量函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5927f8a477b4d55e8ed03ca6d61f329e76f11be2
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 712e911f65687285381b28889a28934553ac510544b935a4285b8c1b4b891516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841148"
 ---
 # <a name="transcendental-vector-functions"></a>超越向量函數
 
@@ -55,9 +55,9 @@ ms.locfileid: "111827654"
 
 ## <a name="remarks"></a>備註
 
-[**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) 是現有 Windows 8 程式碼之 [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) 的相容性別名。 Windows 8.1 的 **XMVectorExp** 已被取代。 請勿使用它，而是改用 **XMVectorExp2** 或 [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)。
+[**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp)是現有 Windows 8 程式碼之 [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2)的相容性別名。 Windows 8.1 的 **XMVectorExp** 已被取代。 請勿使用它，而是改用 **XMVectorExp2** 或 [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)。
 
-[**XMVectorLog**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog) 是現有 Windows 8 程式碼之 [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2) 的相容性別名。 Windows 8.1 的 **XMVectorLog** 已被取代。 請勿使用它，而是改用 **XMVectorLog2** 或 [**XMVectorLogE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge)。
+[**XMVectorLog**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog)是現有 Windows 8 程式碼之 [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2)的相容性別名。 Windows 8.1 的 **XMVectorLog** 已被取代。 請勿使用它，而是改用 **XMVectorLog2** 或 [**XMVectorLogE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge)。
 
 ## <a name="related-topics"></a>相關主題
 

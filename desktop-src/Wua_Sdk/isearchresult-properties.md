@@ -4,12 +4,12 @@ ms.assetid: 12237d7b-edb1-45b1-b4e1-a85261ee18ce
 title: ISearchResult 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2e8e77a4533d7fcac2a34bb3b6fd1c4b74b77b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbca751ffc08f26eb49e7b1beffa00353505e86a6aca2015be378615aeeaf0dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756448"
 ---
 # <a name="isearchresult-properties"></a>ISearchResult 屬性
 

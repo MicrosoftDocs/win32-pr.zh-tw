@@ -4,12 +4,12 @@ ms.assetid: 0de89a6f-d9c7-4f33-8088-c24a48a3ceee
 title: 模式筆刷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66d39dd499d6a95b3fb61624b2aab8b421f51c34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d48b7d5f3bc5c4b0fd86eda28a35bb56f02e5ba998353d36d829a71655aa66f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104988081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831518"
 ---
 # <a name="pattern-brush"></a>模式筆刷
 

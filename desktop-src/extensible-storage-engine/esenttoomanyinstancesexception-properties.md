@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103083
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a5441bc5a401bc96f3055a70cb51840afbc51f08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abf26179aec02f19ab88e0ff68b4fc88f14c69a7f76890944ce5f998777e13a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781323"
 ---
 # <a name="esenttoomanyinstancesexception-properties"></a>EsentTooManyInstancesException 屬性
 

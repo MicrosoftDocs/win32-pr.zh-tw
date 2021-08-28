@@ -4,12 +4,12 @@ ms.assetid: 25ee05d5-8554-4739-9122-e3c0255bf965
 title: DirectX Video 加速 IAMVideoAccelerator 操作規格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3360e18e91197f2a15a36fb112f0419b6382e915
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5dbf548ef8584028a0d09aac54c2412a8aa94f1ecd835158186cf542bb5187dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906508"
 ---
 # <a name="directx-video-acceleration-iamvideoaccelerator-operational-specification"></a>DirectX Video 加速 IAMVideoAccelerator 操作規格
 

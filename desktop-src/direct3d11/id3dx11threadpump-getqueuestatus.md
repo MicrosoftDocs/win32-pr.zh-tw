@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3c945cb2978af15263d3f72d34a47c5e8ca8a69
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 41535dba7c5abb96c132714ecbc6ee4e02f1f42fcb6a45ebe8795286d8613c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851498"
 ---
 # <a name="id3dx11threadpumpgetqueuestatus-method"></a>ID3DX11ThreadPump：： GetQueueStatus 方法
 
 > [!Note]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 
  
 

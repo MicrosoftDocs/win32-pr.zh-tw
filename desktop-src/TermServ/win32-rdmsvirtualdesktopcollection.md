@@ -29,12 +29,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a6da0c13b6ab223afc7afe6e92039a5388c6204
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 580b5ae194a28726a06143dce0007eeedfbb8564b49a4cbc2e7c2d0d8507dfe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868068"
 ---
 # <a name="win32_rdmsvirtualdesktopcollection-class"></a>Win32 \_ RDMSVirtualDesktopCollection 類別
 
@@ -246,7 +246,7 @@ class Win32_RDMSVirtualDesktopCollection
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

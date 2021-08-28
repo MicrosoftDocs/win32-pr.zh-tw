@@ -8,12 +8,12 @@ keywords:
 - mciSendCommand 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc92b960e646ee1e452c7a356d0291c080d0162
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 428c89f610f204cfeb75a6c23309c8f3f9846d3136ffac4dbcf0959c5bc4add3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807938"
 ---
 # <a name="command-messages"></a>命令訊息
 
@@ -43,6 +43,6 @@ mciSendCommand(wDeviceID,            // device identifier
 
 使用 [**MCI \_ OPEN**](mci-open.md) 命令開啟裝置時，會抓取第一個參數所提供的裝置識別碼。 最後一個參數是 [**MCI \_ PLAY \_ PARMS**](mci-play-parms.md) 結構的位址，其中可能包含開始及結束播放位置的相關資訊。 許多 MCI 命令訊息都使用結構來包含這種類型的參數。 當作業完成時，每個結構的第一個成員會識別接收 [**MM \_ MCINOTIFY**](mm-mcinotify.md) 訊息的視窗。
 
- 
+ 
 
- 
+ 

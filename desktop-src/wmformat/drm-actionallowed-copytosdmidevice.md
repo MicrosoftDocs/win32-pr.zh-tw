@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f61da53fd060bd4fb06dbbb7586d923ac17fc0f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a868eab52d354672802ef1f736bbc2754af605371708247415cbe78a42442e1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809418"
 ---
 # <a name="drm_actionallowed_copytosdmidevice"></a>DRM \_ ActionAllowed \_ CopyToSDMIDevice
 
@@ -33,7 +33,7 @@ g \_ wszWMDRM \_ ActionAllowed \_ CopyToSDMIDevice
 
 ## <a name="remarks"></a>備註
 
-Windows Media DRM 10 授權使用複製動作來限制複製到裝置。 您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。
+Windows媒體 DRM 10 授權使用複製動作來限制複製到裝置。 您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。
 
 這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。
 
@@ -44,9 +44,9 @@ Windows Media DRM 10 授權使用複製動作來限制複製到裝置。 您應�
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

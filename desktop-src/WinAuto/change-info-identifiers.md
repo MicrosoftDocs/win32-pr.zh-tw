@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f3e27951f3b9b348583821ddc62bd3dddd5de58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf9cf397f4f1bc2ea10291b46d21c32b0b32a61609e9f3a33272170f4debdde3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759658"
 ---
 # <a name="change-info-identifiers"></a>變更資訊識別碼
 
@@ -44,8 +44,8 @@ ms.locfileid: "106968784"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                            |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                            |
 | 標頭<br/>                   | <dl> <dt>Uiautomationclient.dll。h</dt> </dl> |
 
 

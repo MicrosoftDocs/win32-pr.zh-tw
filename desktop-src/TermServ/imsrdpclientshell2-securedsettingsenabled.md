@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1009759051207db7e6b8d741c1dd91e3de1ffc36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d418df76de38313d681f9f01a4dea33ba0803ad67e42d92d90d2ba5a354a8eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870878"
 ---
 # <a name="imsrdpclientshell2securedsettingsenabled-property"></a>IMsRdpClientShell2：： SecuredSettingsEnabled 屬性
 

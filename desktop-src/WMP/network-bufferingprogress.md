@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e3a4f37f8f6b8ffe8ff93ca72b0c9551d7e314
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65de3f7b1b58dfb90f76436f324dcc3d4fc3fe9a24b7c60ca3db888771f9192d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901748"
 ---
 # <a name="networkbufferingprogress"></a>BufferingProgress
 

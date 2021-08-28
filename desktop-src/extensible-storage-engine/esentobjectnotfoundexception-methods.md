@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102405
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2ee555bbe38ef0636cbefed8622d0feadf806f63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab1bb2c44e4bdf1085c91881ae978f64770460dc352629e6df5be80f2700c0a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851838"
 ---
 # <a name="esentobjectnotfoundexception-methods"></a>EsentObjectNotFoundException 方法
 

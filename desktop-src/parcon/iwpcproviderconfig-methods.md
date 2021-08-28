@@ -4,12 +4,12 @@ ms.assetid: 4370095A-DFF4-4D87-AEC3-3875E295847D
 title: IWPCProviderConfig 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379d7a8cc5d59cff2b23a9e144a51b562907c133
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 104a90bf17b60f21275422b7c5f2b8775944e44b05ba8d27a89c41db79d8cfed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846658"
 ---
 # <a name="iwpcproviderconfig-methods"></a>IWPCProviderConfig 方法
 

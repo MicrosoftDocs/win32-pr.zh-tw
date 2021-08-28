@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9437c7d6347da4bafae566386e09e4bc782bd16
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ad823cd9932e98f919764e57666549189623986eb173ba6b4ef74cdade21f33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855355"
 ---
 # <a name="defb---ps"></a>defb-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103682826"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "103682826"
 
 
 
- 
+ 
 
 Defb 指令會定義布林著色器常數，其值會在著色器設定為裝置時載入。 這些都稱為立即常數。 立即的常數優先于 API 方法 SetPixelShaderConstantB 所設定的常數。
 
@@ -69,6 +69,6 @@ Defb 指令會定義布林著色器常數，其值會在著色器設定為裝置
 [defi-ps](defi---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 783be0b2-7894-4780-900d-98918f824a04
 title: 使用者和群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c40ee9234fa8d6259282855011cfc3fc008d6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea7d6ae84dba833ddd06eb81944cecb9aa401c0f8f1971c3164317cefae14fbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906818"
 ---
 # <a name="users-and-groups"></a>使用者和群組
 
@@ -29,7 +29,7 @@ ms.locfileid: "106992186"
 
 ## <a name="windows-users-and-groups"></a>Windows 使用者和群組
 
-這些與整個 Windows 作業系統所使用的使用者和群組相同。
+這些與 Windows 作業系統中使用的使用者和群組相同。
 
 ## <a name="ldap-query-groups"></a>LDAP 查詢群組
 

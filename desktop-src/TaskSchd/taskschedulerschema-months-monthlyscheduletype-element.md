@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ed40fd2466f8962f839f39e7addd3b7e1bc33eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b655b47fc3135006f8629246d63350d36a4b32e92398a00f40ae86fe3f70d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796498"
 ---
 # <a name="months-monthlyscheduletype-element"></a>MonthlyScheduleType) 元素 (月份
 
@@ -36,7 +36,7 @@ ms.locfileid: "104105371"
 
 
 
-| 元素                                                                                    | 衍生自                                                                       | Description                               |
+| 元素                                                                                    | 衍生自                                                                       | 描述                               |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------|
 | [**ScheduleByMonth**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md) | [**monthlyScheduleType**](taskschedulerschema-monthlyscheduletype-complextype.md) | 指定每月排程。 <br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "104105371"
 
 
 
-| 元素                                                                            | 類型 | Description                                           |
+| 元素                                                                            | 類型 | 描述                                           |
 |------------------------------------------------------------------------------------|------|-------------------------------------------------------|
 | [**四月 (monthsType)**](taskschedulerschema-april-monthstype-element.md)         |      | 指定工作會在四月執行。<br/>     |
 | [**八月 (monthsType)**](taskschedulerschema-august-monthstype-element.md)       |      | 指定工作在8月執行。<br/>    |
@@ -105,8 +105,8 @@ ms.locfileid: "104105371"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

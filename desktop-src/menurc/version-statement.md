@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 302ffcee38b287afff2697b9c5a5241fa406b55c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2c95f2af63d5c7bdb499d371892d0c2fa6ddb875fda5daf5b19fd0d188a478fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776658"
 ---
 # <a name="version-statement"></a>VERSION 語句
 
@@ -60,9 +60,9 @@ VERSION dword
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

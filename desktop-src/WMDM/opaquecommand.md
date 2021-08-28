@@ -1,6 +1,6 @@
 ---
 title: OPAQUECOMMAND 結構
-description: OPAQUECOMMAND 結構包含命令的資料，這些命令是透過 Windows Media 裝置管理員傳遞至裝置，但不適合 Windows Media 裝置管理員。
+description: OPAQUECOMMAND 結構包含命令的資料，這些命令會透過 Windows 媒體裝置管理員傳遞至裝置，但不適合透過 Windows 媒體裝置管理員來處理。
 ms.assetid: 5b39cf07-2816-4615-a754-e3f0c57bf4ce
 keywords:
 - OPAQUECOMMAND 結構 windows Media 裝置管理員
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 672147cb99336f95a1ced88a3cc6b8df977aec74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76d3f0b94146262c480e7e510497111bf82f0c020001717cb0000ee4a88df440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904008"
 ---
 # <a name="opaquecommand-structure"></a>OPAQUECOMMAND 結構
 
-**OPAQUECOMMAND** 結構包含命令的資料，這些命令是透過 windows media 裝置管理員傳遞至裝置，但不適合 Windows media 裝置管理員。
+**OPAQUECOMMAND** 結構包含命令的資料，這些命令會透過 Windows 媒體裝置管理員傳遞至裝置，但不適合透過 Windows 媒體裝置管理員來處理。
 
 ## <a name="syntax"></a>語法
 

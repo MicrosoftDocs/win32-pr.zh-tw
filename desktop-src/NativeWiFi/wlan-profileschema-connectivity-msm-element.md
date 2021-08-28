@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 938e5b19ffab490066fbbe299bd250191d9226a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8745671004799f96aecfe68b531c122c76122b5865678258fd241e9d8a07260a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799908"
 ---
 # <a name="connectivity-msm-element"></a> (.MSM) 元素的連接
 
@@ -85,8 +85,8 @@ ms.locfileid: "106989062"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                 |
 
 

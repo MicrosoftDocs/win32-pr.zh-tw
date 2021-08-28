@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f44b4187699cb4a55d0c6215e3f31b430a87d299
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d5b2b5e126555a0d09ea88017e2a290c180434b18fb8a61f668afd8e12fa02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808548"
 ---
 # <a name="iwmdrmsecuritygetcontentenablersfromhashes-method"></a>IWMDRMSecurity：： GetContentEnablersFromHashes 方法
 
@@ -88,7 +88,7 @@ HRESULT GetContentEnablersFromHashes(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

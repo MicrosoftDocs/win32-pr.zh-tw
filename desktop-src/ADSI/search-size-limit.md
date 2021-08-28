@@ -7,12 +7,12 @@ keywords:
 - 搜尋大小限制 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd11148f9e887df1e15e221e8188f9e9e3b10d33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a48961532891f6573ccf8cb230117fad76daef95c57559e672eae93f022caf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763448"
 ---
 # <a name="search-size-limit"></a>搜尋大小限制
 
@@ -24,9 +24,9 @@ ms.locfileid: "103931828"
 -   [使用 ActiveX Data Objects 搜尋](searching-with-activex-data-objects-ado.md)
 -   [使用 OLE DB 搜尋](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

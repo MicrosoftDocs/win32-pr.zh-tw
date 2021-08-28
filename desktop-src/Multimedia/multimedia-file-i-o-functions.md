@@ -15,12 +15,12 @@ keywords:
 - 檔案 i/o 參考，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62b8daf8e84953acebcca9106165f27b350ef2f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0bbbdf3df443eb21a74c74413c6274217fd9b6752bc012f1e2706deaeeaeaa6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806968"
 ---
 # <a name="multimedia-file-io-functions"></a>多媒體檔案 i/o 函數
 
@@ -52,6 +52,6 @@ ms.locfileid: "104507875"
 [多媒體檔案 i/o 參考](multimedia-file-i-o-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

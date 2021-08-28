@@ -4,12 +4,12 @@ description: 為了方便起見，Microsoft Visual Studio 6.0 會提供每個範
 ms.assetid: 8da6affd-a881-4dc4-a2e6-d35f655c69fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b32359a29d14a6cd5a4d08d015a6598ade376d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ee6edc1b19cb0e56495c8af6f96d28e4d255e40d53161671f52a1a7d27939f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796848"
 ---
 # <a name="using-visual-studio"></a>使用 Visual Studio
 
@@ -18,7 +18,7 @@ ms.locfileid: "103671063"
 > [!Note]  
 > 下列指示是針對 Microsoft Visual Studio 6.0 所撰寫。 在舊版和更新版本的 Visual Studio 中，這些命令可能會有所不同。
 
- 
+ 
 
 若要為範例載入適當的專案，您可以在範例目錄的命令提示字元中執行 Visual Studio，如下列範例所示。 您必須以的範例專案名稱取代 **<project name>** 。
 
@@ -69,9 +69,9 @@ ms.locfileid: "103671063"
 -   DCDSERVE：組建或執行需要先前的 REGISTER 和 DCDMARSH 組建。
 -   DCOMDRAW：組建或執行需要在本機 (用戶端) 電腦上進行登錄和 DCDMARSH 先前的組建。 執行需要在遠端 (server) 電腦上註冊、DCDMARSH 和 DCOMDRAW 之前的版本。
 
- 
+ 
 
- 
+ 
 
 
 

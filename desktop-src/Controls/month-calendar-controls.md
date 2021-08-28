@@ -4,12 +4,12 @@ description: 月曆控制項會實行類似行事曆的使用者介面。
 ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f21fba66f9fb71ad45f8853578821ad5f83da00e
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 72000e0cecbfe627068260c5d9263821437246c15bebdfb876ecaa84e61f9cda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834514"
 ---
 # <a name="about-month-calendar-controls"></a>關於 Month Calendar 控制項
 
@@ -29,7 +29,7 @@ ms.locfileid: "110423748"
 ![對話方塊的螢幕擷取畫面，其中顯示兩個月並排顯示的月曆控制項](images/mc-simple.png)
 
 > [!Note]  
-> 月曆控制項的外觀和行為在不同版本的執行時間程式庫中稍有不同。 本主題著重在 Windows Vista Comctl32.dll 的第6版中所顯示的控制項。
+> 月曆控制項的外觀和行為在不同版本的執行時間程式庫中稍有不同。 本主題將焦點放在第6版 Comctl32.dll Windows Vista 中的控制項。
 
  
 

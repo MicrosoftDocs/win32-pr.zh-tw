@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3e29d730c09bcc7c2b12082116e174cb39eb74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf551356088db2b99b79a28a396be785ab60f2196cc3e27353cb867d4b151dd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742036"
 ---
 # <a name="glgetclipplane-function"></a>glGetClipPlane 函式
 
@@ -65,7 +65,7 @@ void WINAPI glGetClipPlane(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *平面* 不是可接受的值。<br/>                                                                                         |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 0c1d9142-258a-447f-8950-8d684645383b
 title: 字串寬度和高度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f57846d0588c518f445523361ae186e4b966bf93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d5a9ee485cbc163cc7cbb9dbd296f15db0e9e622f4be6ad8dcb251b583099f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778818"
 ---
 # <a name="string-widths-and-heights"></a>字串寬度和高度
 

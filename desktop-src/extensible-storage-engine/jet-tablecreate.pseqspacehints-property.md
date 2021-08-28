@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77623c6a5bb5ef9c0a56f464d1cf2a2f77f6672e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc4830efd87ba004f77104b743d2f5dbd103206467e2c0895fbe009b66d7100b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832908"
 ---
 # <a name="jet_tablecreatepseqspacehints-property"></a>JET_TABLECREATE pSeqSpacehints 屬性
 

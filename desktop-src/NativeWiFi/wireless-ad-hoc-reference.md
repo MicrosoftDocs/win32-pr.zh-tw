@@ -4,12 +4,12 @@ ms.assetid: f1dbcc9b-e60b-4044-9167-e9e87ead0a8b
 title: 無線特定參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95dc938df2d9cb8d0e3a44e6133ef09de4b04874
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d515ed688d09a4ebf67a1dd47aa314dad3943df4665851833c66b2c21bd9d4a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780068"
 ---
 # <a name="wireless-ad-hoc-reference"></a>無線特定參考
 
@@ -19,7 +19,7 @@ ms.locfileid: "103691772"
 -   [無線特定介面](wireless-ad-hoc-interfaces.md)
 
 > [!Note]  
-> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用 [Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
+> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用[Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3c88d001ce3ccf1ebfe1e28855ae9df9fca5d327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e3877a15a55ac1d942a068843173e2771202047691f3df96601fe4b9de3152a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799498"
 ---
 # <a name="nmcolumntype-enumeration"></a>NMCOLUMNTYPE 列舉
 

@@ -4,12 +4,12 @@ ms.assetid: fa2f9e71-44c3-4569-bde4-24112a756664
 title: 事件資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 459377d9cdf78fba46133b494723008df025caad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdf6809b837d36f4cf2ddc0d74b90fe3a925f5eae7efc96973a9bf845c610bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901478"
 ---
 # <a name="event-data"></a>事件資料
 

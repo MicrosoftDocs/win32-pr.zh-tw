@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 485227f6196ae94e2eb11de1bdb40b3a811c8fb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7367c36d7b2b702e6529ce6ae8616743b3a37e5280f06e64df5378c0f8545b1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800288"
 ---
 # <a name="wireless-profile-samples"></a>無線設定檔範例
 
@@ -26,11 +26,11 @@ ms.locfileid: "106983666"
 -   [FIPS 設定檔範例](fips-profile-sample.md)
 -   [非廣播設定檔範例](non-broadcast-profile-sample.md)
 -   [單一 Sign-On 設定檔範例](single-sign-on-profile-sample.md)
--   [具有 PEAP-MSCHAPv2 設定檔的 WPA-Enterprise 範例](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
--   [具備 TLS 設定檔的 WPA-Enterprise 範例](wpa-enterprise-with-tls-profile-sample.md)
+-   [具有 PEAP-MSCHAPv2 設定檔範例的 WPA Enterprise](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [使用 TLS 設定檔的 WPA Enterprise 範例](wpa-enterprise-with-tls-profile-sample.md)
 -   [WPA-個人設定檔範例](wpa-personal-profile-sample.md)
--   [具有 PEAP-MSCHAPv2 設定檔的 WPA2 Enterprise 範例](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
--   [具有 TLS 設定檔的 WPA2 Enterprise 範例](wpa2-enterprise-with-tls-profile-sample.md)
+-   [使用 PEAP-MSCHAPv2 設定檔範例的 WPA2 Enterprise](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [使用 TLS 設定檔的 WPA2 Enterprise 範例](wpa2-enterprise-with-tls-profile-sample.md)
 -   [WPA2-個人設定檔範例](wpa2-personal-profile-sample.md)
 
 ## <a name="related-topics"></a>相關主題

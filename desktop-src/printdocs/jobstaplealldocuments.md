@@ -4,12 +4,12 @@ ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f9598f09181a225bf10d097b8c2aedaf19373a1
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 17a6d87e814665d9e9ff8433cae7734da24b6f5a8bce674fee1bd5fe7e2a7f2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845898"
 ---
 # <a name="jobstaplealldocuments"></a>JobStapleAllDocuments
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408641"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                             |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>                                                                 |
@@ -65,10 +65,10 @@ ms.locfileid: "112408641"
 
 
 
-| Name                               | 資料類型          | 單位                       | 支援的值                                                                                                                                                                      | 總結                                                                                                                                               |
+| 名稱                               | 資料類型          | 單位                       | 支援的值                                                                                                                                                                      | 摘要                                                                                                                                               |
 |------------------------------------|--------------------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/>  | Characters<br/>      | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                    |
-| \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>             | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                          |
+| \_選項名稱\_<br/>          | 字串<br/>  | Characters<br/>      | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                    |
+| \_IdentityOptionValue\_<br/> | 字串<br/>  | n/a<br/>             | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                          |
 | \_AngleValue\_<br/>          | 整數<br/> | 度<br/>         | 大於 0。<br/>                                                                                                                                                            | 指定裝訂角度（相對於 PageImageableSize 的寬度）。 裝訂角度是以逆時針方向來測量。<br/> |
 | \_SheetCapacityValue\_<br/>  | 整數<br/> | 媒體的工作表<br/> | 大於 0。<br/>                                                                                                                                                            | 指定目前所選媒體媒體的裝訂選項所支援的工作表數目。<br/>                                          |
 

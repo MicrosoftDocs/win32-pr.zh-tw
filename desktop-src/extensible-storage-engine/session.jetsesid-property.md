@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 71f8742b5b0166681b0f20007d27b6d8797498f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a21711b083ccd5aa00d94419a8dee6ee6df8ec136724bdd58821dc2cb5a944
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718828"
 ---
 # <a name="sessionjetsesid-property"></a>JetSesid 屬性
 

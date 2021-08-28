@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c48c1fe550db51b6b838379d44df21c95fa95e41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f7366f993f23a16aa6c0d4486c33f45cd501962add9ab524a008aba51cd8ec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755728"
 ---
 # <a name="bits_job_property_value-structure"></a>BITS_JOB_PROPERTY_VALUE 結構
 
@@ -88,8 +88,8 @@ typedef struct {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                     |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                     |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl> |
 
 
 

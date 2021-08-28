@@ -3,20 +3,20 @@ title: Advanced 翻譯
 description: Advanced 翻譯
 ms.assetid: 48a1bdd5-8b7b-4460-9b7b-1ab8969a28f8
 keywords:
-- Windows Touch，翻譯
-- Windows Touch，advanced 翻譯
-- Windows Touch，操作
+- Windows觸控、翻譯
+- WindowsTouch，advanced 翻譯
+- Windows觸控、操作
 - 操作，轉譯
 - 操作，advanced 翻譯
 - translation (轉譯)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc383c71e1f1417d30b64db18aa627039602b942
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4712375c12420e076bb93c1240d18dc8e3c1d58006eb24ced7a62a7485e01c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810341"
 ---
 # <a name="advanced-translation"></a>Advanced 翻譯
 
@@ -60,7 +60,7 @@ ms.locfileid: "103839387"
 > [!Note]  
 > 物件轉換會在資料透視點和半徑的計算之前發生。 如此一來，如果使用者在移動時對物件執行展開，物件將會正確地移動。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -69,9 +69,9 @@ ms.locfileid: "103839387"
 [操作](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

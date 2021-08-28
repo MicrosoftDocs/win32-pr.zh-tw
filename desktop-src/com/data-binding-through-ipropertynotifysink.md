@@ -4,12 +4,12 @@ description: 透過 IPropertyNotifySink 的資料系結
 ms.assetid: 275a84b3-65d8-43de-bfba-72e3e5ee59fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d39c7277d27f0df6c185fc35a926aa98b77b91a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 337233455872928f824d8cbb903aba247b1ef496d02c0af04223361731fe3663
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854648"
 ---
 # <a name="data-binding-through-ipropertynotifysink"></a>透過 IPropertyNotifySink 的資料系結
 
@@ -47,9 +47,9 @@ interface IPropertyNotifySink : IUnknown
 [屬性頁和屬性工作表](property-pages-and-property-sheets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

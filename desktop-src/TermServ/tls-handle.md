@@ -7,12 +7,12 @@ keywords:
 - TLS_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09764072b42e14aea2d1b8242dbc3cbb044442b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 04daf14429a5b400267e664a615739fd14e8306e987f50726cfdb341522870a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869448"
 ---
 # <a name="tls_handle"></a>TLS \_ 控制碼
 

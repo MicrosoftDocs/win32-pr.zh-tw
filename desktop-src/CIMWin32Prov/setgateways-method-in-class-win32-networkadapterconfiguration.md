@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 215bfa736a0f9d67ae587ac1f0e1b4aa394b85d9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 190076822a181d7b0731cb1e7b42eb0cd9d35e37c64aa0736245d1e58994763b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759718"
 ---
 # <a name="setgateways-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetGateways 方法 \_
 

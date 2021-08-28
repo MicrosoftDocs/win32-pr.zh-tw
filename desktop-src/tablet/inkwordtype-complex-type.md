@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 3fb1de16eadae66fcb688e63d80d19778ce68953
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1d839bd332d5f629cf5ecd0e6ae29094d1b88894ef9376007875d868530fc15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938638"
 ---
 # <a name="inkwordtype-complex-type"></a>InkWordType 複雜類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "106985119"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                     |
 
 

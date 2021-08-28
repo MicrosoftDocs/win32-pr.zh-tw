@@ -4,12 +4,12 @@ ms.assetid: d9fdafed-5958-4995-a1b5-8881feca1291
 title: '使用效果 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1170fde625e5eee5e9665f0759d302b5f5450a41
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d240148c8817a3e480099a3ad1acb81bbff60803b0d0a8327e3a77cba681b5b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856098"
 ---
 # <a name="using-an-effect-direct3d-9"></a>使用效果 (Direct3D 9) 
 

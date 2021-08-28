@@ -4,18 +4,18 @@ ms.assetid: 739d1d41-a374-4dc5-a6a2-da4e05ecb96d
 title: 系統維度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4934fbd96eb305ed95a124ee7176832afc535f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aeabe8399d55b7aba11da21b3c0c6c221205023349a39c14aed27e2d4b3ff29a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774878"
 ---
 # <a name="systemimagedimensions"></a>系統維度
 
 字串格式為的影像維度 `horizontal pixels x vertical pixels` 。 例如： `3080x2100` 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -6,12 +6,12 @@ keywords:
 - 3d 轉換效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fabe0c2c220038802b5218b54187a1ff89268bfa
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: d32a9c8fedca3be0d96a44047ac1b226d83309cf657f2cdc223a342e9d38880b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104561958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758221"
 ---
 # <a name="3d-transform-effect"></a>3D 轉換效果
 
@@ -75,7 +75,7 @@ m_d2dContext->EndDraw();
 <thead>
 <tr class="header">
 <th>顯示名稱和索引列舉</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -131,7 +131,7 @@ X、Y、Z = 輸出投射平面座標<br />
 
 
 
-| Name                     | 描述                                                                                                      |
+| 名稱                     | 描述                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | D2D1 \_ 框線 \_ 模式 \_ 軟 | 效果會在插補時以透明黑色圖元來填補影像，進而產生軟邊緣。<br/> |
 | D2D1 \_ 框線 \_ 模式 \_ 硬性 | 效果會將輸出個至輸入影像的大小。 <br/>                                         |
@@ -146,7 +146,7 @@ Direct2D 提供4x4 矩陣類別，以提供協助程式函式來轉換3個維度
 
 
 
-| 函式                                | 描述                                                                                    | Matrix                                                 |
+| 函式                                | 描述                                                                                    | 矩陣                                                 |
 |-----------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | Matrix4x4F：： Scale (X、Y、Z)               | 產生會以 X、Y 和/或 Z 方向調整投射平面的轉換矩陣。 | ![scale3d 矩陣](images/3d-transform-matrix2.png)     |
 | SkewX (X)                                 | 產生會以 X 方向扭曲投射平面的轉換矩陣。               | ![顯示 X 方向的扭曲矩陣。](images/matrix4x4-skewx.png)             |
@@ -168,8 +168,8 @@ Direct2D 提供4x4 矩陣類別，以提供協助程式函式來轉換3個維度
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

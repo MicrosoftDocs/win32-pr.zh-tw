@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 424914e53a12ff0f43e8b7e2a3345c28d84437d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5da70c4ac0c5890e4483f7facdc4d1f5a3d5dd70906c53917bd83029dfaa6c6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757138"
 ---
 # <a name="ccmdqueuerun-method"></a>CCmdQueue 方法
 

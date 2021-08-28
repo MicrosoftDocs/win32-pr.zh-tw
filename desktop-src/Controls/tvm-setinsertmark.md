@@ -3,7 +3,7 @@ title: 'TVM_SETINSERTMARK 訊息 (Commctrl .h) '
 description: 設定樹狀檢視控制項中的插入標記。 您可以使用 TreeView SetInsertMark 宏明確地傳送此訊息 \_ 。
 ms.assetid: 35441807-406a-408c-ad89-6dd40c907e3c
 keywords:
-- TVM_SETINSERTMARK message Windows 控制項
+- TVM_SETINSERTMARK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5a9cc9b05e9cd7dc3281d778734bee1048ffd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c3004395dcc7ea0b83af2fc2b7dae370c303228f79599215d5b6d264379b793
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875628"
 ---
 # <a name="tvm_setinsertmark-message"></a>TVM \_ SETINSERTMARK 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103843780"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

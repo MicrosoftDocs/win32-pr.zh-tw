@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1644db74c5c7c361acda796219ae1415ecc262bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75104fcf923ed59bfcc99e214e66a235549b7059ca0e36c41b6f90d308a3efff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811768"
 ---
 # <a name="pagefault_imageloadbacked-class"></a>PageFault \_ ImageLoadBacked 類別
 
@@ -128,8 +128,8 @@ class PageFault_ImageLoadBacked : PageFault_V2
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

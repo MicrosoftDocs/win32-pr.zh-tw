@@ -3,7 +3,7 @@ title: 'MCIWNDM_PUT_SOURCE 訊息 (Vfw .h) '
 description: MCIWNDM \_ PUT \_ 來源訊息會重新定義來源矩形的座標，在播放期間用於裁剪 AVI 檔案的影像。 您可以使用 MCIWndPutSource 宏明確地傳送此訊息。
 ms.assetid: cff95139-0302-4db3-bf2e-559e75257e85
 keywords:
-- MCIWNDM_PUT_SOURCE message Windows 多媒體
+- MCIWNDM_PUT_SOURCE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5407f420b8def6dda9795e87eb68943c9373b143
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e2c21e11142a1b47a8984712de664151b686cfa3c3cb9bf153dcbc2a23fa459c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807778"
 ---
 # <a name="mciwndm_put_source-message"></a>MCIWNDM \_ PUT \_ 來源訊息
 

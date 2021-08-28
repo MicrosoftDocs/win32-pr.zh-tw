@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 3c3c882020db8b25c587a8d95824b3c90232bdd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2471f3acbb483af7e1882102527d392a69e2c7494a929f37718b51a17405c92b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867888"
 ---
 # <a name="iscrdenr-interface"></a>ISCrdEnr 介面
 
-**ISCrdEnr** 介面代表智慧卡註冊控制項。 開發人員在不使用自動化時，主要是很重要的。 如需 Visual Basic 或其他自動化語言的程式設計，請參閱 [**CEnroll**](/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)) 物件。
+**ISCrdEnr** 介面代表智慧卡註冊控制項。 開發人員在不使用自動化時，主要是很重要的。 如需 Visual Basic 或其他自動化語言的程式設計，請參閱 [**CEnroll**](/previous-versions/windows/desktop/legacy/aa376007(v=vs.85))物件。
 
 ## <a name="members"></a>成員
 
@@ -69,7 +69,7 @@ ms.locfileid: "106998904"
 
 
 
-| 屬性                                         | 存取類型           | Description                                                          |
+| 屬性                                         | 存取類型           | 描述                                                          |
 |:-------------------------------------------------|:----------------------|:---------------------------------------------------------------------|
 | [**CSPCount**](iscrdenr-cspcount.md)<br/> | 唯讀<br/>  | 指定 Csp 的數目。 這是唯讀的屬性。<br/> |
 | [**CSPName**](iscrdenr-cspname.md)<br/>   | 讀取/寫入<br/> | CSP 的名稱。 這是可讀寫的屬性。 <br/>        |
@@ -85,7 +85,7 @@ ms.locfileid: "106998904"
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr 定義為753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 

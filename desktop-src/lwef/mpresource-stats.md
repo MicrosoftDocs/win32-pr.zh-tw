@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afbe1ce6734aabd1093f7acd886af757c51ed83e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b72a21bf0ec020c1fc2cf5ba1394b4cd5ed04dc32721a4aac9f8349034907b49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848468"
 ---
 # <a name="mpresource_stats-structure"></a>MPRESOURCE \_ 統計結構
 
@@ -118,8 +118,8 @@ typedef struct tagMPRESOURCE_STATS {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl> |
 
 

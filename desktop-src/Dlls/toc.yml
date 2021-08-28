@@ -39,7 +39,7 @@
           href: using-run-time-dynamic-linking.md
         - name: 使用 Dynamic-Link 程式庫中的共用記憶體
           href: using-shared-memory-in-a-dynamic-link-library.md
-        - name: 使用 Dynamic-Link 程式庫中的執行緒區域儲存區
+        - name: 使用 Dynamic-Link 程式庫中的執行緒區域儲存體
           href: using-thread-local-storage-in-a-dynamic-link-library.md
     - name: Dynamic-Link 程式庫參考
       href: dynamic-link-library-reference.md

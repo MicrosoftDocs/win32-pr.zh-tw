@@ -4,12 +4,12 @@ ms.assetid: 38c6254d-5191-4948-804a-1a4427aab7c6
 title: 設定個別圖元的 Alpha 值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cd45bf32284ffc9a8cef13f368cff59e1e8a74f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c88c7ef8cc343b99f7a50c3fad012b62ef2a8d79ab38de6988efb6b5643e0a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830728"
 ---
 # <a name="setting-the-alpha-values-of-individual-pixels"></a>設定個別圖元的 Alpha 值
 

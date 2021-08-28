@@ -4,12 +4,12 @@ ms.assetid: 5b276d27-31a4-4a83-83b0-c4044a427097
 title: 新物件的安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3f9af674c83e4fc42448635bc54dfc0bb51b42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d38edc927f1f017e3f102194b0a4aac5d0442ec730e8480a00c054add0935a62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907338"
 ---
 # <a name="security-descriptors-for-new-objects"></a>新物件的安全描述項
 
@@ -17,7 +17,7 @@ ms.locfileid: "106983329"
 
 管理物件的系統元件或伺服器可以儲存指定的或預設安全描述項，使其成為物件的持續性屬性。 如果物件的建立者未指定安全描述項，系統會使用繼承的或預設的安全性資訊來建立安全描述項。 您可以使用函數來變更物件安全描述項中的資訊。
 
-目錄服務物件、檔案、目錄、登錄機碼和桌上型電腦是可以有父物件的安全物件。 當您建立這些物件的其中一個時，系統會檢查父物件之安全描述項中的可繼承 Ace。 系統通常會將任何可繼承的 Ace 合併到新物件安全描述項的 Acl 中。 您可以藉由在 \_ \_ \_ \_ 安全描述項的控制位中設定 SE dacl protected 或 se 受保護的位，來防止 DACL 或 SACL 繼承 ace。 如需詳細資訊，請參閱 [ACE 繼承](ace-inheritance.md)。
+目錄服務物件、檔案、目錄、登錄機碼和桌上型電腦是可以有父物件的安全物件。 當您建立這些物件的其中一個時，系統會檢查父物件之安全描述項中的可繼承 Ace。 系統通常會將任何可繼承的 Ace 合併到新物件安全描述項的 Acl 中。 您可以藉由設定 \_ 受保護的 SE dacl \_ 或 SE \_ \_ 安全描述項的控制位中受 SACL 保護的位，來防止 DACL 或 SACL 繼承 ace。 如需詳細資訊，請參閱 [ACE 繼承](ace-inheritance.md)。
 
  
 

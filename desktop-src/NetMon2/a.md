@@ -5,12 +5,12 @@ ms.assetid: 0aa58f61-c753-4a32-b37e-b5a7a0e842cc
 title: " (網路監視器) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d0321c1af278fb0046c9236d3d0d9d5e422de7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c11d99ff8dd2d724f6490f3d2d31884cdfbd0fd570614852e7817838e2a4f0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779498"
 ---
 # <a name="a-network-monitor"></a> (網路監視器) 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7361223e8fbcbae0f81641718b216c5903ff6319
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d9d0808f1b23475b823ea43f55d93f8dacb01e4e491957fa34100110946fa72e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856458"
 ---
 # <a name="id3dxmatrixstackmultmatrix-method-d3dx9mathh"></a>ID3DXMATRIXStack：： MultMatrix 方法 (D3dx9math .h) 
 

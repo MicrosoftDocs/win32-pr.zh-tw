@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3b91a9f2fb30dbd243e29043a1655d441215bc75
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 6bec0356f2f1542da421a807598707e4857033c13cda2077d9281ac24e4fc3e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853768"
 ---
 # <a name="ret---vs"></a>ret-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104313652"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -41,7 +41,7 @@ ms.locfileid: "104313652"
 
 
 
- 
+ 
 
 此指令會從傳回位址堆疊取得指示的位址，並繼續執行。 在 main 函式的情況下，此指令會停止著色器的執行。
 
@@ -58,9 +58,9 @@ Main 程式或任何副程式中不允許有多個 return 語句，第一個 ret
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

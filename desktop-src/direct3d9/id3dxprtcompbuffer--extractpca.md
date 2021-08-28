@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6ef949e9f88a843f4636643dadd7d00ffd94d98b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6b172682883c5e5272ece103879aefbbdfb79193b0576e9be04432b5d48b1bb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856138"
 ---
 # <a name="id3dxprtcompbufferextractpca-method"></a>ID3DXPRTCompBuffer：： ExtractPCA 方法
 

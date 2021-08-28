@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a303121b7c0eee7ac57fc369164547bd3ae6b9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 24db89c986f3f6d466f1710bc18420f9da9eec3348eada10e95582a882fe25e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776998"
 ---
 # <a name="pushbutton-control"></a>按鈕控制項
 
@@ -58,6 +58,6 @@ PUSHBUTTON "ON", 7, 10, 10, 20, 10
 [推播按鈕](https://www.bing.com/search?q=Push+Buttons)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

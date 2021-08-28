@@ -1,6 +1,6 @@
 ---
 title: smil 元素
-description: Smil 元素一律是 Windows Media 播放清單中的最上層元素， (.WPL) 檔。 它會指定檔案使用 SMIL (同步處理的多媒體整合語言) 語法和文法。
+description: smil 元素一律是 Windows 媒體播放清單中的最上層元素 (.wpl) 檔。 它會指定檔案使用 SMIL (同步處理的多媒體整合語言) 語法和文法。
 ms.assetid: bb14f1b8-53d0-47ff-9fd3-4620a1467985
 keywords:
 - smil 元素 Windows Media Player
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 78ec8900139cfbd5982228c59010674bbc14765e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15ed9c3d70b0af65019cd384bc68ab9c26f8d01673481b9ced3595730379bf1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763458"
 ---
 # <a name="smil-element"></a>smil 元素
 
-**Smil** 元素一律是 Windows Media 播放清單中的最上層元素， (.wpl) 檔。 它會指定檔案使用 SMIL (同步處理的多媒體整合語言) 語法和文法。
+**smil** 元素一律是 Windows 媒體播放清單中的最上層元素 (.wpl) 檔。 它會指定檔案使用 SMIL (同步處理的多媒體整合語言) 語法和文法。
 
 ``` syntax
 <smil>
@@ -48,7 +48,7 @@ ms.locfileid: "106996021"
 
 ## <a name="remarks"></a>備註
 
-每個 Windows Media 播放清單的根目錄都必須有 **smil** 元素。
+每個 Windows 媒體播放清單的根目錄都必須有 **smil** 元素。
 
 ## <a name="examples"></a>範例
 
@@ -88,7 +88,7 @@ ms.locfileid: "106996021"
 [**head 元素**](head-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

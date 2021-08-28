@@ -4,12 +4,12 @@ description: 本節包含 Windows 影像處理元件 (WIC) 結構的相關資訊
 ms.assetid: 85025aee-6ce3-45ae-bc53-45988b6622ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffffa3e9f7ae66192eba1dba747532af9b7a2c04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 350510763a28cb110fba32a7bfd5ead0b823b87a6532b5d10de85ac8b4892a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812078"
 ---
 # <a name="wic-structures"></a>WIC 結構
 

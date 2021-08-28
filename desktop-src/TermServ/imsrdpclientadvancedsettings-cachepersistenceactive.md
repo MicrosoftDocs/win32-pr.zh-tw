@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb34e90cc028e95c750a444d53f42c9c0ab77400
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e9975bcfeca8ff5dfbedf3507003432cb4bd3167c794ecd0b690492caf3e40d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871178"
 ---
 # <a name="imsrdpclientadvancedsettingscachepersistenceactive-property"></a>IMsRdpClientAdvancedSettings：： CachePersistenceActive 屬性
 

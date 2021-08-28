@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f30184fe46cd8e8b9a595545ccba9a7d738af18e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a622084daaab6a845a2ffce83222dd605eebc888f730736149bbc0bbcbc81c60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760168"
 ---
 # <a name="invoke-method-of-the-cim_directoryaction-class"></a>CIM DirectoryAction 類別的 Invoke 方法 \_
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 0c446c39cdfc37ae7c578f5123afe57d61519704
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 800ed5afcf332a0c34dc272158f98fed64e47e86cb3c16cb24d6013951ffd3f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846038"
 ---
 # <a name="enumprintprocessors-function"></a>EnumPrintProcessors 函式
 
@@ -57,7 +57,7 @@ BOOL EnumPrintProcessors(
 *pEnvironment* \[在\]
 </dt> <dd>
 
-以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64 或 Windows x64) 。 如果此參數為 **Null**，則會使用目前的呼叫應用程式和用戶端電腦的環境 (不是目的地應用程式，而列印伺服器) 。
+以 null 結束的字串指標，指定環境 (例如 Windows x86、Windows IA64 或 Windows x64) 。 如果此參數為 **Null**，則會使用目前的呼叫應用程式和用戶端電腦的環境 (不是目的地應用程式，而列印伺服器) 。
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ BOOL EnumPrintProcessors(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **EnumPrintProcessorsW** (Unicode) 和 **EnumPrintProcessorsA** (ANSI) <br/>                         |

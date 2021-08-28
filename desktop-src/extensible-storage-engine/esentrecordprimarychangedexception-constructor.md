@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8dfdb39dc081a508946897d3985bea10ff7882a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 058c86ae947256aa1a5dc2c97a5079f18caf2a08ca8104c080d8b760d53f5ff5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781948"
 ---
 # <a name="esentrecordprimarychangedexception-constructor"></a>EsentRecordPrimaryChangedException 函式
 

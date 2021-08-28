@@ -4,16 +4,16 @@ ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
 title: 'ITParticipantEvent：： get_SubStream 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8c2944004af31adfb7256376992506eef59b40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f258f68815a5bc7cd201d94ab55199d59ebe6759eb2e279a1c80add91ea6c3d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774658"
 ---
 # <a name="itparticipanteventget_substream-method"></a>ITParticipantEvent：：取得子 \_ 流方法
 
-\[**取得 \_** 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中無法使用子串流。 RTC 用戶端 API 提供類似的功能。\]
+\[**取得 \_** 在 Windows Vista、Windows Server 2008 及後續版本的作業系統中，無法使用子串流。 RTC 用戶端 API 提供類似的功能。\]
 
 取得子串流會 **取得 \_** [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) 介面陣列的指標，代表牽涉到事件的子串流。
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 02af7d57d2219e6eb0506a8ab11521b4cf3570eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dae90872ea607571b215aafe3f9f35a645cd50d140dcbad0783369ce2189c881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813768"
 ---
 # <a name="cgenericlistget-method"></a>CGenericList. Get 方法
 

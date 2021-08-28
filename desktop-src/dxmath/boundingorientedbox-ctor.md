@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1a9ef7e022c889d8c4520e18b0aa45905e06ba8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690637a198a002066394b809abbc83e136268ad132978497c574b9da2d1e7f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842388"
 ---
 # <a name="boundingorientedbox-constructors"></a>BoundingOrientedBox 函式
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d98b824883ddc4f06e6c11d30c2759bb0fc2be26
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b9f055764c04f552fe9d7afda2adf1e401352cf3fc3dd3ead16c4ca6377bd4fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853718"
 ---
 # <a name="reversebits-function"></a>reversebits 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "104462565"
 
 ``` syntax
 uint reversebits(
-  in uint value
+  in uint value
 );
 ```
 
@@ -73,19 +73,19 @@ uint4 reversebits(uint4 value);
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -97,9 +97,9 @@ uint4 reversebits(uint4 value);
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

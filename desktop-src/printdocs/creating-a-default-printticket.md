@@ -4,12 +4,12 @@ ms.assetid: 3fe4940b-3605-483a-ade5-368d24b630aa
 title: 建立預設的 PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa4c0c7d79b373e3fb2249165ac87e5320bf726
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b7f87494f8689e08b632557c8e464c4ce694859633f4e25d557cdbb017dc83da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719758"
 ---
 # <a name="creating-a-default-printticket"></a>建立預設的 PrintTicket
 

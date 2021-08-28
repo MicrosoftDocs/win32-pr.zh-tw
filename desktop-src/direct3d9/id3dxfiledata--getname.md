@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e27fc3e95280f29a33d4ececffc7c229563462a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f98e20d5bfa5efdb756e414808cda2506fda56fdf417f54b658f17d0b5c9658b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847928"
 ---
 # <a name="id3dxfiledatagetname-method"></a>ID3DXFileData：： GetName 方法
 
