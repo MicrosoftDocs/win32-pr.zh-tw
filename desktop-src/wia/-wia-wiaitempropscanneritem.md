@@ -57,12 +57,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 008a806ccaebd595fe7a67ff8f98e6a9385b0bf2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882710"
 ---
 # <a name="scanner-wia-item-property-constants"></a>掃描器 WIA 專案屬性常數
 
@@ -80,7 +80,7 @@ ms.locfileid: "122624764"
 <thead>
 <tr class="header">
 <th >常數/值</th>
-<th >描述</th>
+<th >說明</th>
 </tr>
 </thead>
 <tbody>
@@ -151,7 +151,7 @@ ms.locfileid: "122624764"
 <thead>
 <tr class="header">
 <th>預定的影像類型旗標</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ ms.locfileid: "122624764"
 <thead>
 <tr class="header">
 <th>預定的影像大小/品質旗標</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -261,7 +261,7 @@ ms.locfileid: "122624764"
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -308,7 +308,7 @@ ms.locfileid: "122624764"
 <p>當有一個以上的檔案時，可指定特定電影掃描附件的規格。</p>
 <p>當有多個膠捲掃描專案時，WIA_CATEGORY_FILM 專案需要這個屬性。 如果裝置只支援一個根掃描器膠捲專案，則此屬性是選擇性的。</p>
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>允許的值： BSTR 的格式應為 @ResourceBinary ， <ResourceID> 以允許當地語系化，因為此字串會透過膠捲掃描 UI 向使用者公開。</p></td>
+<p>允許的值： BSTR 的格式應為 @ResourceBinary - &lt; ResourceID， &gt; 以允許當地語系化，因為此字串會透過膠捲掃描 UI 向使用者公開。</p></td>
 </tr>
 <tr class="odd">
 <td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>

@@ -4,16 +4,16 @@ description: IAgentCommands 新增
 ms.assetid: f6be7773-77fa-4c59-8feb-c2ebf54fd2e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee56854c302a096143e58fe6c21ef75fedfbf59
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4cd466290f8e12adc00986aa83a63ca9ba4ce46b4c7e13b8c368cdff1d14a4a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750201"
 ---
 # <a name="iagentcommandsadd"></a>IAgentCommands：： Add
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Add(
@@ -71,6 +71,6 @@ HRESULT Add(
 [**IAgentCommand：： SetCaption**](iagentcommand--setcaption.md)、 [**IAgentCommand：： SetEnabled**](iagentcommand--setenabled.md)、 [**IAgentCommand：： SetVisible**](iagentcommand--setvisible.md)、 [**IAgentCommand：： SetVoice**](iagentcommand--setvoice.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)、 [**IAgentCommands：： Remove**](iagentcommands--remove.md)、 [**IAgentCommands：： RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 

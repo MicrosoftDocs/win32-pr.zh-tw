@@ -4,12 +4,12 @@ ms.assetid: f2f227b1-1490-41b0-a361-b36d7bcd3069
 title: System. IsAttachment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d09bf4952de748854ec1d9d361c8b61a9aed7d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f40a2dce9e7b62af70a3b9344c9bad17da77adea7839142900d40a47f5c9ca97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774818"
 ---
 # <a name="systemisattachment"></a>System. IsAttachment
 

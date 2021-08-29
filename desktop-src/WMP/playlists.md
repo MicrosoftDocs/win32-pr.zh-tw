@@ -16,12 +16,12 @@ keywords:
 - 遷移指南，播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bccdd98789de6c8d4faa06882376967298646febabd790067710dc4f460ba65b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0933a5525d2085185ddf151da3c4765040305a22
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883229"
 ---
 # <a name="playlists"></a>播放清單
 
@@ -179,7 +179,7 @@ return false;
 
 
 
-Windows媒體中繼檔可以包含自訂參數元素，您可以使用標記來指定這些專案 **<PARAM>** 。 使用6.4 版物件模型時，您可以使用 *Player6* 來取出特定參數的名稱。**GetMediaParameterName** 方法。 下列 JScript 範例會在 .asx 播放清單的第一個專案中，捕獲第一個參數的名稱：
+Windows媒體中繼檔可以包含自訂參數元素，您可以使用 **&lt; PARAM &gt;** 標記來指定這些專案。 使用6.4 版物件模型時，您可以使用 *Player6* 來取出特定參數的名稱。**GetMediaParameterName** 方法。 下列 JScript 範例會在 .asx 播放清單的第一個專案中，捕獲第一個參數的名稱：
 
 
 ```C++

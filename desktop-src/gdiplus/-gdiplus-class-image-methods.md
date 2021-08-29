@@ -4,18 +4,18 @@ ms.assetid: 70dbe346-790c-47e3-8e85-6154fc340982
 title: 影像方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 259bc8b81179b81f7e48b3ab0751a34d5edcfd10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ec97ad09a520293f68ddb6d9dc98c269af3679ff8a189c914e8778539a315498
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977618"
 ---
 # <a name="image-methods"></a>影像方法
 
 本主題列出 [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) 類別的方法。 如需完整的類別清單，請參閱 **Image 類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
+-   [**複製**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
 -   [**FindFirstItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findfirstitem)
 -   [**FindNextItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findnextitem)
 -   [**FromFile**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-fromfile)

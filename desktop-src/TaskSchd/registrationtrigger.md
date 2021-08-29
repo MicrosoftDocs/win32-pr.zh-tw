@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08bf84fa92b1736b2989c1920abb8f0af2c0b97c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85020e3c5a2d5c3167ac2ec6ed251a37c1bc98056dae867a5a07b63ee7148dae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759569"
 ---
 # <a name="registrationtrigger-object"></a>RegistrationTrigger 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104508776"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                                                                                 |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                                                                                 |
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](registrationtrigger-delay.md)<br/>               | 讀取/寫入<br/> | 取得或設定工作的註冊時間與工作啟動時間之間的時間量。<br/>                                                                                |
 | [**啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 繼承自 [**觸發**](trigger.md) 程式物件。 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                |
@@ -70,8 +70,8 @@ ms.locfileid: "104508776"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -81,7 +81,7 @@ ms.locfileid: "104508776"
 
 <dl> <dt>
 
-[**觸發**](trigger.md)
+[**觸發程序**](trigger.md)
 </dt> <dt>
 
 [**TriggerCollection**](triggercollection.md)

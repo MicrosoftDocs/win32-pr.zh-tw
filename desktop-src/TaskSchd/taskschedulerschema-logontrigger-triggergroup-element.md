@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c89d0e593277f1c854850017412b49c22d8ac436
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a42aa17ae4cb5ca9177c5ff068745d506d89e0db8d71253148ab5adafa39baea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117758900"
 ---
 # <a name="logontrigger-triggergroup-element"></a>LogonTrigger (triggerGroup) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104317195"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                            |
+| 元素                                                           | 衍生自                                                         | 描述                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
 | [**觸發程序**](taskschedulerschema-triggers-tasktype-element.md) | [**triggersType**](taskschedulerschema-triggerstype-complextype.md) | 指定啟動工作的觸發程式。<br/> |
 
@@ -47,7 +47,7 @@ ms.locfileid: "104317195"
 
 
 
-| 元素                                                                                                        | 類型                                                                     | Description                                                                                                                        |
+| 元素                                                                                                        | 類型                                                                     | 描述                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲 (logonTriggerType)**](taskschedulerschema-delay-logontriggertype-element.md)                         | duration                                                                 | 使用者登入和工作啟動時間之間的時間量。<br/>                                              |
 | [**已啟用 (triggerBaseType)**](taskschedulerschema-enabled-triggerbasetype-element.md)                       | boolean                                                                  | 指定啟用觸發程序。<br/>                                                                                  |
@@ -91,8 +91,8 @@ ms.locfileid: "104317195"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

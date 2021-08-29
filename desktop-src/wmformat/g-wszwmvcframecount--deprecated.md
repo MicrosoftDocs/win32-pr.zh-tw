@@ -1,6 +1,6 @@
 ---
 title: 'g_wszWMVCFrameCount (Wmcodecdsp) '
-description: '如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP Api。 |g_wszWMVCFrameCount (Wmcodecdsp) '
+description: '如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP api。 |g_wszWMVCFrameCount (Wmcodecdsp) '
 ms.assetid: bd888a1b-030d-411f-88f4-3deb94197d7c
 keywords:
 - g_wszWMVCFrameCount windows Media 格式
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b85461b00423839b1a2e220d728499af94155103
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2d31ac6684b11fea40eca3c5110effdd983483a313831510b093a0c1deaaeb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085144"
 ---
 # <a name="g_wszwmvcframecount"></a>g \_ wszWMVCFrameCount
 
-如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 [Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
+如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱[Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>規格需求
 

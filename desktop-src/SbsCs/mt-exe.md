@@ -4,12 +4,12 @@ ms.assetid: 37f010ee-2658-4547-9871-c913201042de
 title: Mt.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f18f3d60a7ad20298473ab1d65b2e1d07720bf54130dd66cb361fa5d220c357
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a7f963c5131606da3f7be80185fef84a750e4de
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119884998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882067"
 ---
 # <a name="mtexe"></a>Mt.exe
 
@@ -23,7 +23,7 @@ Mt.exe 使用 Makecat.exe 來產生類別目錄檔案， ( 的類別目錄定義
 
 ## <a name="syntax"></a>Syntax
 
-**mt.exe \[ 資訊清單**_<component1 資訊清單><component2>_ *_\] \[ -identity：_* *<identity string> * **\] \[ -rgs：** _<file1。 rgs>_* _\] \[ -tlb：_ *_<file2 .tlb>_* _\] \[ -dll：_ *_<file3.dll>_* _\] \[ -取代：_ *_<XML filename>_* _\] \[ -managedassemblyname：_ *_<managed assembly>_* _\] \[ -nodependency \] \[ -category \] \[ -out：_ - *_<output manifest name>_* _\] \[ inputresource：_ *_<file4>_* _; \[ \# \]_*_><0 資源 \_ 識別碼><1_* _\] \[ -outputresource：_ *_<file5>_* _\[ \# ; \]_*_><2 資源 \_ 識別碼><3_* _\] \[ -updateresource：_ *_<file6>_* _\[ \# ; \]_*_><4 資源 \_ 識別碼><5_* _\] \[ -hashupdate \[ ：_ *_<path to files>_* _\] \] \[ -makecdfs \] \[ -驗證 \_ 資訊清單 \] \[ -驗證檔案 \_ \_ 雜湊：_ *_<path to files>_* _\] \[ -正常化 \] \[ -檢查 \_ \_ 重複項 \] \[ -nologo \] \[ -verbose \]_*
+**mt.exe \[ 資訊清單**_<component1 資訊清單><component2>_ *_\] \[ -identity：_* *<identity string> * **\] \[ -rgs：** _<file1。 rgs>_* _\] \[ -tlb：_ *_<file2 .tlb>_* _\] \[ -dll：_ *_<file3.dll>_* _\] \[ -取代：_ *_<XML filename>_* _\] \[ -managedassemblyname：_ *_<managed assembly>_* _\] \[ -nodependency \] \[ -category \] \[ -out：_ - *_<output manifest name>_* _\] \[ inputresource：_ *_&lt; file4 &gt;_* _; \[ \# \]_*_><0 資源 \_ 識別碼><1_* _\] \[ -outputresource：_ *_&lt; file5 &gt;_* _\[ ; \# \]_*_><2 資源 \_ 識別碼><3_* _\] \[ -updateresource：_ *_&lt; file6 &gt;_* _\[ ; \# \]_*_><4 資源 \_ 識別碼><5_* _\] \[ -hashupdate \[ ：_ *_<path to files>_* _\] \] \[ -makecdfs \] \[ -驗證 \_ 資訊清單 \] \[ -驗證檔案 \_ \_ 雜湊：_ *_<path to files>_* _\] \[ -正常化 \] \[ -檢查 \_ \_ 重複項 \] \[ -nologo \] \[ -verbose \]_*
 
 ## <a name="command-line-options"></a>命令列選項
 
@@ -33,8 +33,8 @@ Mt.exe 會使用下列不區分大小寫的命令列選項。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

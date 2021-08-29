@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7bb7d17d4f1bc06d68a73a2cff9288d159381387
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bfb57d8275231ed02d696abe0d6886dcc9efc788b912fe1f57a70ebfaa020380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803873"
 ---
 # <a name="d3dxvec3lengthsq-function"></a>D3DXVec3LengthSq 函式
 

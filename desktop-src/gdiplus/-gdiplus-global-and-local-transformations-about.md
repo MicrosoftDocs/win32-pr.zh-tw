@@ -4,12 +4,12 @@ ms.assetid: 9f744c2a-f1f3-4a7e-ab0c-37aa1df01623
 title: 全域和區域轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2682fef6a6236b9da7ec0ec1e5ab5484ad9f90d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c92f44d4978fa337a72bc9b70d20da3c333f3101c2e6e925478254b4dd11642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977521"
 ---
 # <a name="global-and-local-transformations"></a>全域和區域轉換
 

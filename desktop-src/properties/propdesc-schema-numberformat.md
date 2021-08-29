@@ -4,12 +4,12 @@ ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: '>cultureinfo.numberformat'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6601e6647d8fa1ac8b8cb262d47192810583c93f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 2e9db77cc68dab7038a1b5b9c50d49f5381ee948
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883652"
 ---
 # <a name="numberformat"></a>>cultureinfo.numberformat
 
@@ -79,7 +79,7 @@ ms.locfileid: "122622684"
 <thead>
 <tr class="header">
 <th>屬性</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -136,7 +136,7 @@ ms.locfileid: "122622684"
 </tr>
 <tr class="odd">
 <td>持續時間</td>
-<td>將值格式化為持續時間。 使用 <formatDurationAs> 指定持續時間格式。 要求屬性必須是 UInt64。</td>
+<td>將值格式化為持續時間。 使用 &lt; formatDurationAs &gt; 來指定持續時間格式。 要求屬性必須是 UInt64。</td>
 </tr>
 </tbody>
 </table>

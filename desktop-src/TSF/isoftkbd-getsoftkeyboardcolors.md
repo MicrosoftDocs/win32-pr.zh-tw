@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f8f184dc04ddcbef18a9279000b1a68acd35bd3
-ms.sourcegitcommit: d6bf2018c588c9782e1eed21b3cdea3523ec6955
+ms.openlocfilehash: dc987eae2882c9b469c10a532a154c689a3bbaf99b0c592e18dacbdf224287e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "106981715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877762"
 ---
 # <a name="isoftkbdgetsoftkeyboardcolors-method"></a>ISoftKbd：： GetSoftKeyboardColors 方法
 
@@ -82,7 +82,7 @@ HRESULT GetSoftKeyboardColors(
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

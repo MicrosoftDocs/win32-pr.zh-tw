@@ -4,12 +4,12 @@ ms.assetid: e65c1b11-2222-4d15-aac1-5e034d3cfa3c
 title: AepContainer. SupportsLimitedDiscovery
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9181ec4ceb1c91cc12d6e1a1a81cc4c6a6ff8da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8cc2147c5eee525d8e5fe91e24030dcdfbdbe78b986d579c90b7fd720e0473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775817"
 ---
 # <a name="systemdevicesaepcontainersupportslimiteddiscovery"></a>AepContainer. SupportsLimitedDiscovery
 

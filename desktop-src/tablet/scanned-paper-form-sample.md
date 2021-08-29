@@ -4,12 +4,12 @@ ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: 掃描的紙張表單範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d60e1d62a4e023ba38e9a1fd2c4890288a542d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8493384cecdfdbf0186692d52642307f720502f4b953724f444df400cc83c96a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934698"
 ---
 # <a name="scanned-paper-form-sample"></a>掃描的紙張表單範例
 
@@ -102,7 +102,7 @@ Formdata.xml 中指定的表單影像會以 [InkPicture](/previous-versions/aa51
 
 ## <a name="closing-the-form"></a>關閉表單
 
-在 Windows Form 設計工具產生的程式碼中， [InkPicture](/previous-versions/aa514604(v=msdn.10)) 控制項會在表單初始化時加入表單的元件清單中。 當表單關閉時，會以表單的 [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) 方法處置 InkPicture 控制項，以及表單的其他元件。
+在 Windows 表單設計工具產生的程式碼中，當表單初始化時，會將[InkPicture](/previous-versions/aa514604(v=msdn.10))控制項加入表單的元件清單中。 當表單關閉時，會以表單的 [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) 方法處置 InkPicture 控制項，以及表單的其他元件。
 
 ## <a name="related-topics"></a>相關主題
 

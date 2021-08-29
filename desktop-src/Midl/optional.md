@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b446cf2a7a14e5909d2c99d41fd918147d23c6f1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 179d152aaa16420139036a5dc9705ad7cc7c8f240f5f93e51b0cee9a95dc911f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806676"
 ---
 # <a name="optional-attribute"></a>optional 屬性
 
@@ -109,6 +109,6 @@ HRESULT MyFunc([in, optional] VARIANT Param1,
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

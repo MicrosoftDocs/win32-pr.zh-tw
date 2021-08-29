@@ -4,12 +4,12 @@ ms.assetid: 4a530a17-5e61-4730-95f5-233261b4ceb0
 title: 不同的網路環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63dca7eacd48973a9106e6a1e3a4eb5959afcfef
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 13acdd27930a9b60af3004440b2cb4cf3a049cf2cce5f72f387cb51699e23782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104195695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858430"
 ---
 # <a name="different-network-environments"></a>不同的網路環境
 
@@ -23,7 +23,7 @@ ms.locfileid: "104195695"
 
 <dl> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [效能維度](performance-dimensions-2.md)

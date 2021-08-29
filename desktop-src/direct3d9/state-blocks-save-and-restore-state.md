@@ -4,12 +4,12 @@ ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
 title: '狀態欄塊儲存和還原狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9a56ed6490b0d81b7e643ef892e6a760f00b841531bd21dc69a4069f07b9aa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 104010f2ea057870b70e9887e5b325f1de68c463
+ms.sourcegitcommit: 8d7ce0c4827f8a4fd501cc6487f1a8360e944577
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291725"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122767652"
 ---
 # <a name="state-blocks-save-and-restore-state-direct3d-9"></a>狀態欄塊儲存和還原狀態 (Direct3D 9) 
 
@@ -27,13 +27,13 @@ pd3dDevice->CreateStateBlock( D3DSBT_ALL, &pStateBlock );
 
 
 
-[**IDirect3DDevice9：： CreateStateBlock**](/windows/desktop/api) 會建立狀態欄塊，並自動捕獲裝置狀態。 裝置狀態是由第一個引數中的狀態欄塊類型所指定。 此狀態可以是下列其中一項：所有裝置狀態 (參閱將 [所有裝置狀態儲存為 StateBlock (direct3d 9) ](saving-all-device-states-with-a-stateblock.md)) 、所有圖元狀態 (請參閱 [將圖元狀態儲存為 StateBlock (direct3d 9) ](saving-pixel-states-with-a-stateblock.md)) 或所有頂點狀態 (請參閱 [使用 StateBlock (Direct3d 9) ) 儲存頂點 ](saving-vertex-states-with-a-stateblock.md) 狀態。
+[**IDirect3DDevice9：： CreateStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createstateblock) 會建立狀態欄塊，並自動捕獲裝置狀態。 裝置狀態是由第一個引數中的狀態欄塊類型所指定。 此狀態可以是下列其中一項：所有裝置狀態 (參閱將 [所有裝置狀態儲存為 StateBlock (direct3d 9) ](saving-all-device-states-with-a-stateblock.md)) 、所有圖元狀態 (請參閱 [將圖元狀態儲存為 StateBlock (direct3d 9) ](saving-pixel-states-with-a-stateblock.md)) 或所有頂點狀態 (請參閱 [使用 StateBlock (Direct3d 9) ) 儲存頂點 ](saving-vertex-states-with-a-stateblock.md) 狀態。
 
 效果系統會使用狀態欄塊來儲存狀態。 呼叫 [**ID3DXEffect：： Begin**](id3dxeffect--begin.md) 之後，會建立狀態欄塊並捕獲狀態。 呼叫 [**ID3DXEffect：： End**](id3dxeffect--end.md) 時，會將狀態欄塊狀態重新套用至裝置。
 
 ## <a name="capture-individual-states"></a>捕捉個別狀態
 
-若要儲存自訂狀態順序，請將您要儲存的狀態包裝在 [**IDirect3DDevice9：： BeginStateBlock**](/windows/desktop/api) 和 [**IDirect3DDevice9：： EndStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) 配對中。 BeginStateBlock 會告知目前裝置設定狀態欄塊，並將其新增至在呼叫 EndStateBlock 之前發生的每個狀態變更。 以下為範例：
+若要儲存自訂狀態順序，請將您要儲存的狀態包裝在 [**IDirect3DDevice9：： BeginStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-beginstateblock) 和 [**IDirect3DDevice9：： EndStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) 配對中。 BeginStateBlock 會告知目前裝置設定狀態欄塊，並將其新增至在呼叫 EndStateBlock 之前發生的每個狀態變更。 以下為範例：
 
 
 ```

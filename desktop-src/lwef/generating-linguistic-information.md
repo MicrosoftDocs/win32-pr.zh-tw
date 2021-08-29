@@ -4,12 +4,12 @@ description: 產生語言資訊
 ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a068153863236b7096b67a976bbcf0654af9c75df87d2f527027830a4df33eb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38f6f0409280e96ac288992efa560e83abd7c553
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118479278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879752"
 ---
 # <a name="generating-linguistic-information"></a>產生語言資訊
 
@@ -43,7 +43,7 @@ ms.locfileid: "118479278"
 
 您也可以藉由選取 [音素] 標籤並從 [**編輯**] 功能表選擇 [**取代音素**]，或在音素標籤上按一下滑鼠右鍵，然後從快顯功能表中選擇 [**取代音素**]，來取代音素指派。 編輯器會顯示 [ **取代音素** ] 對話方塊，並反白顯示標籤的目前音素指派。 您可以選擇取代音素，方法是在 **IPA** 清單中選取一個，或在 [ **名稱** ] 清單中選擇其他專案。 如果該名稱有一個以上的 IPA 轉譯，請在 [ **IPA** ] 清單中選擇一個專案。 若要針對可能不會直接包含在語言中的音素輸入 IPA 指定，請輸入其十六進位值或多個十六進位值，並與加號 (+) 字串連。 選取取代音素資訊之後，請選擇 **[確定]**，然後編輯器會取代您選取的音素標籤。
 
-![顯示 [取代音素] 對話方塊的螢幕擷取畫面，其中已選取 [<SIL>] 作為描述性標籤。](images/f5listphone.gif)
+![顯示 [取代音素] 對話方塊的螢幕擷取畫面，其中已 &lt; &gt; 選取 [SIL] 做為描述性標籤。](images/f5listphone.gif)
 
 同樣地，您可以按一下標籤的方塊並選擇 [ **取代文字**]，或是以滑鼠右鍵按一下標籤的方塊，然後從快顯功能表中選擇 [ **取代單字** ]，來取代文字標籤。 編輯器會顯示 [ **取代字** 組] 對話方塊。 輸入取代字，然後選擇 **[確定]**。
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 33d91f0746b3ebf178bd61de58919ab99d85b1f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 401ce3001b0d12b5c10afbe60d01d8e85f51ccded7aacc07b5da4360570bf994
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983658"
 ---
 # <a name="apijetattachdatabase2-method"></a>JetAttachDatabase2 方法
 

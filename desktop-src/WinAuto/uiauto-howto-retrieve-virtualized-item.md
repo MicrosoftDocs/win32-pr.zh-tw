@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，示範如何尋找及取出控制�
 ms.assetid: 1882b8a9-0d03-4388-a1d0-1bff0ab9fc66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae878ce25dd4d279211948ddaa6f9d0965ce9b40
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d13a120d85ec106b05886128b4c5b44b81d377a933d4f8eb473500ba69aa9d17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859488"
 ---
 # <a name="how-to-retrieve-a-virtualized-item"></a>如何取出虛擬化專案
 

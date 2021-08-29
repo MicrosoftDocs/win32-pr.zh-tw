@@ -5,17 +5,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3B9932EA-3182-41D0-B64A-7699EC98A714
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c72186f65f64e1187069963f0aae36de2835fd9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 40d6a6f39de62339bf5de0ea7b4976fa19f60c4bd2ff549a732acee43d546256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985428"
 ---
 # <a name="directcomposition-glossary"></a>DirectComposition 詞彙
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題定義 Microsoft DirectComposition 條款。
 
@@ -224,6 +224,6 @@ Microsoft DirectComposition 視覺效果的屬性，此屬性會影響點陣圖�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

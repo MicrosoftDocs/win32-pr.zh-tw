@@ -9,16 +9,16 @@ keywords:
 - 顯示指定名稱 Active Directory，在中註冊屬性頁 COM 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5b08ac0ea6329026a6d367e71064bde917b1a6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0f6685e406cb1bfdc16f73dd2fddd94a195fe74a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881237"
 ---
 # <a name="registering-the-property-page-com-object-in-a-display-specifier"></a>在顯示規範中註冊屬性頁 COM 物件
 
-當您使用 COM 建立 Active Directory Domain Services 的內容工作表延伸 DLL 時，您也必須在 Windows 登錄中註冊擴充功能，並 Active Directory Domain Services。 登錄延伸模組可讓 Active Directory 的管理 MMC 嵌入式管理單元和 Windows shell 辨識延伸模組。
+當您使用 COM 建立 Active Directory Domain Services 的內容工作表延伸 DLL 時，您也必須向 Windows 登錄和 Active Directory Domain Services 註冊擴充功能。 註冊擴充功能可讓 Active Directory 的系統管理 MMC 嵌入式管理單元和 Windows shell 辨識延伸模組。
 
 ## <a name="registering-in-the-windows-registry"></a>在 Windows 登錄中註冊
 
@@ -26,11 +26,11 @@ ms.locfileid: "104092625"
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <clsid>
+   CLSID
+      <clsid>
 ```
 
-*<clsid>* 這是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函數所產生之 CLSID 的字串表示。 在機 *<clsid>* 碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有屬性工作表延伸模組都必須使用「單元」執行緒模型。
+*&lt; Clsid &gt;* 是 [**STRINGFROMCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid)函數所產生之 clsid 的字串表示。 在 *&lt; &gt; clsid* 機碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有屬性工作表延伸模組都必須使用「單元」執行緒模型。
 
 ## <a name="registering-with-active-directory-domain-services"></a>向 Active Directory Domain Services 註冊
 
@@ -40,9 +40,9 @@ HKEY_CLASSES_ROOT
 
 [**AdminPropertyPages**](/windows/desktop/ADSchema/a-adminpropertypages)屬性會識別要在 Active Directory 系統管理嵌入式管理單元中顯示的系統管理屬性頁。當使用者在其中一個 Active Directory 系統管理 MMC 嵌入式管理單元中，流覽適當類別之物件的屬性時，就會出現屬性頁。
 
-[**ShellPropertyPages**](/windows/desktop/ADSchema/a-shellpropertypages)屬性會識別要顯示在 Windows shell 中的使用者屬性頁。 當使用者在 Windows 檔案總管中流覽適當類別的物件屬性時，就會出現屬性頁。 從 Windows Server 2003 作業系統開始，Windows shell 不再顯示 Active Directory Domain Services 中的物件。
+[**shellPropertyPages**](/windows/desktop/ADSchema/a-shellpropertypages)屬性會識別要在 Windows shell 中顯示的終端使用者屬性頁。 當使用者在 Windows 檔案總管中流覽適當類別的物件屬性時，就會出現屬性頁。 從 Windows Server 2003 作業系統開始，Windows shell 不會再顯示 Active Directory Domain Services 中的物件。
 
-[**AdminMultiselectPropertyPages**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages)僅適用于 Windows Server 2003 作業系統。 當使用者在其中一個 Active Directory 系統管理 MMC 嵌入式管理單元中，針對適當類別的一個以上物件來查看屬性時，就會出現屬性頁。
+[**adminMultiselectPropertyPages**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages)僅適用于 Windows Server 2003 作業系統。 當使用者在其中一個 Active Directory 系統管理 MMC 嵌入式管理單元中，針對適當類別的一個以上物件來查看屬性時，就會出現屬性頁。
 
 所有這些屬性都是多重值。
 
@@ -113,7 +113,7 @@ if(SUCCEEDED(hr))
 > [!IMPORTANT]
 > 針對 Windows shell，會在使用者登入時抓取顯示規範資料，並為使用者會話快取。 針對系統管理嵌入式管理單元，當載入嵌入式管理單元時，會抓取顯示規範資料，並且在進程的存留期間快取。 針對 Windows shell，這表示在使用者登出之後，顯示規範的變更會生效，然後再次登入。 若為系統管理嵌入式管理單元，則在載入嵌入式管理單元或主控台檔案時，變更將會生效。
 
- 
+ 
 
 ## <a name="adding-a-value-to-the-property-sheet-extension-attributes"></a>將值加入至屬性工作表擴充屬性
 
@@ -434,6 +434,6 @@ HRESULT GetDisplaySpecifier(IADsContainer *pContainer, LPOLESTR szDispSpec, IADs
 
 
 
- 
+ 
 
- 
+ 

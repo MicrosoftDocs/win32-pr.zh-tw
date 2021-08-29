@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: a57a841b9c36a21895099c931acbf18a1e01ea0f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 36d5110cbeda8cbf19c97c3f83ca1431a2cd28c5a07fa70c09e51877e0906a0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016246"
 ---
 # <a name="cmsg-class"></a>CMsg 類別
 
@@ -25,13 +25,13 @@ ms.locfileid: "106972311"
 
 
 
-| 資料成員              | Description                                                                                                                                                                       |
+| 資料成員              | 描述                                                                                                                                                                       |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | dwFlags                   | 要求碼的旗標參數。                                                                                                                                               |
 | lpParam                   | 背景工作執行緒所需的資料做為參數或傳回值。 此資料不應以堆疊為基礎，因為它會在完成佇列作業之後被參考一段時間。 |
 | pEvent                    | 背景工作執行緒可以指示的事件物件，表示作業已完成。                                                                                         |
 | uMsg                      | 由執行緒類別的用戶端所定義，且由覆寫的背景工作執行緒函數所瞭解的要求程式碼。                                                           |
-| 成員函數          | Description                                                                                                                                                                       |
+| 成員函數          | 描述                                                                                                                                                                       |
 | [**CMsg**](cmsg-cmsg.md) | 結構 [**CMsg**](cmsg-cmsg.md) 物件。                                                                                                                                    |
 
 

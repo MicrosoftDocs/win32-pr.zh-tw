@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ba5ffa3acb879aad095b5b136d882bb817eb0ab0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c11c49266b208f92e52f7c1fc97291af6f99fb59367a389476768e65e99b53c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796518"
 ---
 # <a name="idlesettingstype-complex-type"></a>idleSettingsType 複雜類型
 
@@ -73,7 +73,7 @@ ms.locfileid: "106967326"
 
 
 
-| 元素                                                                                  | 類型    | Description                                                                                                                                                                                                       |
+| 元素                                                                                  | 類型    | 描述                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**持續時間**](taskschedulerschema-duration-idlesettingstype-element.md)                |         | 指定在閒置條件下，允許啟動工作的時間量。<br/>                                                                                                                     |
 | [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md)      | boolean | 當閒置條件啟動時，就會立即重新開機工作。<br/>                                                                                                                                             |
@@ -88,8 +88,8 @@ ms.locfileid: "106967326"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

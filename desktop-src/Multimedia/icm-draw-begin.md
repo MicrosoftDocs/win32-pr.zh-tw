@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DRAW_BEGIN 訊息 (Vfw .h) '
-description: ICM \_ DRAW \_ 開始訊息會通知轉譯驅動程式，以準備繪製資料。
+description: ICM \_ 繪製 \_ 開始訊息會通知轉譯驅動程式，以準備繪製資料。
 ms.assetid: e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8
 keywords:
-- ICM_DRAW_BEGIN message Windows 多媒體
+- ICM_DRAW_BEGIN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db7b9e20a0b0621038e1c7e092a871a6727566cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 987b10f3820262d24e0da9c42ecd4841b15c47985538af79c4bc2f8e097018c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987621"
 ---
-# <a name="icm_draw_begin-message"></a>ICM \_ 繪圖 \_ 開始訊息
+# <a name="icm_draw_begin-message"></a>ICM \_繪製 \_ 開始訊息
 
-**ICM \_ DRAW \_ 開始** 訊息會通知轉譯驅動程式，以準備繪製資料。
+**ICM \_ 繪製 \_ 開始** 訊息會通知轉譯驅動程式，以準備繪製資料。
 
 
 ```C++
@@ -69,9 +69,9 @@ lParam = sizeof(ICDRAW);
 
 ## <a name="remarks"></a>備註
 
-如果您想要驅動程式將資料解壓縮到緩衝區中，請傳送 [**ICM \_ 解壓縮 \_ 開始**](icm-decompress-begin.md) 訊息。
+如果您希望驅動程式將資料解壓縮到緩衝區中，請傳送 [**ICM \_ 解壓縮 \_ 開始**](icm-decompress-begin.md)訊息。
 
-**Icm \_ draw \_ BEGIN** 和 [**icm \_ draw \_ END**](icm-draw-end.md)訊息不會被嵌套。 如果您的驅動程式會在使用 **icm \_ draw \_ END** 停止解壓縮之前 **\_ \_ 開始進行 icm 繪製**，則應該以新的參數重新開機解壓縮。
+**ICM \_ draw \_ BEGIN** 和 [**ICM \_ draw \_ END**](icm-draw-end.md)訊息不會被嵌套。 如果您的驅動程式收到 **ICM \_ draw \_ 開始**，然後再以 **ICM \_ DRAW \_ END** 停止解壓縮，則應該以新的參數重新開機解壓縮。
 
 ## <a name="requirements"></a>規格需求
 

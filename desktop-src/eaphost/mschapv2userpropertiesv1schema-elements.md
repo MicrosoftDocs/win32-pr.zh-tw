@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 39bc094900b138a4b710135d7229ddd7a972a693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7f2e0d9ebbdf3c08556355aabc50f7df8fd83128d0eabcbb101c887f203bc69a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106965864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984038"
 ---
 # <a name="mschapv2userpropertiesv1-schema-elements"></a>mschapv2userpropertiesv1 架構元素
 
@@ -23,7 +23,7 @@ ms.locfileid: "106965864"
 -   [**EapType**](mschapv2userpropertiesv1schema-eaptype-element.md)
 -   [**LogonDomain (EapType)**](mschapv2userpropertiesv1schema-logondomain-eaptype-element.md)
 -   [**密碼 (EapType)**](mschapv2userpropertiesv1schema-password-eaptype-element.md)
--   [**使用者**](mschapv2userpropertiesv1schema-username-element.md)
+-   [**使用者名稱**](mschapv2userpropertiesv1schema-username-element.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -35,9 +35,9 @@ ms.locfileid: "106965864"
 [mschapv2userpropertiesv1 架構](mschapv2userpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

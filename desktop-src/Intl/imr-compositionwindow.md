@@ -4,12 +4,12 @@ ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
 title: 'IMR_COMPOSITIONWINDOW 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6af0481ccebc59968fe85a489c856388a04dbece
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fc5f1f45652a2f58386a50284e3bf2cfec182c6f4ad89641dcc27a63cf12b78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810051"
 ---
 # <a name="imr_compositionwindow-notification-code"></a>IMR \_ COMPOSITIONWINDOW 通知碼
 
@@ -56,7 +56,7 @@ LRESULT IMR_COMPOSITIONWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

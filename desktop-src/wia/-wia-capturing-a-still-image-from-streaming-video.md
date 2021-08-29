@@ -4,19 +4,19 @@ ms.assetid: bca00825-32a7-40b2-9ca9-23475e3218a8
 title: 從串流影片中捕捉靜止影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf43acdb1bd472a9d5a5dca2344b2f4ad37f474a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7af209ec0261418ab18d01414d040c9015a2436e055675a94608b1089f66fa58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772867"
 ---
 # <a name="capturing-a-still-image-from-streaming-video"></a>從串流影片中捕捉靜止影像
 
 下列範例會使用 [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) 介面來建立串流影片預覽，並從該串流影片取得靜止影像。 此範例假設您有一個有效的視窗控制碼 (HWND) 。
 
 > [!Note]  
-> Windows 映像取得 (WIA) 不支援 Windows Server 2003、Windows Vista 或更新版本中的影片裝置。 針對這些版本的 Windows，請使用 [DirectShow](/previous-versions//ms783323(v=vs.85)) 從影片取得影像。
+> Windows影像取得 (WIA) 不支援 Windows Server 2003、Windows Vista 或更新版本中的影片裝置。 針對這些版本的 Windows，使用[DirectShow](/previous-versions//ms783323(v=vs.85))從影片取得影像。
 
  
 

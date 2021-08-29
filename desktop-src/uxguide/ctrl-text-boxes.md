@@ -4,17 +4,17 @@ description: 使用文字方塊時，使用者可以顯示、輸入或編輯文�
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2b5257e9772465f26815abb0f6ecbe0ff357ba4b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f8627ad5069dc6bb34c490a3eea964e5c6abb654
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104514284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988431"
 ---
 # <a name="text-boxes"></a>文字方塊
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 使用文字方塊時，使用者可以顯示、輸入或編輯文字或數值。
 
@@ -56,51 +56,18 @@ ms.locfileid: "104514284"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>資料輸入</strong><br/> 單行、未受限制的文字方塊，用來輸入或編輯簡短字串。<br/></td>
-<td><img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br/> 單行、未受限制的文字方塊。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>格式化的資料輸入</strong><br/> 一組簡短、固定大小的單行文字方塊，可用來輸入具有特定格式的資料。 <br/></td>
-<td><img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br/> 用於格式化資料輸入的文字方塊。<br/>
-<blockquote>
-[!Note]<br />
-<a href="glossary.md">自動</a>結束功能會自動將輸入焦點從一個文字方塊往下移動。 這種方法有一個缺點，就是無法以單一單位的形式複製或貼上資料。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>輔助資料輸入</strong><br/> 單行、未受限制的文字方塊，用來輸入或編輯字串，並結合可協助使用者選取有效值的命令按鈕。<br/></td>
-<td><img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br/> 在此範例中，Browse 命令可協助使用者選取有效的值。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>文字輸入</strong><br/> 多行、未受限制的文字方塊，用來輸入或編輯長字串。 <br/></td>
-<td><img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br/> 多行、未受限制的文字方塊。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>數字輸入</strong><br/> 用來輸入或編輯數位的單行、僅限數位的文字方塊，以及選用的 <a href="ctrl-spin-controls.md">微調控制項</a> 來加速以滑鼠為基礎的輸入。 <br/></td>
-<td><img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br/> 用於數值輸入的文字方塊。<br/> 文字方塊的組合和其相關聯的微調控制項稱為 <a href="ctrl-spin-controls.md">微調</a>方塊。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>密碼和 PIN 輸入</strong><br/> 單行、未受限制的文字方塊，用來安全地輸入密碼和 Pin。<br/></td>
-<td><img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br/> 用來輸入密碼的文字方塊。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>資料輸出</strong><br/> 單行的唯讀文字方塊，一律會顯示而不含框線，用來顯示簡短字串。 <br/></td>
-<td>與靜態文字不同的是，使用文字方塊所顯示的資料，可以在資料比) 、選取和複製的控制項更寬時，滾動 (有用。<br/> <img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br/> 用來顯示資料的單行、唯讀文字方塊。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>文字輸出</strong><br/> 用來顯示長字串的多行、唯讀的文字方塊。 <br/></td>
-<td><img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br/> 用來顯示資料的唯讀文字方塊。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <strong>資料輸入</strong><br /> 單行、未受限制的文字方塊，用來輸入或編輯簡短字串。<br /> | <img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br /> 單行、未受限制的文字方塊。<br /> | 
+| <strong>格式化的資料輸入</strong><br /> 一組簡短、固定大小的單行文字方塊，可用來輸入具有特定格式的資料。 <br /> | <img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br /> 用於格式化資料輸入的文字方塊。<br /><blockquote>[!Note]<br /><a href="glossary.md">自動</a>結束功能會自動將輸入焦點從一個文字方塊往下移動。 這種方法有一個缺點，就是無法以單一單位的形式複製或貼上資料。</blockquote><br /><br /> | 
+| <strong>輔助資料輸入</strong><br /> 單行、未受限制的文字方塊，用來輸入或編輯字串，並結合可協助使用者選取有效值的命令按鈕。<br /> | <img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br /> 在此範例中，Browse 命令可協助使用者選取有效的值。<br /> | 
+| <strong>文字輸入</strong><br /> 多行、未受限制的文字方塊，用來輸入或編輯長字串。 <br /> | <img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br /> 多行、未受限制的文字方塊。<br /> | 
+| <strong>數字輸入</strong><br /> 用來輸入或編輯數位的單行、僅限數位的文字方塊，以及選用的 <a href="ctrl-spin-controls.md">微調控制項</a> 來加速以滑鼠為基礎的輸入。 <br /> | <img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br /> 用於數值輸入的文字方塊。<br /> 文字方塊的組合和其相關聯的微調控制項稱為 <a href="ctrl-spin-controls.md">微調</a>方塊。<br /> | 
+| <strong>密碼和 PIN 輸入</strong><br /> 單行、未受限制的文字方塊，用來安全地輸入密碼和 Pin。<br /> | <img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br /> 用來輸入密碼的文字方塊。<br /> | 
+| <strong>資料輸出</strong><br /> 單行的唯讀文字方塊，一律會顯示而不含框線，用來顯示簡短字串。 <br /> | 與靜態文字不同的是，使用文字方塊所顯示的資料，可以在資料比) 、選取和複製的控制項更寬時，滾動 (有用。<br /><img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br /> 用來顯示資料的單行、唯讀文字方塊。<br /> | 
+| <strong>文字輸出</strong><br /> 用來顯示長字串的多行、唯讀的文字方塊。 <br /> | <img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br /> 用來顯示資料的唯讀文字方塊。<br /> | 
+
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: b4c65279-e94e-48d2-bd6c-60980cacc154
 title: ContentDistributor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ddd660c886aa31c5eb718262ab6b4e8a7a64706
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ef08fea220bb20dc2136c77d67e85611e57125279d47b1b418fe2c0d4864df46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118725619"
 ---
 # <a name="systemmediacontentdistributor"></a>ContentDistributor
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

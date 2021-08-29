@@ -7,12 +7,12 @@ keywords:
 - 物件名稱和身分識別 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a803b4cc068a3ee0f9e2a75f61ff239c1d971bf3
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 93dc3e79cd40eebb47fe85b14f50130750cdb4a1cea884d8ebf50a89555d2ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025577"
 ---
 # <a name="object-names-and-identities"></a>物件名稱和身分識別
 
@@ -32,8 +32,8 @@ Active Directory Domain Services 中的物件有數個身分識別，包括下�
 
 ## <a name="other-identities"></a>其他身分識別
 
-物件實例可以有許多其他屬性，而這些屬性可用於應用程式的識別。 例如， **使用者**、 **電腦** 和 **群組** 物件類別 (實例的安全性主體物件) 有 **userPrincipalName**、 **sAMAccountName** 和 **objectSid** 屬性。 這些屬性對於 Windows 2000 而言是很重要的「名稱」，但是這些屬性不是來自目錄觀點的物件身分識別的一部分。
+物件實例可以有許多其他屬性，而這些屬性可用於應用程式的識別。 例如， **使用者**、 **電腦** 和 **群組** 物件類別 (實例的安全性主體物件) 有 **userPrincipalName**、 **sAMAccountName** 和 **objectSid** 屬性。 這些屬性對於 Windows 2000 而言是很重要的「名稱」，但是這些屬性並不是來自目錄觀點的物件身分識別的一部分。
 
- 
+ 
 
- 
+ 

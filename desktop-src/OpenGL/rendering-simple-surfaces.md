@@ -17,12 +17,12 @@ keywords:
 - 磁片 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab766c661f89cbdec30b3295dfef8dc85b59f7fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4010a9cc1c0cfac58f1a99572ebae43233dce552237c17f42d66cc1c50013986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776828"
 ---
 # <a name="rendering-simple-surfaces"></a>轉譯簡單的表面
 
@@ -45,9 +45,9 @@ X.GLU 隊程式庫包含一組用來繪製各種簡單表面的函式， (球體
 
 使用 *\* 半徑*、*高度* 和類似的引數（而不是 [**glScale**](glscale.md)函式）來調整 quadrics，如此您就不需要重新標準化為產生的任何單位長度法線。 若要以更精細的細微性來強制執行光源計算，尤其是當材質 specularity 很高時，請將 *迴圈* 和 *堆疊* 引數設定為1以外的值。
 
- 
+ 
 
- 
+ 
 
 
 

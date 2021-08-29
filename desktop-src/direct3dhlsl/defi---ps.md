@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3552d5cfe322dd384e1c6bd219e35af19b469a56
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2d22301b3a6fced39741733cbc1371ed18bf95fcf00da0636e662fc8d977db18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792651"
 ---
 # <a name="defi---ps"></a>defi-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104093036"
 
 
 
- 
+ 
 
 -   dst 是目的地註冊。
 -   integerValue 是常數整數值。
@@ -44,7 +44,7 @@ ms.locfileid: "104093036"
 
 
 
- 
+ 
 
 Defi 指令會定義著色器常數，其值會在著色器設定為裝置時載入。 這些都稱為立即常數。 立即的常數優先于 API 方法 SetPixelShaderConstantB 所設定的常數。
 
@@ -63,6 +63,6 @@ Defi 指令會定義著色器常數，其值會在著色器設定為裝置時載
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

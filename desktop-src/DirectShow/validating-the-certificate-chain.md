@@ -4,12 +4,12 @@ ms.assetid: e0c36f04-1694-40d8-94a1-06ee7de08777
 title: 驗證憑證鏈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c63aab8cca71453aff456f145e8f04affd85b4b1f80aa770cbf589970874f33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70a1dd3a09e46199cb537c1ac4b17cb96ed0edc2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884036"
 ---
 # <a name="validating-the-certificate-chain"></a>驗證憑證鏈
 
@@ -65,7 +65,7 @@ COPP 憑證連結使用 UTF-8 字元集。 憑證中的二進位資料，例如 
 5.  如果此憑證不是分葉憑證，請確認下列事項：
     -   Data/PublicKey 元素的模數和指數完全符合先前憑證之 Signature/KeyInfo 元素中的模數和指數。
     -   KeyUsage 元素包含 SignCertificate 元素，其值為1。
-6.  使用 SHA-1 雜湊演算法來雜湊憑證的資料元素中的每個位元組。 從標記中第一個字元 <Data> 到結尾 </Data> 標記之最後一個字元的每個位元組都應進行雜湊處理。 雜湊值是用來根據憑證撤銷清單來檢查憑證 (CRL) ，如[憑證撤銷清單](certificate-revocation-lists.md)中所述
+6.  使用 SHA-1 雜湊演算法來雜湊憑證的資料元素中的每個位元組。 從資料標記中第一個字元到結尾/Data sources 標記中之最後一個字元的每個位元組 &lt; &gt; &lt; &gt; 都應該進行雜湊處理。 雜湊值是用來根據憑證撤銷清單來檢查憑證 (CRL) ，如[憑證撤銷清單](certificate-revocation-lists.md)中所述
 7.  將步驟6中的雜湊值與 Signature/SignedInfo/Reference/DigestValue 元素的 base64 解碼值進行比較。 這些值必須相符。
 8.  執行驗證簽章程式，如下所述。
 9.  如果此憑證不是鏈中的最終憑證，請在迴圈的下一個反覆運算中儲存 Signature/KeyInfo/KeyValue/Rsakeyvalue> 值。
@@ -87,7 +87,7 @@ SignatureValue 元素的值會根據 PKCS 1 2.1 版中定義的 RSASSA-PKCS-PSS 
 針對 RSASSA-PKCS-PSS-驗證作業，請使用下列輸入：
 
 -    (*n*，*e*) 是步驟1中的公開金鑰。
--   *M* 是資料元素中的所有位元組，包括用來括住元素的 <Data> 和</Data> 標記。
+-   *M* 是資料元素中的所有位元組，包括 &lt; &gt; &lt; &gt; 用來括住元素的資料和/data sources 標記。
 -   *S* 是步驟2中已解碼的簽章值。
 
 RSASSA-PKCS-PSS-驗證作業會使用 EMSA-PSS 編碼作業，定義于區段9.1.1 中。 的 PKCS。 針對這項作業，COPP 會使用下列選項：

@@ -4,12 +4,12 @@ ms.assetid: 4364ff87-816e-4b64-b5e9-c53dd6c9bb33
 title: 'VIDEO_ZOOM_RECT 屬性 (Evr) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dda4efca5beab844baf3b3f53074d6b3012e8621
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2e6ce19c808545d400f53b9c0091cdbcc20c8efbc13372ae5386e419d244143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737143"
 ---
 # <a name="video_zoom_rect-attribute"></a>影片 \_ 縮放 \_ 矩形屬性
 
@@ -67,8 +67,8 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect& nr
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Evr。h</dt> </dl> |
 
 

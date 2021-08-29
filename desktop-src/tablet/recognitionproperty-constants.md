@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: 'RecognitionProperty 常數 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d06d2eed3b28ed99d180dbe3971e9e018554ff5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 242d48ee6d55dedd4f6b9e28816779300c0aa770
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467985"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882337"
 ---
 # <a name="recognitionproperty-constants"></a>RecognitionProperty 常數
 
@@ -20,7 +20,7 @@ ms.locfileid: "122467985"
 
 
 
-| 常數名稱 | Description | 
+| 常數名稱 | 說明 | 
 |---------------|-------------|
 | <span id="___________INKRECOGNITIONPROPERTY_LINENUMBER_________"></span><span id="___________inkrecognitionproperty_linenumber_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_LINENUMBER</strong></dt></dl> | 識別 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> 物件行號屬性的 GUID。 <br /> LineNumber 指定具有特定行號的替代項。<br /><blockquote>[!Note]<br />東亞字元的辨識器不支援此欄位。</blockquote><br /> | 
 | <span id="___________INKRECOGNITIONPROPERTY_SEGMENTATION_________"></span><span id="___________inkrecognitionproperty_segmentation_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_SEGMENTATION</strong></dt></dl> | 識別 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> 物件之分割屬性的 GUID。 <br /> 分割會指定辨識器用來產生辨識結果的基本筆墨片段或單位。<br /><blockquote>[!Note]<br />未實作。</blockquote><br /> | 
@@ -35,7 +35,7 @@ ms.locfileid: "122467985"
 
 ## <a name="remarks"></a>備註
 
-在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， <systemdrive> \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，則該檔案位於： Program Files Microsoft sdk Windows 6.0 版包含目錄。
+在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， &lt; &gt; \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，該檔案位於 systemdrive： Program Files Microsoft sdk Windows 6.0 版 Include 目錄。
 
 > [!Note]  
 > 在 c + + 中，這些常數是 WCHARs，而不是 Bstr。 使用之前，請先將它們轉換成 Bstr。 如需 BSTR 資料類型的詳細資訊，請參閱 [使用 COM 程式庫](using-the-com-library.md)。

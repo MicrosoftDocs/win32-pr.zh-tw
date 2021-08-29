@@ -1,19 +1,19 @@
 ---
-description: Windows 影像處理元件 (WIC) 提供元件物件模型 (以 COM) 為基礎的 API，以用於 C 和 c + +。
+description: Windows 影像處理元件 (WIC) 提供元件物件模型 (以 COM) 為基礎的 API，以用於 c 和 c + +。
 ms.assetid: 74b14b5e-70e9-410f-a6e6-d8873a5f4fa4
 title: WIC API 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f86e5a876010e52489adac9baa7ce57fdfdf80f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d6cb8669bc04a031ec147d6642f5c2f5413f896534ddd580f27e4a00f42bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668867"
 ---
 # <a name="wic-api-overview"></a>WIC API 總覽
 
-Windows 影像處理元件 (WIC) 提供元件物件模型 (以 COM) 為基礎的 API，以用於 C 和 c + +。 WIC API 會公開各種與影像相關的功能，包括：
+Windows 影像處理元件 (WIC) 提供元件物件模型 (以 COM) 為基礎的 API，以用於 c 和 c + +。 WIC API 會公開各種與影像相關的功能，包括：
 
 -   標準 web 映射格式的內建編解碼器。
 -   標準元資料格式的內建支援。
@@ -72,7 +72,7 @@ WIC 程式庫檔案：
 
 
 
-| Factory 介面                                               | Description                                                                                                                                             |
+| Factory 介面                                               | 描述                                                                                                                                             |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)     | 使用 WIC 元件開發應用程式的主要 class factory。 此 factory 會建立映射解碼器、編碼器和資料流程等元件。   |
 | [**IWICComponentFactory**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwiccomponentfactory) | 以 WIC 元件開發人員為目標的 Class factory。 從這個 factory 建立的元件主要用於編解碼器和元資料處理程式開發。 |
@@ -108,7 +108,7 @@ WIC Api 提供數種類型的影像處理元件。 下表說明一些常見的 W
 
 
 
-| 元件類型                                                      | Description                                                                                                   |
+| 元件類型                                                      | 描述                                                                                                   |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [**點陣圖**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)                             | 表示 [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)的可寫入記憶體中標記法。 |
 | [**解碼 器**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)                     | 用來將資料流程中的影像資料解碼成適用于影像處理的格式。                    |

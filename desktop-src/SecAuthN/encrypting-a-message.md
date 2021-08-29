@@ -4,18 +4,18 @@ ms.assetid: 1788b496-ad19-427e-be07-4aa68543fced
 title: 加密訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7fcc987e17c37f9b2eb80289f257101b51f5f3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d7f1f0b2aab3f34a3d329e568f9de1fc1956ea7270fe177556363024d32107c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008436"
 ---
 # <a name="encrypting-a-message"></a>加密訊息
 
 下列範例顯示在透過安全連線將訊息傳送到遠端電腦之前，要加密的訊息。
 
-此範例假設名為的 **SecHandle** 變數 `phContext` 和名為的 **通訊端** `s` 已初始化。 如需這些變數的宣告和連線，請參閱搭配 [使用 sspi 與 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md) ，以及搭配 [Windows 通訊端伺服器使用 sspi](using-sspi-with-a-windows-sockets-server.md)。 此範例包含 Secur32 中的函式呼叫，這些函數必須包含在程式庫中。
+此範例假設名為的 **SecHandle** 變數 `phContext` 和名為的 **通訊端** `s` 已初始化。 如需這些變數的宣告和連線，請參閱搭配使用[sspi 與 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md)，以及搭配[Windows 通訊端伺服器使用 sspi](using-sspi-with-a-windows-sockets-server.md)。 此範例包含 Secur32 中的函式呼叫，這些函數必須包含在程式庫中。
 
 
 ```C++

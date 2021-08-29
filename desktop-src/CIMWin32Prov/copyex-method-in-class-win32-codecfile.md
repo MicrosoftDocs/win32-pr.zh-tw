@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c649c60850c23313ad308a431714276ce30895b1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dff37483dc8fab8ff59ec68f349a534ca6575669d086bd2495aa7514945da16a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020636"
 ---
 # <a name="copyex-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的 CopyEx 方法 \_
 
@@ -131,7 +131,7 @@ uint32 CopyEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

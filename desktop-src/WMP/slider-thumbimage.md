@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b798dfbae24fe2cef3669d2fb372966e47254026
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0711cb7a652032db4b167040fbd604d1e561885926bf8fc7c31d1fedb65049e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995138"
 ---
 # <a name="sliderthumbimage"></a>滑杆. thumbImage
 

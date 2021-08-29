@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 86437821b989d198f9f65288b37c80b609bd1946
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9f607a534dd390380b6505ab040fbfa8e187dd903451bb90c6fdfa51a9dd0c71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987598"
 ---
 # <a name="id3dxcompressedanimationsetgetplaybacktype-method"></a>ID3DXCompressedAnimationSet：： GetPlaybackType 方法
 

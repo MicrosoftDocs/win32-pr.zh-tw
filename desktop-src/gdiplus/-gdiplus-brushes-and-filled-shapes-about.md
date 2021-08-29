@@ -4,16 +4,16 @@ ms.assetid: 889558d5-9181-43ff-b862-e92966324208
 title: 筆刷和填滿的圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eb772be88ce26325337fd9c88fc0319631895e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c073809da21f032a7f4859528b6f982094f3f354ce36e8c4388ea4172a8dd4d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977718"
 ---
 # <a name="brushes-and-filled-shapes"></a>筆刷和填滿的圖形
 
-封閉的圖形（例如矩形或橢圓形）包含外框和內部。 大綱是以 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件繪製，而內部則填滿筆 [**刷**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-brush) 物件。 Windows GDI + 提供數個筆刷類別來填滿封閉的圖形： [**SolidBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-solidbrush)、 [**HatchBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush)、 [**TextureBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-texturebrush)、 [**LinearGradientBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush)和 [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush)。 所有這些類別都是繼承自 **筆刷** 類別。 下圖顯示填滿實心筆刷的矩形，以及填滿影線筆刷的橢圓形。
+封閉的圖形（例如矩形或橢圓形）包含外框和內部。 大綱是以 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件繪製，而內部則填滿筆 [**刷**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-brush) 物件。 Windows GDI+ 會提供數個筆刷類別來填滿閉合圖形的內部： [**SolidBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-solidbrush)、 [**HatchBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush)、 [**TextureBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-texturebrush)、 [**LinearGradientBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush)和 [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush)。 所有這些類別都是繼承自 **筆刷** 類別。 下圖顯示填滿實心筆刷的矩形，以及填滿影線筆刷的橢圓形。
 
 ![顯示藍色矩形的圖例，以及填滿藍色影線圖樣的洋紅橢圓形](images/aboutgdip02-art17.png)
 
@@ -52,7 +52,7 @@ HatchBrush myHatchBrush(
 
 
 
-GDI + 提供超過50的影線樣式，在 [**HatchStyle**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-hatchstyle)中指定。 下圖顯示的三種樣式為水準、ForwardDiagonal 和交叉。
+GDI+ 在 [**HatchStyle**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-hatchstyle)中指定了50個以上的影線樣式。 下圖顯示的三種樣式為水準、ForwardDiagonal 和交叉。
 
 ![顯示三個青灰色橢圓形的圖例，各有不同的影線樣式](images/aboutgdip02-art18.png)
 

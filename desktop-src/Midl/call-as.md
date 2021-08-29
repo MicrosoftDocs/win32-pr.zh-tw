@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 519ceabc2714e65bcb87651b74518228245afb5f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fb1e91fb9bc06eb4644209d87b4a941a68bc6b4d58d4dc31010d284e7b0f959c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807371"
 ---
 # <a name="call_as-attribute"></a>呼叫 \_ 為屬性
 
@@ -165,9 +165,9 @@ long IFace_f1_Stub ( <remote parameter list> )
 [**傳輸 \_ 為**](transmit-as.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

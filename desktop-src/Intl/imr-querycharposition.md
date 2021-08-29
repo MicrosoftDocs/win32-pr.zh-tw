@@ -4,12 +4,12 @@ ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
 title: 'IMR_QUERYCHARPOSITION 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 947eec9b3dd1f678d9266bb795214cf392629193
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6a37679dce6a17d5687aeed1c8fbd1d5c8bf6651b3cfc597cfdfc2e419ecba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948765"
 ---
 # <a name="imr_querycharposition-notification-code"></a>IMR \_ QUERYCHARPOSITION 通知碼
 
@@ -56,7 +56,7 @@ LRESULT IMR_QUERYCHARPOSITION
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

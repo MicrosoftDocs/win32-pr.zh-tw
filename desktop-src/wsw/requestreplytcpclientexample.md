@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bad7cbbe69ea6c59d00d262017c6f15d12ae2e7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17d06e87007b15beb5a11052137a53b7f040894d017af323a480870427ab417a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026336"
 ---
 # <a name="requestreplytcpclientexample"></a>RequestReplyTcpClientExample
 
@@ -579,9 +579,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

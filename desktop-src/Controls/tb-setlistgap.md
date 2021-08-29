@@ -3,7 +3,7 @@ title: 'TB_SETLISTGAP 訊息 (Commctrl .h) '
 description: 設定特定工具列上工具列按鈕之間的距離。
 ms.assetid: ca8ba6e4-cf70-41ca-ac61-cd13671d4010
 keywords:
-- TB_SETLISTGAP message Windows 控制項
+- TB_SETLISTGAP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 224a709b7beefcfdf49ea7838f905977487aca8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6192a002fcc2aec52c6c294b9eaad3fc55af3bfa3d01a092ae44f5c6d4087559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078172"
 ---
 # <a name="tb_setlistgap-message"></a>TB \_ SETLISTGAP 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103843052"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

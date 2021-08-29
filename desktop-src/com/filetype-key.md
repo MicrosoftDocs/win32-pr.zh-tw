@@ -6,12 +6,12 @@ keywords:
 - 類型登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a2e331588b627ee5ce9a9c1b69631f1e8a1dbe4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2899b69c2f433fbd3587bdd7baa6c17c4f8cc4c9cd32100dcd672f9d213d4d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462497"
 ---
 # <a name="filetype-key"></a>密碼類型索引鍵
 
@@ -21,8 +21,8 @@ ms.locfileid: "104022014"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
-   {CLSID}
-      n = offset, cb, mask, value
+   {CLSID}
+      n = offset, cb, mask, value
 ```
 
 <dl> <dt>
@@ -71,9 +71,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
 [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

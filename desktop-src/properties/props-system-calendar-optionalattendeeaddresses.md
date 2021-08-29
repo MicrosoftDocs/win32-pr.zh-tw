@@ -4,18 +4,18 @@ ms.assetid: 799fdbb5-30c8-448a-840b-2a6b1541fbfe
 title: OptionalAttendeeAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ec1e8c4921bf3818dd245454145c9c25bf3af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 380ef649891b2fdb8bb28a8e159c297fad6d1c2d8dd2b35da0f43ce81fed46ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731008"
 ---
 # <a name="systemcalendaroptionalattendeeaddresses"></a>OptionalAttendeeAddresses
 
 所有選用出席者的位址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

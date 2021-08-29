@@ -4,12 +4,12 @@ description: 本節包含通用版本結構的相關資訊。
 ms.assetid: d18f5baa-ef4e-41bc-90f2-28788faeb39d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 319abfc3fd010093dae87ba1fa76ee06b93864fe
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 0410d1bb51e5d0a5e536b4c390b04b438ac5a58763107aed47cf26604cbf454e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990028"
 ---
 # <a name="common-version-structures"></a>一般版本結構
 

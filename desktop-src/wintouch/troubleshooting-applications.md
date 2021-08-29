@@ -13,12 +13,12 @@ keywords:
 - 手勢，疑難排解應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfadf28f5582f702c27f5cb1e15aff142ae14bcf
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 166f8c02fde7a9f53d1303c3e79a4fc9910be309
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122625334"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881861"
 ---
 # <a name="troubleshooting-applications"></a>針對應用程式進行疑難排解
 
@@ -229,7 +229,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <tr class="odd">
 <td><pre><code>      POINT ptInput;
       if (GetTouchInputInfo((HTOUCHINPUT)lParam, cInputs, pInputs, sizeof(TOUCHINPUT))){
-        for (int i=0; i < static_cast<INT>(cInputs); i++){
+        for (int i=0; i < static_cast&lt;INT&gt;(cInputs); i++){
           TOUCHINPUT ti = pInputs[i];                       
           if (ti.dwID != 0){                
             // Do something with your touch input handle.

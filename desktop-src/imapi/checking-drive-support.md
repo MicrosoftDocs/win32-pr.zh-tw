@@ -4,12 +4,12 @@ description: 下列範例會檢查與裝置中插入之媒體無關的光碟裝�
 ms.assetid: 2d7e5ff9-7f1b-4bc1-bbc8-5e7eab45cdb0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49173ab8070821a03028106080dedc21925b088c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a584640cba7b67632924e40b4b8e816be7b4625c9a07a520e0d590e03264e55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758806"
 ---
 # <a name="checking-drive-support"></a>檢查磁片磁碟機支援
 
@@ -128,9 +128,9 @@ End Function
 [**IMAPI.EXE \_ 設定檔 \_ 類型**](/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

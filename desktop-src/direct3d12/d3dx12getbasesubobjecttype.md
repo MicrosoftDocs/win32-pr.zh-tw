@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b39f1c61be682d55512772bef1258aecdb009a5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33bd49b47e9fe603c0ebbdca015f3997eb06558a7039ddc866fb4d4667b8802b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989798"
 ---
 # <a name="d3dx12getbasesubobjecttype-function"></a>D3DX12GetBaseSubobjectType 函式
 

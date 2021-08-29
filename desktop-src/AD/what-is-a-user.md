@@ -8,12 +8,12 @@ keywords:
 - 使用者 Active Directory，使用者是什麼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c59b2ea46474860268f327bcd03d2ba67ecea5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d5647caef184b1e2b18e7639f1540afde013a3ba33ab58adbd402296656ca44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024408"
 ---
 # <a name="what-is-a-user"></a>什麼是使用者？
 
@@ -43,9 +43,9 @@ Computer 物件類別繼承自 user 物件類別。 代表電腦的電腦物件;
 
 服務可以在 LocalSystem 或特定服務帳戶的內容中執行。 在執行 Windows 2000 的電腦上，于 LocalSystem 帳戶內容中執行的服務會使用電腦的認證。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eed0441e9d38a5463ec537e4856815e7ac4cd682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93733b4104f30d2dccf9dd8e36a6a28320260537b237e7959a24c99c7cd5cb67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982728"
 ---
 # <a name="columninfogrbit-property"></a>ColumnInfo. Grbit 屬性
 

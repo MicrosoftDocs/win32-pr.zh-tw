@@ -7,12 +7,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb30886e9f2fd08fb212d883428854d0394b8068
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d29ece2945ec9aa388c8c77449c9bbaad499646836010aa893bca82f288b2c69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098310"
 ---
 # <a name="shader-enumerations-direct3d-12-graphics"></a> (Direct3D 12 圖形) 的著色器列舉
 

@@ -4,12 +4,12 @@ ms.assetid: 6fd4716e-b163-47a3-b0cb-5f9599f8681f
 title: 建立查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a9d50ec52966529a3476a6d375606ba3d0b538b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1175c491ac1336458ed73d375d963f8a68b874bf3fecbb32000730a475d52714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775658"
 ---
 # <a name="creating-a-query"></a>建立查詢
 

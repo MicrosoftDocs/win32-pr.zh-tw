@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ce6e1c125ad2e4f2f1a184ec7983c4446f430e5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0a48fa96bb54cccf5715d9f69eb31b5409f68fc4e053fc50bc399aa07c85de6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084036"
 ---
 # <a name="wmmediaissubtitled"></a>WM/MediaIsSubtitled
 
@@ -42,9 +42,9 @@ g \_ wszWMMediaIsSubtitled
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

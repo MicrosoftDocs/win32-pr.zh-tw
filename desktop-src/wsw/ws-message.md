@@ -6,12 +6,12 @@ keywords:
 - WS_MESSAGE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aa9230648adfc6da3bab954a91d04d2e9991a8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3c3581a38e8e8dd93bafeba0375e6b41b14cbdd325ce30bcdc0e110624c6558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026118"
 ---
 # <a name="ws_message"></a>WS \_ 訊息
 
@@ -35,7 +35,7 @@ typedef struct _WS_MESSAGE WS_MESSAGE;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

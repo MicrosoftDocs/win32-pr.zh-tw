@@ -4,12 +4,12 @@ description: URL 命名空間部分的保留專案是由系統管理員所建立
 ms.assetid: deab6323-d114-463b-a0e7-acd173149b63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c4f0e38f5994687bfe26d1334300c0aa7fbbd3f8096abcf60e6c523e7d030a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4aefbc72d5ea373765db674c3d4815f2a4cfa0a6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118393760"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882812"
 ---
 # <a name="processing-reservations"></a>處理保留
 
@@ -19,8 +19,8 @@ URL 命名空間部分的保留專案是由系統管理員所建立，並放在�
 
 | 命名空間保留                 | 保留給              |
 |------------------------------------|---------------------------|
-| HTTPs:// <host> ：<port>/  | LocalSystem 系統管理員 |
-| HTTPs:// <host> ：<port>/ | LocalSystem 系統管理員 |
+| HTTPs:// &lt; 主機 &gt; ： &lt; 埠&gt;/  | LocalSystem 系統管理員 |
+| HTTPs:// &lt; 主機 &gt; ： &lt; 埠&gt;/ | LocalSystem 系統管理員 |
 
 
 
